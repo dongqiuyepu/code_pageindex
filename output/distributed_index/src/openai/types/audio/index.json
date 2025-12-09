@@ -1,0 +1,324 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio",
+  "relative_path": "src/openai/types/audio",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/audio/index.json",
+  "summary": "The `src/openai/types/audio` directory contains Python files that define various classes and parameters related to audio processing, including speech creation, transcription, and translation functionalities within the OpenAI audio module.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/__init__.py",
+      "relative_path": "src/openai/types/audio/__init__.py",
+      "language": "python",
+      "summary": "Python file with 16 lines",
+      "total_lines": 16,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "translation",
+        "speech_model",
+        "transcription",
+        "transcription_word",
+        "translation_verbose",
+        "speech_create_params",
+        "transcription_segment",
+        "transcription_verbose",
+        "translation_create_params",
+        "transcription_create_params",
+        "translation_create_response",
+        "transcription_create_response"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/speech_create_params.py",
+      "relative_path": "src/openai/types/audio/speech_create_params.py",
+      "language": "python",
+      "summary": "The file defines a class `SpeechCreateParams`, which is likely intended to encapsulate parameters for creating speech-related requests in the OpenAI audio module, although it does not contain any methods.",
+      "total_lines": 41,
+      "elements": [
+        {
+          "name": "SpeechCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/speech_create_params.py",
+          "start_line": 13,
+          "end_line": 41,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "speech_model"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/speech_model.py",
+      "relative_path": "src/openai/types/audio/speech_model.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription.py",
+      "relative_path": "src/openai/types/audio/transcription.py",
+      "language": "python",
+      "summary": "The file defines a class named `Transcription` in the OpenAI audio module, which likely serves as a data structure for handling audio transcription-related functionalities.",
+      "total_lines": 11,
+      "elements": [
+        {
+          "name": "Transcription",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription.py",
+          "start_line": 9,
+          "end_line": 11,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_create_params.py",
+      "relative_path": "src/openai/types/audio/transcription_create_params.py",
+      "language": "python",
+      "summary": "The file defines a class, `TranscriptionCreateParams`, which is likely intended to encapsulate parameters for creating audio transcriptions in the OpenAI API, although it does not contain any methods.",
+      "total_lines": 67,
+      "elements": [
+        {
+          "name": "TranscriptionCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_create_params.py",
+          "start_line": 15,
+          "end_line": 67,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "_types",
+        "audio_model",
+        "audio_response_format"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_create_response.py",
+      "relative_path": "src/openai/types/audio/transcription_create_response.py",
+      "language": "python",
+      "summary": "Python file with 11 lines",
+      "total_lines": 11,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "transcription",
+        "transcription_verbose"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_segment.py",
+      "relative_path": "src/openai/types/audio/transcription_segment.py",
+      "language": "python",
+      "summary": "The file defines a `TranscriptionSegment` class, which likely serves as a data structure for representing segments of audio transcription, although it currently contains no methods.",
+      "total_lines": 49,
+      "elements": [
+        {
+          "name": "TranscriptionSegment",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_segment.py",
+          "start_line": 10,
+          "end_line": 49,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_verbose.py",
+      "relative_path": "src/openai/types/audio/transcription_verbose.py",
+      "language": "python",
+      "summary": "The file defines a class named `TranscriptionVerbose`, which is likely intended to handle detailed audio transcription data, although it currently contains no methods.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "TranscriptionVerbose",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_verbose.py",
+          "start_line": 12,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models",
+        "transcription_word",
+        "transcription_segment"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_word.py",
+      "relative_path": "src/openai/types/audio/transcription_word.py",
+      "language": "python",
+      "summary": "The file defines a class `TranscriptionWord` within the OpenAI audio module, serving as a data structure for representing individual words in a transcription.",
+      "total_lines": 17,
+      "elements": [
+        {
+          "name": "TranscriptionWord",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/transcription_word.py",
+          "start_line": 9,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/translation.py",
+      "relative_path": "src/openai/types/audio/translation.py",
+      "language": "python",
+      "summary": "The file defines a class named `Translation` in the OpenAI audio module, which likely serves as a data structure for handling audio translation-related functionality, although it currently contains no methods.",
+      "total_lines": 10,
+      "elements": [
+        {
+          "name": "Translation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/translation.py",
+          "start_line": 9,
+          "end_line": 10,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/translation_create_params.py",
+      "relative_path": "src/openai/types/audio/translation_create_params.py",
+      "language": "python",
+      "summary": "The file defines a class `TranslationCreateParams` intended for managing parameters related to audio translation requests in the OpenAI API.",
+      "total_lines": 50,
+      "elements": [
+        {
+          "name": "TranslationCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/translation_create_params.py",
+          "start_line": 15,
+          "end_line": 50,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "_types",
+        "audio_model",
+        "audio_response_format"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/translation_create_response.py",
+      "relative_path": "src/openai/types/audio/translation_create_response.py",
+      "language": "python",
+      "summary": "Python file with 11 lines",
+      "total_lines": 11,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "translation",
+        "translation_verbose"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/translation_verbose.py",
+      "relative_path": "src/openai/types/audio/translation_verbose.py",
+      "language": "python",
+      "summary": "The file defines a class named `TranslationVerbose` in the OpenAI audio module, but it does not implement any methods, indicating it may serve as a placeholder or for future expansion related to audio translation functionalities.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "TranslationVerbose",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio/translation_verbose.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models",
+        "transcription_segment"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 13,
+  "total_file_count": 13,
+  "total_lines": 338,
+  "indexed_at": "2025-12-07 17:48:26.328971"
+}

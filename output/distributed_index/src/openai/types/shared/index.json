@@ -1,0 +1,203 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared",
+  "relative_path": "src/openai/types/shared",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/shared/index.json",
+  "summary": "The `src/openai/types/shared` directory contains Python files that define various data structures and classes for representing error information, function definitions, and response formats in the OpenAI API, primarily serving as type definitions without implemented methods.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/__init__.py",
+      "relative_path": "src/openai/types/shared/__init__.py",
+      "language": "python",
+      "summary": "Python file with 9 lines",
+      "total_lines": 9,
+      "elements": [],
+      "imports": [
+        "metadata",
+        "error_object",
+        "function_definition",
+        "function_parameters",
+        "response_format_text",
+        "response_format_json_object",
+        "response_format_json_schema"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/error_object.py",
+      "relative_path": "src/openai/types/shared/error_object.py",
+      "language": "python",
+      "summary": "The file defines a class named `ErrorObject` that serves as a data structure for representing error information in the OpenAI API, without any methods implemented.",
+      "total_lines": 17,
+      "elements": [
+        {
+          "name": "ErrorObject",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/error_object.py",
+          "start_line": 10,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/function_definition.py",
+      "relative_path": "src/openai/types/shared/function_definition.py",
+      "language": "python",
+      "summary": "The file defines a `FunctionDefinition` class, which likely serves as a data structure for representing function definitions in the context of OpenAI's API or models, but does not implement any methods.",
+      "total_lines": 43,
+      "elements": [
+        {
+          "name": "FunctionDefinition",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/function_definition.py",
+          "start_line": 11,
+          "end_line": 43,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models",
+        "function_parameters"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/function_parameters.py",
+      "relative_path": "src/openai/types/shared/function_parameters.py",
+      "language": "python",
+      "summary": "Python file with 8 lines",
+      "total_lines": 8,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/metadata.py",
+      "relative_path": "src/openai/types/shared/metadata.py",
+      "language": "python",
+      "summary": "Python file with 8 lines",
+      "total_lines": 8,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/response_format_json_object.py",
+      "relative_path": "src/openai/types/shared/response_format_json_object.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseFormatJSONObject`, which likely serves as a data structure for handling JSON response formats in the OpenAI library, although it currently contains no methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "ResponseFormatJSONObject",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/response_format_json_object.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/response_format_json_schema.py",
+      "relative_path": "src/openai/types/shared/response_format_json_schema.py",
+      "language": "python",
+      "summary": "The file defines two classes, `JSONSchema` and `ResponseFormatJSONSchema`, likely intended for representing and validating JSON schema structures in a type-safe manner using Pydantic.",
+      "total_lines": 44,
+      "elements": [
+        {
+          "name": "JSONSchema",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/response_format_json_schema.py",
+          "start_line": 13,
+          "end_line": 37,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ResponseFormatJSONSchema",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/response_format_json_schema.py",
+          "start_line": 40,
+          "end_line": 44,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "pydantic",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/response_format_text.py",
+      "relative_path": "src/openai/types/shared/response_format_text.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseFormatText` that likely serves as a type or structure for handling text response formats in the OpenAI API, but it does not contain any methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "ResponseFormatText",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared/response_format_text.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 8,
+  "total_file_count": 8,
+  "total_lines": 153,
+  "indexed_at": "2025-12-07 17:55:49.286328"
+}

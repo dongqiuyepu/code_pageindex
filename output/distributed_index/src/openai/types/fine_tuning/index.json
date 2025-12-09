@@ -1,0 +1,424 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning",
+  "relative_path": "src/openai/types/fine_tuning",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/fine_tuning/index.json",
+  "summary": "The `src/openai/types/fine_tuning` directory contains Python files that define data structures, parameters, and integration classes for managing and configuring fine-tuning jobs within the OpenAI framework, facilitating error handling and integration with tools like Weights & Biases.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/__init__.py",
+      "relative_path": "src/openai/types/fine_tuning/__init__.py",
+      "language": "python",
+      "summary": "Python file with 14 lines",
+      "total_lines": 14,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "fine_tuning_job",
+        "job_list_params",
+        "job_create_params",
+        "fine_tuning_job_event",
+        "job_list_events_params",
+        "fine_tuning_job_integration",
+        "fine_tuning_job_wandb_integration",
+        "fine_tuning_job_wandb_integration_object"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+      "relative_path": "src/openai/types/fine_tuning/fine_tuning_job.py",
+      "language": "python",
+      "summary": "The Python file defines various classes related to fine-tuning jobs, including error handling and hyperparameter configurations, but does not implement any methods.",
+      "total_lines": 212,
+      "elements": [
+        {
+          "name": "Error",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 21,
+          "end_line": 32,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Hyperparameters",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 35,
+          "end_line": 53,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodDpoHyperparameters",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 56,
+          "end_line": 81,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodDpo",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 84,
+          "end_line": 86,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodSupervisedHyperparameters",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 89,
+          "end_line": 107,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodSupervised",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 110,
+          "end_line": 112,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Method",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 115,
+          "end_line": 123,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FineTuningJob",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job.py",
+          "start_line": 126,
+          "end_line": 212,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "fine_tuning_job_wandb_integration_object"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job_event.py",
+      "relative_path": "src/openai/types/fine_tuning/fine_tuning_job_event.py",
+      "language": "python",
+      "summary": "The file defines a class `FineTuningJobEvent`, which likely serves as a data structure for representing events related to fine-tuning jobs in the OpenAI API, although it currently contains no methods.",
+      "total_lines": 32,
+      "elements": [
+        {
+          "name": "FineTuningJobEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job_event.py",
+          "start_line": 12,
+          "end_line": 32,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "builtins",
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job_integration.py",
+      "relative_path": "src/openai/types/fine_tuning/fine_tuning_job_integration.py",
+      "language": "python",
+      "summary": "Python file with 6 lines",
+      "total_lines": 6,
+      "elements": [],
+      "imports": [
+        "fine_tuning_job_wandb_integration_object"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job_wandb_integration.py",
+      "relative_path": "src/openai/types/fine_tuning/fine_tuning_job_wandb_integration.py",
+      "language": "python",
+      "summary": "The file defines a class `FineTuningJobWandbIntegration`, which is likely intended for integrating fine-tuning jobs with Weights & Biases (Wandb) for tracking and managing machine learning experiments, although it currently contains no methods.",
+      "total_lines": 33,
+      "elements": [
+        {
+          "name": "FineTuningJobWandbIntegration",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job_wandb_integration.py",
+          "start_line": 10,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job_wandb_integration_object.py",
+      "relative_path": "src/openai/types/fine_tuning/fine_tuning_job_wandb_integration_object.py",
+      "language": "python",
+      "summary": "The file defines a class `FineTuningJobWandbIntegrationObject`, which likely serves as a data structure for integrating fine-tuning jobs with Weights & Biases (WandB) in the OpenAI framework, though it currently contains no methods.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "FineTuningJobWandbIntegrationObject",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/fine_tuning_job_wandb_integration_object.py",
+          "start_line": 11,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "fine_tuning_job_wandb_integration"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+      "relative_path": "src/openai/types/fine_tuning/job_create_params.py",
+      "language": "python",
+      "summary": "The file defines several classes related to fine-tuning job parameters and integrations, serving as a structured representation of various configurations and hyperparameters used in the OpenAI fine-tuning process.",
+      "total_lines": 224,
+      "elements": [
+        {
+          "name": "JobCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 21,
+          "end_line": 91,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Hyperparameters",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 94,
+          "end_line": 112,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "IntegrationWandb",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 115,
+          "end_line": 138,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Integration",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 141,
+          "end_line": 154,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodDpoHyperparameters",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 157,
+          "end_line": 182,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodDpo",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 185,
+          "end_line": 187,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodSupervisedHyperparameters",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 190,
+          "end_line": 208,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MethodSupervised",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 211,
+          "end_line": 213,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Method",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_create_params.py",
+          "start_line": 216,
+          "end_line": 224,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_list_events_params.py",
+      "relative_path": "src/openai/types/fine_tuning/job_list_events_params.py",
+      "language": "python",
+      "summary": "The file defines a class `JobListEventsParams` intended for use in fine-tuning job event parameter management, but it currently contains no methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "JobListEventsParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_list_events_params.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_list_params.py",
+      "relative_path": "src/openai/types/fine_tuning/job_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `JobListParams` intended for use in fine-tuning job parameters within the OpenAI API, but it does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "JobListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/job_list_params.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "jobs",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs",
+      "relative_path": "src/openai/types/fine_tuning/jobs",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/fine_tuning/jobs/index.json",
+      "summary": "The `src/openai/types/fine_tuning/jobs` directory contains Python files that define data structures and parameters for managing checkpoints and metrics related to fine-tuning jobs within the OpenAI framework.",
+      "file_count": 3,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 9,
+  "total_file_count": 12,
+  "total_lines": 572,
+  "indexed_at": "2025-12-07 17:55:27.267098"
+}

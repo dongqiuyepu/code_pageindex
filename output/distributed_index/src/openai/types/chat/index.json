@@ -1,0 +1,1264 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat",
+  "relative_path": "src/openai/types/chat",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/chat/index.json",
+  "summary": "The `src/openai/types/chat` directory contains Python files that define various data structures and classes for managing parameters and functionalities related to chat completions in the OpenAI API.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/__init__.py",
+      "relative_path": "src/openai/types/chat/__init__.py",
+      "language": "python",
+      "summary": "Python file with 71 lines",
+      "total_lines": 71,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "chat_completion",
+        "chat_completion_role",
+        "chat_completion_audio",
+        "chat_completion_chunk",
+        "completion_list_params",
+        "parsed_chat_completion",
+        "chat_completion_deleted",
+        "chat_completion_message",
+        "chat_completion_modality",
+        "completion_create_params",
+        "completion_update_params",
+        "parsed_function_tool_call",
+        "chat_completion_tool_param",
+        "chat_completion_audio_param",
+        "chat_completion_message_param",
+        "chat_completion_store_message",
+        "chat_completion_token_logprob",
+        "chat_completion_reasoning_effort",
+        "chat_completion_message_tool_call",
+        "chat_completion_content_part_param",
+        "chat_completion_tool_message_param",
+        "chat_completion_user_message_param",
+        "chat_completion_stream_options_param",
+        "chat_completion_system_message_param",
+        "chat_completion_function_message_param",
+        "chat_completion_assistant_message_param",
+        "chat_completion_content_part_text_param",
+        "chat_completion_developer_message_param",
+        "chat_completion_message_tool_call_param",
+        "chat_completion_named_tool_choice_param",
+        "chat_completion_content_part_image_param",
+        "chat_completion_prediction_content_param",
+        "chat_completion_tool_choice_option_param",
+        "chat_completion_content_part_refusal_param",
+        "chat_completion_function_call_option_param",
+        "chat_completion_content_part_input_audio_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion.py",
+      "relative_path": "src/openai/types/chat/chat_completion.py",
+      "language": "python",
+      "summary": "The Python file defines three classes\u2014ChoiceLogprobs, Choice, and ChatCompletion\u2014presumably for handling and structuring data related to chat completions in the OpenAI API.",
+      "total_lines": 73,
+      "elements": [
+        {
+          "name": "ChoiceLogprobs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion.py",
+          "start_line": 14,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Choice",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion.py",
+          "start_line": 22,
+          "end_line": 40,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletion",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion.py",
+          "start_line": 43,
+          "end_line": 73,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "completion_usage",
+        "chat_completion_message",
+        "chat_completion_token_logprob"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_assistant_message_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_assistant_message_param.py",
+      "language": "python",
+      "summary": "The Python file defines three classes\u2014Audio, FunctionCall, and ChatCompletionAssistantMessageParam\u2014presumably for handling various parameters related to chat completion functionality in an OpenAI application.",
+      "total_lines": 70,
+      "elements": [
+        {
+          "name": "Audio",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_assistant_message_param.py",
+          "start_line": 15,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FunctionCall",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_assistant_message_param.py",
+          "start_line": 23,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionAssistantMessageParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_assistant_message_param.py",
+          "start_line": 36,
+          "end_line": 70,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_content_part_text_param",
+        "chat_completion_message_tool_call_param",
+        "chat_completion_content_part_refusal_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_audio.py",
+      "relative_path": "src/openai/types/chat/chat_completion_audio.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionAudio`, which is likely intended for handling audio-related functionalities in chat completions, although it currently contains no methods.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "ChatCompletionAudio",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_audio.py",
+          "start_line": 9,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_audio_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_audio_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionAudioParam` intended for use in audio-related parameters for chat completions, but it does not implement any methods.",
+      "total_lines": 23,
+      "elements": [
+        {
+          "name": "ChatCompletionAudioParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_audio_param.py",
+          "start_line": 10,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+      "relative_path": "src/openai/types/chat/chat_completion_chunk.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to chat completion functionality, including structures for handling choice deltas and log probabilities, but does not implement any methods.",
+      "total_lines": 147,
+      "elements": [
+        {
+          "name": "ChoiceDeltaFunctionCall",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+          "start_line": 21,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChoiceDeltaToolCallFunction",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+          "start_line": 34,
+          "end_line": 44,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChoiceDeltaToolCall",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+          "start_line": 47,
+          "end_line": 56,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChoiceDelta",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+          "start_line": 59,
+          "end_line": 76,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChoiceLogprobs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+          "start_line": 79,
+          "end_line": 84,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Choice",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+          "start_line": 87,
+          "end_line": 105,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionChunk",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_chunk.py",
+          "start_line": 108,
+          "end_line": 147,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "completion_usage",
+        "chat_completion_token_logprob"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_image_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_content_part_image_param.py",
+      "language": "python",
+      "summary": "The file defines two classes, `ImageURL` and `ChatCompletionContentPartImageParam`, which likely serve as data structures for handling image-related parameters in chat completion functionalities within the OpenAI API.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "ImageURL",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_image_param.py",
+          "start_line": 10,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionContentPartImageParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_image_param.py",
+          "start_line": 22,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_input_audio_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_content_part_input_audio_param.py",
+      "language": "python",
+      "summary": "The file defines two classes, `InputAudio` and `ChatCompletionContentPartInputAudioParam`, likely intended to represent audio input parameters for chat completion in an OpenAI context, but does not implement any methods.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "InputAudio",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_input_audio_param.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionContentPartInputAudioParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_input_audio_param.py",
+          "start_line": 18,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_content_part_param.py",
+      "language": "python",
+      "summary": "Python file with 16 lines",
+      "total_lines": 16,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_content_part_text_param",
+        "chat_completion_content_part_image_param",
+        "chat_completion_content_part_input_audio_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_refusal_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_content_part_refusal_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ChatCompletionContentPartRefusalParam`, which likely serves as a parameter structure for handling refusal content in chat completions, although it currently contains no methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "ChatCompletionContentPartRefusalParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_refusal_param.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_text_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_content_part_text_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionContentPartTextParam`, which is likely intended to represent a parameter for text content in a chat completion context, although it does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "ChatCompletionContentPartTextParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_content_part_text_param.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_deleted.py",
+      "relative_path": "src/openai/types/chat/chat_completion_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionDeleted` that likely serves as a placeholder or marker for deleted chat completion instances in the OpenAI API, without any methods implemented.",
+      "total_lines": 18,
+      "elements": [
+        {
+          "name": "ChatCompletionDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_deleted.py",
+          "start_line": 10,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_developer_message_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_developer_message_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionDeveloperMessageParam`, which is likely intended to represent parameters for developer messages in a chat completion context, although it currently contains no methods.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "ChatCompletionDeveloperMessageParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_developer_message_param.py",
+          "start_line": 13,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_content_part_text_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_function_call_option_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_function_call_option_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ChatCompletionFunctionCallOptionParam`, which is likely intended to represent parameters for function call options in a chat completion context, although it currently contains no methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "ChatCompletionFunctionCallOptionParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_function_call_option_param.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_function_message_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_function_message_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionFunctionMessageParam` intended for use in type annotations related to chat completion functions in the OpenAI API, but it does not contain any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "ChatCompletionFunctionMessageParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_function_message_param.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message.py",
+      "relative_path": "src/openai/types/chat/chat_completion_message.py",
+      "language": "python",
+      "summary": "The file defines two classes, `FunctionCall` and `ChatCompletionMessage`, which are likely intended to structure and manage chat completion messages and associated function calls in an OpenAI chat application.",
+      "total_lines": 51,
+      "elements": [
+        {
+          "name": "FunctionCall",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message.py",
+          "start_line": 13,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionMessage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message.py",
+          "start_line": 26,
+          "end_line": 51,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "chat_completion_audio",
+        "chat_completion_message_tool_call"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_message_param.py",
+      "language": "python",
+      "summary": "Python file with 24 lines",
+      "total_lines": 24,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_tool_message_param",
+        "chat_completion_user_message_param",
+        "chat_completion_system_message_param",
+        "chat_completion_function_message_param",
+        "chat_completion_assistant_message_param",
+        "chat_completion_developer_message_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message_tool_call.py",
+      "relative_path": "src/openai/types/chat/chat_completion_message_tool_call.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `Function` and `ChatCompletionMessageToolCall`, likely intended for handling chat completion messages and associated tool calls in the OpenAI API context, though they currently contain no methods.",
+      "total_lines": 31,
+      "elements": [
+        {
+          "name": "Function",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message_tool_call.py",
+          "start_line": 10,
+          "end_line": 20,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionMessageToolCall",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message_tool_call.py",
+          "start_line": 23,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message_tool_call_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_message_tool_call_param.py",
+      "language": "python",
+      "summary": "The file defines two classes, `Function` and `ChatCompletionMessageToolCallParam`, likely intended for use in managing and representing parameters for chat completion tool calls in an OpenAI-related application.",
+      "total_lines": 31,
+      "elements": [
+        {
+          "name": "Function",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message_tool_call_param.py",
+          "start_line": 10,
+          "end_line": 20,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionMessageToolCallParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_message_tool_call_param.py",
+          "start_line": 23,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_modality.py",
+      "relative_path": "src/openai/types/chat/chat_completion_modality.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_named_tool_choice_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_named_tool_choice_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ChatCompletionNamedToolChoiceParam` within the `src.openai.types.chat` module, likely intended for use in specifying parameters related to chat completion tools in the OpenAI API.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "Function",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_named_tool_choice_param.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionNamedToolChoiceParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_named_tool_choice_param.py",
+          "start_line": 15,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_prediction_content_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_prediction_content_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionPredictionContentParam`, which is likely intended to serve as a data structure for handling parameters related to chat completion predictions in an OpenAI context, although it currently contains no methods.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "ChatCompletionPredictionContentParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_prediction_content_param.py",
+          "start_line": 13,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_content_part_text_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_reasoning_effort.py",
+      "relative_path": "src/openai/types/chat/chat_completion_reasoning_effort.py",
+      "language": "python",
+      "summary": "Python file with 8 lines",
+      "total_lines": 8,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_role.py",
+      "relative_path": "src/openai/types/chat/chat_completion_role.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_store_message.py",
+      "relative_path": "src/openai/types/chat/chat_completion_store_message.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionStoreMessage`, which serves as a data structure for storing chat completion messages in the OpenAI library.",
+      "total_lines": 11,
+      "elements": [
+        {
+          "name": "ChatCompletionStoreMessage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_store_message.py",
+          "start_line": 9,
+          "end_line": 11,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "chat_completion_message"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_stream_options_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_stream_options_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionStreamOptionsParam`, which likely serves as a parameter container for options related to streaming chat completions in an OpenAI API context, though it does not implement any methods.",
+      "total_lines": 17,
+      "elements": [
+        {
+          "name": "ChatCompletionStreamOptionsParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_stream_options_param.py",
+          "start_line": 10,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_system_message_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_system_message_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionSystemMessageParam`, which serves as a parameter structure for system messages in chat completion functionality, but does not implement any methods.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "ChatCompletionSystemMessageParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_system_message_param.py",
+          "start_line": 13,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_content_part_text_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_token_logprob.py",
+      "relative_path": "src/openai/types/chat/chat_completion_token_logprob.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `TopLogprob` and `ChatCompletionTokenLogprob`, which likely serve as data structures for handling token log probabilities in chat completion models within the OpenAI framework.",
+      "total_lines": 57,
+      "elements": [
+        {
+          "name": "TopLogprob",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_token_logprob.py",
+          "start_line": 10,
+          "end_line": 28,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ChatCompletionTokenLogprob",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_token_logprob.py",
+          "start_line": 31,
+          "end_line": 57,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_tool_choice_option_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_tool_choice_option_param.py",
+      "language": "python",
+      "summary": "Python file with 14 lines",
+      "total_lines": 14,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_named_tool_choice_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_tool_message_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_tool_message_param.py",
+      "language": "python",
+      "summary": "The file defines the `ChatCompletionToolMessageParam` class, which is likely intended to represent parameters for chat completion tool messages in a structured manner, although it currently contains no methods.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "ChatCompletionToolMessageParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_tool_message_param.py",
+          "start_line": 13,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_content_part_text_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_tool_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_tool_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ChatCompletionToolParam`, which is likely intended to represent parameters for chat completion tools in the OpenAI API, although it currently contains no methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "ChatCompletionToolParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_tool_param.py",
+          "start_line": 12,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "shared_params.function_definition"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_user_message_param.py",
+      "relative_path": "src/openai/types/chat/chat_completion_user_message_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ChatCompletionUserMessageParam` that likely serves as a data structure for representing user message parameters in a chat completion context, but it does not contain any methods.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "ChatCompletionUserMessageParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/chat_completion_user_message_param.py",
+          "start_line": 13,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_completion_content_part_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_create_params.py",
+      "relative_path": "src/openai/types/chat/completion_create_params.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to the parameters for creating chat completions, including both streaming and non-streaming options, while leveraging type annotations for enhanced code clarity.",
+      "total_lines": 352,
+      "elements": [
+        {
+          "name": "CompletionCreateParamsBase",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_create_params.py",
+          "start_line": 34,
+          "end_line": 293,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Function",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_create_params.py",
+          "start_line": 299,
+          "end_line": 322,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CompletionCreateParamsNonStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_create_params.py",
+          "start_line": 328,
+          "end_line": 337,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CompletionCreateParamsStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_create_params.py",
+          "start_line": 340,
+          "end_line": 349,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_model",
+        "shared_params.metadata",
+        "chat_completion_modality",
+        "chat_completion_tool_param",
+        "chat_completion_audio_param",
+        "chat_completion_message_param",
+        "chat_completion_reasoning_effort",
+        "shared_params.function_parameters",
+        "shared_params.response_format_text",
+        "chat_completion_stream_options_param",
+        "chat_completion_prediction_content_param",
+        "chat_completion_tool_choice_option_param",
+        "shared_params.response_format_json_object",
+        "shared_params.response_format_json_schema",
+        "chat_completion_function_call_option_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_list_params.py",
+      "relative_path": "src/openai/types/chat/completion_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `CompletionListParams` intended for managing parameters related to chat completion lists, although it currently contains no methods.",
+      "total_lines": 33,
+      "elements": [
+        {
+          "name": "CompletionListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_list_params.py",
+          "start_line": 13,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_update_params.py",
+      "relative_path": "src/openai/types/chat/completion_update_params.py",
+      "language": "python",
+      "summary": "The file defines a class `CompletionUpdateParams` intended for managing parameters related to chat completion updates, but it currently contains no methods.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "CompletionUpdateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completion_update_params.py",
+          "start_line": 13,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/parsed_chat_completion.py",
+      "relative_path": "src/openai/types/chat/parsed_chat_completion.py",
+      "language": "python",
+      "summary": "The file defines three classes\u2014ParsedChatCompletionMessage, ParsedChoice, and ParsedChatCompletion\u2014presumably for structuring and handling parsed data related to chat completions in an OpenAI context, though they do not contain any methods.",
+      "total_lines": 40,
+      "elements": [
+        {
+          "name": "ParsedChatCompletionMessage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/parsed_chat_completion.py",
+          "start_line": 22,
+          "end_line": 27,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ParsedChoice",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/parsed_chat_completion.py",
+          "start_line": 30,
+          "end_line": 32,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ParsedChatCompletion",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/parsed_chat_completion.py",
+          "start_line": 35,
+          "end_line": 40,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models",
+        "chat_completion",
+        "chat_completion_message",
+        "parsed_function_tool_call"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/parsed_function_tool_call.py",
+      "relative_path": "src/openai/types/chat/parsed_function_tool_call.py",
+      "language": "python",
+      "summary": "The file defines two empty classes, `ParsedFunction` and `ParsedFunctionToolCall`, likely intended for structuring or representing parsed function calls in a chat completion context.",
+      "total_lines": 29,
+      "elements": [
+        {
+          "name": "ParsedFunction",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/parsed_function_tool_call.py",
+          "start_line": 15,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ParsedFunctionToolCall",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/parsed_function_tool_call.py",
+          "start_line": 27,
+          "end_line": 29,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "chat_completion_message_tool_call"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "completions",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completions",
+      "relative_path": "src/openai/types/chat/completions",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/chat/completions/index.json",
+      "summary": "The `src/openai/types/chat/completions` directory contains Python files that define data structures for managing parameters related to chat message lists in the context of chat completions.",
+      "file_count": 2,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 37,
+  "total_file_count": 39,
+  "total_lines": 1443,
+  "indexed_at": "2025-12-07 17:54:19.062680"
+}

@@ -1,0 +1,1463 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads",
+  "relative_path": "src/openai/types/beta/threads",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/threads/index.json",
+  "summary": "The `src/openai/types/beta/threads` directory contains Python files and a subdirectory that define various data structures and classes related to file citations, file paths, and image files, primarily serving as type annotations and frameworks for managing these elements within OpenAI's API.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/__init__.py",
+      "relative_path": "src/openai/types/beta/threads/__init__.py",
+      "language": "python",
+      "summary": "Python file with 46 lines",
+      "total_lines": 46,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "run",
+        "text",
+        "message",
+        "image_url",
+        "annotation",
+        "image_file",
+        "run_status",
+        "text_delta",
+        "message_delta",
+        "image_url_delta",
+        "image_url_param",
+        "message_content",
+        "message_deleted",
+        "run_list_params",
+        "annotation_delta",
+        "image_file_delta",
+        "image_file_param",
+        "text_delta_block",
+        "run_create_params",
+        "run_update_params",
+        "text_content_block",
+        "message_delta_event",
+        "message_list_params",
+        "refusal_delta_block",
+        "file_path_annotation",
+        "image_url_delta_block",
+        "message_content_delta",
+        "message_create_params",
+        "message_update_params",
+        "refusal_content_block",
+        "image_file_delta_block",
+        "image_url_content_block",
+        "file_citation_annotation",
+        "image_file_content_block",
+        "text_content_block_param",
+        "file_path_delta_annotation",
+        "message_content_part_param",
+        "image_url_content_block_param",
+        "file_citation_delta_annotation",
+        "image_file_content_block_param",
+        "run_submit_tool_outputs_params",
+        "required_action_function_tool_call"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/annotation.py",
+      "relative_path": "src/openai/types/beta/threads/annotation.py",
+      "language": "python",
+      "summary": "Python file with 12 lines",
+      "total_lines": 12,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "file_path_annotation",
+        "file_citation_annotation"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/annotation_delta.py",
+      "relative_path": "src/openai/types/beta/threads/annotation_delta.py",
+      "language": "python",
+      "summary": "Python file with 14 lines",
+      "total_lines": 14,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "file_path_delta_annotation",
+        "file_citation_delta_annotation"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_citation_annotation.py",
+      "relative_path": "src/openai/types/beta/threads/file_citation_annotation.py",
+      "language": "python",
+      "summary": "The file defines two classes, `FileCitation` and `FileCitationAnnotation`, which likely serve as data structures for managing file citation annotations in a type-safe manner, but do not contain any methods or functionality.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "FileCitation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_citation_annotation.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FileCitationAnnotation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_citation_annotation.py",
+          "start_line": 15,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_citation_delta_annotation.py",
+      "relative_path": "src/openai/types/beta/threads/file_citation_delta_annotation.py",
+      "language": "python",
+      "summary": "The file defines two empty classes, `FileCitation` and `FileCitationDeltaAnnotation`, likely intended for use in managing file citation annotations within a broader application context.",
+      "total_lines": 33,
+      "elements": [
+        {
+          "name": "FileCitation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_citation_delta_annotation.py",
+          "start_line": 11,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FileCitationDeltaAnnotation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_citation_delta_annotation.py",
+          "start_line": 19,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_path_annotation.py",
+      "relative_path": "src/openai/types/beta/threads/file_path_annotation.py",
+      "language": "python",
+      "summary": "The file defines two classes, `FilePath` and `FilePathAnnotation`, likely intended for type annotations related to file paths in the OpenAI project, but does not implement any methods.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "FilePath",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_path_annotation.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FilePathAnnotation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_path_annotation.py",
+          "start_line": 15,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_path_delta_annotation.py",
+      "relative_path": "src/openai/types/beta/threads/file_path_delta_annotation.py",
+      "language": "python",
+      "summary": "The file defines two empty classes, `FilePath` and `FilePathDeltaAnnotation`, likely intended for type annotations related to file path handling in a broader application context.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "FilePath",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_path_delta_annotation.py",
+          "start_line": 11,
+          "end_line": 13,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FilePathDeltaAnnotation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/file_path_delta_annotation.py",
+          "start_line": 16,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file.py",
+      "relative_path": "src/openai/types/beta/threads/image_file.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageFile` in the OpenAI types module, which serves as a data structure for representing image files without any methods.",
+      "total_lines": 23,
+      "elements": [
+        {
+          "name": "ImageFile",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file.py",
+          "start_line": 11,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_content_block.py",
+      "relative_path": "src/openai/types/beta/threads/image_file_content_block.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageFileContentBlock` that likely serves as a data structure for handling image file content within the OpenAI types framework, although it does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "ImageFileContentBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_content_block.py",
+          "start_line": 11,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "image_file"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_content_block_param.py",
+      "relative_path": "src/openai/types/beta/threads/image_file_content_block_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ImageFileContentBlockParam`, which is likely intended to represent parameters related to image file content blocks, although it currently contains no methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "ImageFileContentBlockParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_content_block_param.py",
+          "start_line": 12,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "image_file_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_delta.py",
+      "relative_path": "src/openai/types/beta/threads/image_file_delta.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageFileDelta` in the OpenAI types module, which likely serves as a data structure for representing changes or differences in image file data, although it currently contains no methods.",
+      "total_lines": 23,
+      "elements": [
+        {
+          "name": "ImageFileDelta",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_delta.py",
+          "start_line": 11,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_delta_block.py",
+      "relative_path": "src/openai/types/beta/threads/image_file_delta_block.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageFileDeltaBlock` that likely serves as a data structure for representing changes or differences in image files, although it does not contain any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "ImageFileDeltaBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_delta_block.py",
+          "start_line": 12,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "image_file_delta"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_param.py",
+      "relative_path": "src/openai/types/beta/threads/image_file_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageFileParam` intended for use in type annotations related to image file parameters, but it does not contain any methods.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "ImageFileParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_file_param.py",
+          "start_line": 10,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url.py",
+      "relative_path": "src/openai/types/beta/threads/image_url.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageURL` in the OpenAI types module, which likely serves as a data structure for representing image URLs, although it currently contains no methods.",
+      "total_lines": 23,
+      "elements": [
+        {
+          "name": "ImageURL",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url.py",
+          "start_line": 11,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_content_block.py",
+      "relative_path": "src/openai/types/beta/threads/image_url_content_block.py",
+      "language": "python",
+      "summary": "The file defines the `ImageURLContentBlock` class, which is likely intended to represent a content block containing an image URL, although it currently does not implement any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "ImageURLContentBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_content_block.py",
+          "start_line": 11,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "image_url",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_content_block_param.py",
+      "relative_path": "src/openai/types/beta/threads/image_url_content_block_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ImageURLContentBlockParam`, which is likely intended to represent parameters related to image URL content blocks, although it currently contains no methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "ImageURLContentBlockParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_content_block_param.py",
+          "start_line": 12,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "image_url_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_delta.py",
+      "relative_path": "src/openai/types/beta/threads/image_url_delta.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageURLDelta` in the OpenAI types module, which likely serves as a data structure for representing changes or updates to image URLs, although it currently contains no methods.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "ImageURLDelta",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_delta.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_delta_block.py",
+      "relative_path": "src/openai/types/beta/threads/image_url_delta_block.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageURLDeltaBlock` that likely serves as a data structure for managing image URL deltas, but it does not contain any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "ImageURLDeltaBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_delta_block.py",
+          "start_line": 12,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "image_url_delta"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_param.py",
+      "relative_path": "src/openai/types/beta/threads/image_url_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageURLParam` intended for use in type annotations, but it does not implement any methods.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "ImageURLParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/image_url_param.py",
+          "start_line": 10,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message.py",
+      "relative_path": "src/openai/types/beta/threads/message.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to message handling and attachments, including `AttachmentToolAssistantToolsFileSearchTypeOnly`, `Attachment`, `IncompleteDetails`, and `Message`, but does not implement any methods within these classes.",
+      "total_lines": 103,
+      "elements": [
+        {
+          "name": "AttachmentToolAssistantToolsFileSearchTypeOnly",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message.py",
+          "start_line": 20,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Attachment",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message.py",
+          "start_line": 28,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "IncompleteDetails",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message.py",
+          "start_line": 36,
+          "end_line": 38,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Message",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message.py",
+          "start_line": 41,
+          "end_line": 103,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "message_content",
+        "shared.metadata",
+        "code_interpreter_tool"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_content.py",
+      "relative_path": "src/openai/types/beta/threads/message_content.py",
+      "language": "python",
+      "summary": "Python file with 18 lines",
+      "total_lines": 18,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "text_content_block",
+        "refusal_content_block",
+        "image_url_content_block",
+        "image_file_content_block"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_content_delta.py",
+      "relative_path": "src/openai/types/beta/threads/message_content_delta.py",
+      "language": "python",
+      "summary": "Python file with 17 lines",
+      "total_lines": 17,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "text_delta_block",
+        "refusal_delta_block",
+        "image_url_delta_block",
+        "image_file_delta_block"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_content_part_param.py",
+      "relative_path": "src/openai/types/beta/threads/message_content_part_param.py",
+      "language": "python",
+      "summary": "Python file with 14 lines",
+      "total_lines": 14,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "text_content_block_param",
+        "image_url_content_block_param",
+        "image_file_content_block_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_create_params.py",
+      "relative_path": "src/openai/types/beta/threads/message_create_params.py",
+      "language": "python",
+      "summary": "The Python file defines several classes, including `MessageCreateParams`, `AttachmentToolFileSearch`, and `Attachment`, which are likely intended to structure and manage parameters related to message creation and attachments in an OpenAI API context.",
+      "total_lines": 55,
+      "elements": [
+        {
+          "name": "MessageCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_create_params.py",
+          "start_line": 15,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "AttachmentToolFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_create_params.py",
+          "start_line": 42,
+          "end_line": 44,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Attachment",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_create_params.py",
+          "start_line": 50,
+          "end_line": 55,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata",
+        "message_content_part_param",
+        "code_interpreter_tool_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_deleted.py",
+      "relative_path": "src/openai/types/beta/threads/message_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class `MessageDeleted` in the OpenAI types module, which likely serves as a data structure to represent a deleted message in a threading context, although it currently contains no methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "MessageDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_deleted.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_delta.py",
+      "relative_path": "src/openai/types/beta/threads/message_delta.py",
+      "language": "python",
+      "summary": "The file defines a `MessageDelta` class, which likely serves as a data structure for representing changes or updates to message content in a messaging system, although it currently contains no methods.",
+      "total_lines": 17,
+      "elements": [
+        {
+          "name": "MessageDelta",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_delta.py",
+          "start_line": 12,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "message_content_delta"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_delta_event.py",
+      "relative_path": "src/openai/types/beta/threads/message_delta_event.py",
+      "language": "python",
+      "summary": "The file defines a class `MessageDeltaEvent` intended for use in handling message delta events, but it currently does not implement any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "MessageDeltaEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_delta_event.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "message_delta"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_list_params.py",
+      "relative_path": "src/openai/types/beta/threads/message_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `MessageListParams` intended for use in managing parameters related to message lists, although it currently does not contain any methods.",
+      "total_lines": 42,
+      "elements": [
+        {
+          "name": "MessageListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_list_params.py",
+          "start_line": 10,
+          "end_line": 42,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_update_params.py",
+      "relative_path": "src/openai/types/beta/threads/message_update_params.py",
+      "language": "python",
+      "summary": "The file defines a class `MessageUpdateParams` intended for use in managing parameters related to message updates, but it does not contain any methods.",
+      "total_lines": 24,
+      "elements": [
+        {
+          "name": "MessageUpdateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/message_update_params.py",
+          "start_line": 13,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/refusal_content_block.py",
+      "relative_path": "src/openai/types/beta/threads/refusal_content_block.py",
+      "language": "python",
+      "summary": "The file defines a class named `RefusalContentBlock` in the OpenAI types module, which likely serves as a data structure for handling refusal content, though it currently contains no methods.",
+      "total_lines": 14,
+      "elements": [
+        {
+          "name": "RefusalContentBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/refusal_content_block.py",
+          "start_line": 10,
+          "end_line": 14,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/refusal_delta_block.py",
+      "relative_path": "src/openai/types/beta/threads/refusal_delta_block.py",
+      "language": "python",
+      "summary": "The file defines a class named `RefusalDeltaBlock` in the OpenAI types module, which likely serves as a data structure for handling refusal-related data in a type-safe manner, although it currently contains no methods.",
+      "total_lines": 18,
+      "elements": [
+        {
+          "name": "RefusalDeltaBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/refusal_delta_block.py",
+          "start_line": 11,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/required_action_function_tool_call.py",
+      "relative_path": "src/openai/types/beta/threads/required_action_function_tool_call.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `Function` and `RequiredActionFunctionToolCall`, likely serving as data structures or type annotations for handling function calls that require specific actions in the OpenAI API's beta thread management system.",
+      "total_lines": 34,
+      "elements": [
+        {
+          "name": "Function",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/required_action_function_tool_call.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RequiredActionFunctionToolCall",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/required_action_function_tool_call.py",
+          "start_line": 18,
+          "end_line": 34,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+      "relative_path": "src/openai/types/beta/threads/run.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to handling incomplete details, errors, required actions, truncation strategies, usage metrics, and a run context, likely as part of a framework for managing and processing tasks or operations in a structured manner.",
+      "total_lines": 245,
+      "elements": [
+        {
+          "name": "IncompleteDetails",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+          "start_line": 25,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "LastError",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+          "start_line": 34,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RequiredActionSubmitToolOutputs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+          "start_line": 42,
+          "end_line": 44,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RequiredAction",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+          "start_line": 47,
+          "end_line": 52,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "TruncationStrategy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+          "start_line": 55,
+          "end_line": 69,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Usage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+          "start_line": 72,
+          "end_line": 80,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Run",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run.py",
+          "start_line": 83,
+          "end_line": 245,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "run_status",
+        "assistant_tool",
+        "shared.metadata",
+        "assistant_tool_choice_option",
+        "assistant_response_format_option",
+        "required_action_function_tool_call"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+      "relative_path": "src/openai/types/beta/threads/run_create_params.py",
+      "language": "python",
+      "summary": "The Python file defines various classes related to parameters for creating run configurations in a chat model, including support for streaming and non-streaming options, as well as additional message attachments and truncation strategies.",
+      "total_lines": 260,
+      "elements": [
+        {
+          "name": "RunCreateParamsBase",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+          "start_line": 29,
+          "end_line": 179,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "AdditionalMessageAttachmentToolFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+          "start_line": 182,
+          "end_line": 184,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "AdditionalMessageAttachment",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+          "start_line": 190,
+          "end_line": 195,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "AdditionalMessage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+          "start_line": 198,
+          "end_line": 222,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "TruncationStrategy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+          "start_line": 225,
+          "end_line": 239,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RunCreateParamsNonStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+          "start_line": 242,
+          "end_line": 248,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RunCreateParamsStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_create_params.py",
+          "start_line": 251,
+          "end_line": 257,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_model",
+        "assistant_tool_param",
+        "runs.run_step_include",
+        "shared_params.metadata",
+        "message_content_part_param",
+        "code_interpreter_tool_param",
+        "assistant_tool_choice_option_param",
+        "assistant_response_format_option_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_list_params.py",
+      "relative_path": "src/openai/types/beta/threads/run_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `RunListParams` in the OpenAI library, which likely serves as a data structure for managing parameters related to running a list of operations or threads, although it does not contain any methods.",
+      "total_lines": 39,
+      "elements": [
+        {
+          "name": "RunListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_list_params.py",
+          "start_line": 10,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_status.py",
+      "relative_path": "src/openai/types/beta/threads/run_status.py",
+      "language": "python",
+      "summary": "Python file with 17 lines",
+      "total_lines": 17,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+      "relative_path": "src/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to parameters for submitting tool outputs, including both streaming and non-streaming variants, but does not implement any methods.",
+      "total_lines": 52,
+      "elements": [
+        {
+          "name": "RunSubmitToolOutputsParamsBase",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+          "start_line": 16,
+          "end_line": 20,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolOutput",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+          "start_line": 23,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RunSubmitToolOutputsParamsNonStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+          "start_line": 34,
+          "end_line": 40,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RunSubmitToolOutputsParamsStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_submit_tool_outputs_params.py",
+          "start_line": 43,
+          "end_line": 49,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_update_params.py",
+      "relative_path": "src/openai/types/beta/threads/run_update_params.py",
+      "language": "python",
+      "summary": "The file defines a class named `RunUpdateParams`, which is likely intended to encapsulate parameters for updating a run in a system, although it currently contains no methods.",
+      "total_lines": 24,
+      "elements": [
+        {
+          "name": "RunUpdateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/run_update_params.py",
+          "start_line": 13,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text.py",
+      "relative_path": "src/openai/types/beta/threads/text.py",
+      "language": "python",
+      "summary": "The file defines a class named `Text` in the OpenAI types module, serving as a data structure without any methods, likely intended for representing text-related data in a structured format.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "Text",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text.py",
+          "start_line": 11,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models",
+        "annotation"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_content_block.py",
+      "relative_path": "src/openai/types/beta/threads/text_content_block.py",
+      "language": "python",
+      "summary": "The file defines a class `TextContentBlock` in the OpenAI types module, which likely serves as a data structure for representing a block of text content, although it currently contains no methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "TextContentBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_content_block.py",
+          "start_line": 11,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "text",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_content_block_param.py",
+      "relative_path": "src/openai/types/beta/threads/text_content_block_param.py",
+      "language": "python",
+      "summary": "The file defines a class `TextContentBlockParam` in the OpenAI types module, which serves as a parameter structure for text content blocks, but does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "TextContentBlockParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_content_block_param.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_delta.py",
+      "relative_path": "src/openai/types/beta/threads/text_delta.py",
+      "language": "python",
+      "summary": "The file defines a class named `TextDelta` in the OpenAI types module, which likely serves as a data structure for representing changes or differences in text, although it currently contains no methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "TextDelta",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_delta.py",
+          "start_line": 11,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models",
+        "annotation_delta"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_delta_block.py",
+      "relative_path": "src/openai/types/beta/threads/text_delta_block.py",
+      "language": "python",
+      "summary": "The file defines a class `TextDeltaBlock` in the OpenAI types module, which likely serves as a data structure for representing text delta blocks, although it currently contains no methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "TextDeltaBlock",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/text_delta_block.py",
+          "start_line": 12,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "text_delta"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "runs",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads/runs",
+      "relative_path": "src/openai/types/beta/threads/runs",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/threads/runs/index.json",
+      "summary": "The directory contains Python files defining various classes related to code interpretation, file search, and message creation within OpenAI's API framework, primarily serving as data structures without implemented methods.",
+      "file_count": 21,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 43,
+  "total_file_count": 64,
+  "total_lines": 1528,
+  "indexed_at": "2025-12-07 17:52:07.892165"
+}

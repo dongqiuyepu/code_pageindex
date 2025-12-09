@@ -1,0 +1,165 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras",
+  "relative_path": "src/openai/_extras",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/_extras/index.json",
+  "summary": "The `src/openai/_extras` directory contains utility Python files that provide functionality for handling dependencies and enhancing the use of NumPy and Pandas libraries, including custom exception handling and type hints for improved clarity.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/__init__.py",
+      "relative_path": "src/openai/_extras/__init__.py",
+      "language": "python",
+      "summary": "Python file with 2 lines",
+      "total_lines": 2,
+      "elements": [],
+      "imports": [
+        "numpy_proxy",
+        "pandas_proxy"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/_common.py",
+      "relative_path": "src/openai/_extras/_common.py",
+      "language": "python",
+      "summary": "The Python file defines a function for formatting instructions and includes a custom exception class for handling missing dependencies.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "format_instructions",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/_common.py",
+          "start_line": 16,
+          "end_line": 17,
+          "summary": null,
+          "signature": "format_instructions()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MissingDependencyError",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/_common.py",
+          "start_line": 20,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_exceptions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/numpy_proxy.py",
+      "relative_path": "src/openai/_extras/numpy_proxy.py",
+      "language": "python",
+      "summary": "The `numpy_proxy.py` file defines a `NumpyProxy` class and a `has_numpy` function to facilitate the conditional use of NumPy functionalities based on its availability.",
+      "total_lines": 37,
+      "elements": [
+        {
+          "name": "NumpyProxy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/numpy_proxy.py",
+          "start_line": 16,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__load__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/numpy_proxy.py",
+              "start_line": 18,
+              "end_line": 24,
+              "summary": null,
+              "signature": "__load__(self)",
+              "complexity": 2,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "has_numpy",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/numpy_proxy.py",
+          "start_line": 31,
+          "end_line": 37,
+          "summary": null,
+          "signature": "has_numpy()",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "_common",
+        "numpy",
+        "numpy",
+        "numpy"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/pandas_proxy.py",
+      "relative_path": "src/openai/_extras/pandas_proxy.py",
+      "language": "python",
+      "summary": "The `pandas_proxy.py` file defines a `PandasProxy` class that likely serves as an interface or wrapper for enhancing or modifying the functionality of the Pandas library, utilizing type hints for improved code clarity.",
+      "total_lines": 28,
+      "elements": [
+        {
+          "name": "PandasProxy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/pandas_proxy.py",
+          "start_line": 16,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__load__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/_extras/pandas_proxy.py",
+              "start_line": 18,
+              "end_line": 24,
+              "summary": null,
+              "signature": "__load__(self)",
+              "complexity": 2,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "_common",
+        "pandas",
+        "pandas"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 4,
+  "total_file_count": 4,
+  "total_lines": 88,
+  "indexed_at": "2025-12-07 17:43:59.565401"
+}

@@ -1,0 +1,165 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime",
+  "relative_path": "tests/api_resources/beta/realtime",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/tests/api_resources/beta/realtime/index.json",
+  "summary": "The directory contains unit tests for the OpenAI API's session management functionality, focusing on both synchronous and asynchronous handling.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/tests/api_resources/beta/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/__init__.py",
+      "relative_path": "tests/api_resources/beta/realtime/__init__.py",
+      "language": "python",
+      "summary": "Python file with 1 lines",
+      "total_lines": 1,
+      "elements": [],
+      "imports": [],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+      "relative_path": "tests/api_resources/beta/realtime/test_sessions.py",
+      "language": "python",
+      "summary": "The file contains unit tests for the OpenAI API's session management functionality, specifically testing both synchronous and asynchronous session handling through the `TestSessions` and `TestAsyncSessions` classes.",
+      "total_lines": 144,
+      "elements": [
+        {
+          "name": "TestSessions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+          "start_line": 17,
+          "end_line": 79,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "test_method_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 21,
+              "end_line": 23,
+              "summary": null,
+              "signature": "test_method_create(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_create_with_all_params",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 26,
+              "end_line": 59,
+              "summary": null,
+              "signature": "test_method_create_with_all_params(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_raw_response_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 62,
+              "end_line": 68,
+              "summary": null,
+              "signature": "test_raw_response_create(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_streaming_response_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 71,
+              "end_line": 79,
+              "summary": null,
+              "signature": "test_streaming_response_create(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TestAsyncSessions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+          "start_line": 82,
+          "end_line": 144,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "test_method_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 86,
+              "end_line": 88,
+              "summary": null,
+              "signature": "test_method_create(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_create_with_all_params",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 91,
+              "end_line": 124,
+              "summary": null,
+              "signature": "test_method_create_with_all_params(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_raw_response_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 127,
+              "end_line": 133,
+              "summary": null,
+              "signature": "test_raw_response_create(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_streaming_response_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/realtime/test_sessions.py",
+              "start_line": 136,
+              "end_line": 144,
+              "summary": null,
+              "signature": "test_streaming_response_create(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "os",
+        "typing",
+        "pytest",
+        "openai",
+        "tests.utils",
+        "openai.types.beta.realtime"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 2,
+  "total_file_count": 2,
+  "total_lines": 145,
+  "indexed_at": "2025-12-07 17:57:30.133697"
+}

@@ -1,0 +1,299 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning",
+  "relative_path": "src/openai/resources/fine_tuning",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/fine_tuning/index.json",
+  "summary": "The `src/openai/resources/fine_tuning` directory contains Python files and a subdirectory focused on managing fine-tuning processes and jobs, offering both synchronous and asynchronous methods for handling interactions and responses.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/__init__.py",
+      "relative_path": "src/openai/resources/fine_tuning/__init__.py",
+      "language": "python",
+      "summary": "Python file with 33 lines",
+      "total_lines": 33,
+      "elements": [],
+      "imports": [
+        "jobs",
+        "fine_tuning"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+      "relative_path": "src/openai/resources/fine_tuning/fine_tuning.py",
+      "language": "python",
+      "summary": "The `fine_tuning.py` file defines several classes for managing fine-tuning processes in an asynchronous and synchronous manner, including handling raw and streaming responses.",
+      "total_lines": 102,
+      "elements": [
+        {
+          "name": "FineTuning",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+          "start_line": 19,
+          "end_line": 41,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "jobs",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 21,
+              "end_line": 22,
+              "summary": null,
+              "signature": "jobs(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 25,
+              "end_line": 32,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 35,
+              "end_line": 41,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncFineTuning",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+          "start_line": 44,
+          "end_line": 66,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "jobs",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 46,
+              "end_line": 47,
+              "summary": null,
+              "signature": "jobs(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 50,
+              "end_line": 57,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 60,
+              "end_line": 66,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FineTuningWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+          "start_line": 69,
+          "end_line": 75,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 70,
+              "end_line": 71,
+              "summary": null,
+              "signature": "__init__(self, fine_tuning)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "jobs",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 74,
+              "end_line": 75,
+              "summary": null,
+              "signature": "jobs(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncFineTuningWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+          "start_line": 78,
+          "end_line": 84,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 79,
+              "end_line": 80,
+              "summary": null,
+              "signature": "__init__(self, fine_tuning)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "jobs",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 83,
+              "end_line": 84,
+              "summary": null,
+              "signature": "jobs(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FineTuningWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+          "start_line": 87,
+          "end_line": 93,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 88,
+              "end_line": 89,
+              "summary": null,
+              "signature": "__init__(self, fine_tuning)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "jobs",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 92,
+              "end_line": 93,
+              "summary": null,
+              "signature": "jobs(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncFineTuningWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+          "start_line": 96,
+          "end_line": 102,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 97,
+              "end_line": 98,
+              "summary": null,
+              "signature": "__init__(self, fine_tuning)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "jobs",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/fine_tuning.py",
+              "start_line": 101,
+              "end_line": 102,
+              "summary": null,
+              "signature": "jobs(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "_compat",
+        "jobs.jobs",
+        "_resource"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "jobs",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs",
+      "relative_path": "src/openai/resources/fine_tuning/jobs",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/fine_tuning/jobs/index.json",
+      "summary": "The directory contains Python files for managing fine-tuning jobs and checkpoints, providing both synchronous and asynchronous methods for handling job interactions and responses.",
+      "file_count": 3,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 2,
+  "total_file_count": 5,
+  "total_lines": 135,
+  "indexed_at": "2025-12-07 17:47:00.251715"
+}

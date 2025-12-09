@@ -1,0 +1,2130 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime",
+  "relative_path": "src/openai/types/beta/realtime",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/realtime/index.json",
+  "summary": "The `src/openai/types/beta/realtime` directory contains Python files that define various classes and data structures for managing real-time conversation events and items within the OpenAI API, facilitating the handling of conversation-related functionalities.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/__init__.py",
+      "relative_path": "src/openai/types/beta/realtime/__init__.py",
+      "language": "python",
+      "summary": "Python file with 84 lines",
+      "total_lines": 84,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "session",
+        "error_event",
+        "conversation_item",
+        "realtime_response",
+        "response_done_event",
+        "session_update_event",
+        "realtime_client_event",
+        "realtime_server_event",
+        "response_cancel_event",
+        "response_create_event",
+        "session_create_params",
+        "session_created_event",
+        "session_updated_event",
+        "response_created_event",
+        "conversation_item_param",
+        "realtime_connect_params",
+        "realtime_response_usage",
+        "session_create_response",
+        "realtime_response_status",
+        "response_text_done_event",
+        "conversation_item_content",
+        "rate_limits_updated_event",
+        "response_audio_done_event",
+        "response_text_delta_event",
+        "conversation_created_event",
+        "response_audio_delta_event",
+        "session_update_event_param",
+        "realtime_client_event_param",
+        "response_cancel_event_param",
+        "response_create_event_param",
+        "conversation_item_create_event",
+        "conversation_item_delete_event",
+        "input_audio_buffer_clear_event",
+        "conversation_item_content_param",
+        "conversation_item_created_event",
+        "conversation_item_deleted_event",
+        "input_audio_buffer_append_event",
+        "input_audio_buffer_commit_event",
+        "response_output_item_done_event",
+        "conversation_item_truncate_event",
+        "conversation_item_with_reference",
+        "input_audio_buffer_cleared_event",
+        "response_content_part_done_event",
+        "response_output_item_added_event",
+        "conversation_item_truncated_event",
+        "response_content_part_added_event",
+        "input_audio_buffer_committed_event",
+        "conversation_item_create_event_param",
+        "conversation_item_delete_event_param",
+        "input_audio_buffer_clear_event_param",
+        "response_audio_transcript_done_event",
+        "input_audio_buffer_append_event_param",
+        "input_audio_buffer_commit_event_param",
+        "response_audio_transcript_delta_event",
+        "conversation_item_truncate_event_param",
+        "conversation_item_with_reference_param",
+        "input_audio_buffer_speech_started_event",
+        "input_audio_buffer_speech_stopped_event",
+        "response_function_call_arguments_done_event",
+        "response_function_call_arguments_delta_event",
+        "conversation_item_input_audio_transcription_failed_event",
+        "conversation_item_input_audio_transcription_completed_event"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_created_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_created_event.py",
+      "language": "python",
+      "summary": "The file defines two classes, `Conversation` and `ConversationCreatedEvent`, which likely serve as data structures for handling conversation-related events in a real-time context within the OpenAI API.",
+      "total_lines": 27,
+      "elements": [
+        {
+          "name": "Conversation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_created_event.py",
+          "start_line": 11,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ConversationCreatedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_created_event.py",
+          "start_line": 19,
+          "end_line": 27,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item.py",
+      "language": "python",
+      "summary": "The file defines a `ConversationItem` class, which likely serves as a data structure for representing individual items in a conversation within the OpenAI API's real-time communication framework.",
+      "total_lines": 61,
+      "elements": [
+        {
+          "name": "ConversationItem",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item.py",
+          "start_line": 12,
+          "end_line": 61,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "conversation_item_content"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_content.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_content.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemContent` in the OpenAI types module, which likely serves as a data structure for handling content related to real-time conversations, although it currently contains no methods.",
+      "total_lines": 29,
+      "elements": [
+        {
+          "name": "ConversationItemContent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_content.py",
+          "start_line": 11,
+          "end_line": 29,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_content_param.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_content_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemContentParam` intended for use in type annotations related to conversation item content parameters, but it does not implement any methods.",
+      "total_lines": 28,
+      "elements": [
+        {
+          "name": "ConversationItemContentParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_content_param.py",
+          "start_line": 10,
+          "end_line": 28,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_create_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_create_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemCreateEvent`, which likely serves as a data structure for representing events related to the creation of conversation items in a real-time context, but it does not implement any methods.",
+      "total_lines": 29,
+      "elements": [
+        {
+          "name": "ConversationItemCreateEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_create_event.py",
+          "start_line": 12,
+          "end_line": 29,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "conversation_item"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_create_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_create_event_param.py",
+      "language": "python",
+      "summary": "The Python file defines a class named `ConversationItemCreateEventParam`, which is likely intended to represent parameters for creating conversation item events in a real-time context, but does not implement any methods.",
+      "total_lines": 29,
+      "elements": [
+        {
+          "name": "ConversationItemCreateEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_create_event_param.py",
+          "start_line": 12,
+          "end_line": 29,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "conversation_item_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_created_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_created_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemCreatedEvent` that likely serves as a data structure for representing events related to the creation of conversation items, although it does not contain any methods.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "ConversationItemCreatedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_created_event.py",
+          "start_line": 11,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "conversation_item"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_delete_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_delete_event.py",
+      "language": "python",
+      "summary": "The file defines a class named `ConversationItemDeleteEvent` intended to represent an event related to the deletion of a conversation item, but it does not contain any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "ConversationItemDeleteEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_delete_event.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_delete_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_delete_event_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ConversationItemDeleteEventParam`, which is likely intended to represent parameters for a conversation item deletion event, although it currently contains no methods.",
+      "total_lines": 18,
+      "elements": [
+        {
+          "name": "ConversationItemDeleteEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_delete_event_param.py",
+          "start_line": 10,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_deleted_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_deleted_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemDeletedEvent`, which likely serves as a data structure for representing an event related to the deletion of a conversation item, but it does not contain any methods.",
+      "total_lines": 18,
+      "elements": [
+        {
+          "name": "ConversationItemDeletedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_deleted_event.py",
+          "start_line": 10,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_input_audio_transcription_completed_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_input_audio_transcription_completed_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemInputAudioTranscriptionCompletedEvent` that likely serves as a data structure for representing the completion of an audio transcription event in a conversation context, although it does not contain any methods.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "ConversationItemInputAudioTranscriptionCompletedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_input_audio_transcription_completed_event.py",
+          "start_line": 10,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_input_audio_transcription_failed_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_input_audio_transcription_failed_event.py",
+      "language": "python",
+      "summary": "The file defines two classes, `Error` and `ConversationItemInputAudioTranscriptionFailedEvent`, which are likely used to represent errors related to audio transcription failures in a real-time conversation context within the OpenAI API.",
+      "total_lines": 39,
+      "elements": [
+        {
+          "name": "Error",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_input_audio_transcription_failed_event.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ConversationItemInputAudioTranscriptionFailedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_input_audio_transcription_failed_event.py",
+          "start_line": 25,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_param.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemParam` that likely serves as a parameter structure for conversation items in a real-time context, but does not implement any methods.",
+      "total_lines": 62,
+      "elements": [
+        {
+          "name": "ConversationItemParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_param.py",
+          "start_line": 13,
+          "end_line": 62,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "conversation_item_content_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_truncate_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_truncate_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemTruncateEvent` intended to represent an event related to truncating conversation items, but it does not implement any methods.",
+      "total_lines": 32,
+      "elements": [
+        {
+          "name": "ConversationItemTruncateEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_truncate_event.py",
+          "start_line": 11,
+          "end_line": 32,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_truncate_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_truncate_event_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ConversationItemTruncateEventParam`, which likely serves as a parameter structure for handling conversation item truncation events in a real-time context, but it does not contain any methods.",
+      "total_lines": 31,
+      "elements": [
+        {
+          "name": "ConversationItemTruncateEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_truncate_event_param.py",
+          "start_line": 10,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_truncated_event.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_truncated_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemTruncatedEvent`, which likely serves as a data structure for representing events related to truncated conversation items in a real-time context, but does not implement any methods.",
+      "total_lines": 24,
+      "elements": [
+        {
+          "name": "ConversationItemTruncatedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_truncated_event.py",
+          "start_line": 10,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_with_reference.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_with_reference.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemWithReference`, which likely serves as a data structure for managing conversation items with references in a real-time context, but does not implement any methods.",
+      "total_lines": 67,
+      "elements": [
+        {
+          "name": "ConversationItemWithReference",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_with_reference.py",
+          "start_line": 12,
+          "end_line": 67,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "conversation_item_content"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_with_reference_param.py",
+      "relative_path": "src/openai/types/beta/realtime/conversation_item_with_reference_param.py",
+      "language": "python",
+      "summary": "The file defines a class `ConversationItemWithReferenceParam`, which is likely intended to represent a conversation item with reference parameters, although it currently contains no methods.",
+      "total_lines": 68,
+      "elements": [
+        {
+          "name": "ConversationItemWithReferenceParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/conversation_item_with_reference_param.py",
+          "start_line": 13,
+          "end_line": 68,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "conversation_item_content_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/error_event.py",
+      "relative_path": "src/openai/types/beta/realtime/error_event.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `Error` and `ErrorEvent`, likely intended to represent and handle error-related events in a real-time context within the OpenAI framework.",
+      "total_lines": 36,
+      "elements": [
+        {
+          "name": "Error",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/error_event.py",
+          "start_line": 11,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ErrorEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/error_event.py",
+          "start_line": 28,
+          "end_line": 36,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_append_event.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_append_event.py",
+      "language": "python",
+      "summary": "The file defines a class `InputAudioBufferAppendEvent` intended for use in managing audio buffer events, but it currently does not implement any methods.",
+      "total_lines": 23,
+      "elements": [
+        {
+          "name": "InputAudioBufferAppendEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_append_event.py",
+          "start_line": 11,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_append_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_append_event_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `InputAudioBufferAppendEventParam`, which is likely intended to represent parameters for appending audio data to a buffer in a real-time audio processing context, although it currently contains no methods.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "InputAudioBufferAppendEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_append_event_param.py",
+          "start_line": 10,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_clear_event.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_clear_event.py",
+      "language": "python",
+      "summary": "The file defines a class `InputAudioBufferClearEvent`, which likely serves as a data structure for representing an event related to clearing an audio buffer in a real-time audio processing context, but it does not contain any methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "InputAudioBufferClearEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_clear_event.py",
+          "start_line": 11,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_clear_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_clear_event_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `InputAudioBufferClearEventParam`, which likely serves as a data structure for handling parameters related to clearing an audio buffer in a real-time audio processing context, but it does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "InputAudioBufferClearEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_clear_event_param.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_cleared_event.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_cleared_event.py",
+      "language": "python",
+      "summary": "The file defines a class `InputAudioBufferClearedEvent`, which serves as a data structure for representing an event indicating that the input audio buffer has been cleared, but it does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "InputAudioBufferClearedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_cleared_event.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_commit_event.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_commit_event.py",
+      "language": "python",
+      "summary": "The file defines a class `InputAudioBufferCommitEvent`, which likely serves as a data structure for handling events related to committing audio buffer inputs in a real-time audio processing context, although it currently contains no methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "InputAudioBufferCommitEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_commit_event.py",
+          "start_line": 11,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_commit_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_commit_event_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `InputAudioBufferCommitEventParam`, which is likely intended to represent parameters for committing audio buffer events in a real-time audio processing context, although it currently contains no methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "InputAudioBufferCommitEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_commit_event_param.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_committed_event.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_committed_event.py",
+      "language": "python",
+      "summary": "The file defines a class `InputAudioBufferCommittedEvent` that likely serves as a data structure for handling events related to committed audio buffers in a real-time audio processing context, but it does not contain any methods.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "InputAudioBufferCommittedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_committed_event.py",
+          "start_line": 10,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_speech_started_event.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_speech_started_event.py",
+      "language": "python",
+      "summary": "The file defines a class `InputAudioBufferSpeechStartedEvent`, which is likely intended to represent an event indicating the start of speech input in an audio buffer, but it does not contain any methods.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "InputAudioBufferSpeechStartedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_speech_started_event.py",
+          "start_line": 10,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_speech_stopped_event.py",
+      "relative_path": "src/openai/types/beta/realtime/input_audio_buffer_speech_stopped_event.py",
+      "language": "python",
+      "summary": "The file defines a class `InputAudioBufferSpeechStoppedEvent`, which serves as a data structure for representing an event indicating that speech input has stopped in an audio buffer, but it does not contain any methods.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "InputAudioBufferSpeechStoppedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/input_audio_buffer_speech_stopped_event.py",
+          "start_line": 10,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/rate_limits_updated_event.py",
+      "relative_path": "src/openai/types/beta/realtime/rate_limits_updated_event.py",
+      "language": "python",
+      "summary": "The file defines two classes, `RateLimit` and `RateLimitsUpdatedEvent`, likely intended to represent and manage rate limit information in a real-time context within the OpenAI API framework.",
+      "total_lines": 33,
+      "elements": [
+        {
+          "name": "RateLimit",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/rate_limits_updated_event.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RateLimitsUpdatedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/rate_limits_updated_event.py",
+          "start_line": 25,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_client_event.py",
+      "relative_path": "src/openai/types/beta/realtime/realtime_client_event.py",
+      "language": "python",
+      "summary": "Python file with 32 lines",
+      "total_lines": 32,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "session_update_event",
+        "response_cancel_event",
+        "response_create_event",
+        "conversation_item_create_event",
+        "conversation_item_delete_event",
+        "input_audio_buffer_clear_event",
+        "input_audio_buffer_append_event",
+        "input_audio_buffer_commit_event",
+        "conversation_item_truncate_event"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_client_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/realtime_client_event_param.py",
+      "language": "python",
+      "summary": "Python file with 30 lines",
+      "total_lines": 30,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "session_update_event_param",
+        "response_cancel_event_param",
+        "response_create_event_param",
+        "conversation_item_create_event_param",
+        "conversation_item_delete_event_param",
+        "input_audio_buffer_clear_event_param",
+        "input_audio_buffer_append_event_param",
+        "input_audio_buffer_commit_event_param",
+        "conversation_item_truncate_event_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_connect_params.py",
+      "relative_path": "src/openai/types/beta/realtime/realtime_connect_params.py",
+      "language": "python",
+      "summary": "The file defines a class named `RealtimeConnectParams`, which is likely intended to serve as a data structure for parameters related to real-time connections in the OpenAI library, although it currently contains no methods.",
+      "total_lines": 11,
+      "elements": [
+        {
+          "name": "RealtimeConnectParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_connect_params.py",
+          "start_line": 10,
+          "end_line": 11,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response.py",
+      "relative_path": "src/openai/types/beta/realtime/realtime_response.py",
+      "language": "python",
+      "summary": "The file defines a `RealtimeResponse` class, which likely serves as a data structure for handling real-time responses in an OpenAI application, although it currently contains no methods.",
+      "total_lines": 87,
+      "elements": [
+        {
+          "name": "RealtimeResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response.py",
+          "start_line": 15,
+          "end_line": 87,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "shared.metadata",
+        "conversation_item",
+        "realtime_response_usage",
+        "realtime_response_status"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response_status.py",
+      "relative_path": "src/openai/types/beta/realtime/realtime_response_status.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `Error` and `RealtimeResponseStatus`, likely intended to represent and manage the status of real-time responses in an application, although neither class currently contains any methods.",
+      "total_lines": 39,
+      "elements": [
+        {
+          "name": "Error",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response_status.py",
+          "start_line": 11,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RealtimeResponseStatus",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response_status.py",
+          "start_line": 19,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response_usage.py",
+      "relative_path": "src/openai/types/beta/realtime/realtime_response_usage.py",
+      "language": "python",
+      "summary": "The Python file defines three empty classes\u2014InputTokenDetails, OutputTokenDetails, and RealtimeResponseUsage\u2014presumably to represent and structure data related to token usage in real-time responses within the OpenAI API.",
+      "total_lines": 52,
+      "elements": [
+        {
+          "name": "InputTokenDetails",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response_usage.py",
+          "start_line": 10,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "OutputTokenDetails",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response_usage.py",
+          "start_line": 21,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "RealtimeResponseUsage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_response_usage.py",
+          "start_line": 29,
+          "end_line": 52,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/realtime_server_event.py",
+      "relative_path": "src/openai/types/beta/realtime/realtime_server_event.py",
+      "language": "python",
+      "summary": "Python file with 72 lines",
+      "total_lines": 72,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "error_event",
+        "response_done_event",
+        "session_created_event",
+        "session_updated_event",
+        "response_created_event",
+        "response_text_done_event",
+        "rate_limits_updated_event",
+        "response_audio_done_event",
+        "response_text_delta_event",
+        "conversation_created_event",
+        "response_audio_delta_event",
+        "conversation_item_created_event",
+        "conversation_item_deleted_event",
+        "response_output_item_done_event",
+        "input_audio_buffer_cleared_event",
+        "response_content_part_done_event",
+        "response_output_item_added_event",
+        "conversation_item_truncated_event",
+        "response_content_part_added_event",
+        "input_audio_buffer_committed_event",
+        "response_audio_transcript_done_event",
+        "response_audio_transcript_delta_event",
+        "input_audio_buffer_speech_started_event",
+        "input_audio_buffer_speech_stopped_event",
+        "response_function_call_arguments_done_event",
+        "response_function_call_arguments_delta_event",
+        "conversation_item_input_audio_transcription_failed_event",
+        "conversation_item_input_audio_transcription_completed_event"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_delta_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_audio_delta_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseAudioDeltaEvent` that serves as a data structure for handling audio delta events in a real-time response context, but it does not contain any methods.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "ResponseAudioDeltaEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_delta_event.py",
+          "start_line": 10,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_done_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_audio_done_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseAudioDoneEvent` that serves as a data structure for representing an event indicating the completion of audio processing in a real-time context, without any methods implemented.",
+      "total_lines": 27,
+      "elements": [
+        {
+          "name": "ResponseAudioDoneEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_done_event.py",
+          "start_line": 10,
+          "end_line": 27,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_transcript_delta_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_audio_transcript_delta_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseAudioTranscriptDeltaEvent` intended for handling audio transcript delta events in a real-time context, but it currently does not implement any methods.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "ResponseAudioTranscriptDeltaEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_transcript_delta_event.py",
+          "start_line": 10,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_transcript_done_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_audio_transcript_done_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseAudioTranscriptDoneEvent`, which likely serves as a data structure for representing the completion of an audio transcript event in a real-time response context, but does not contain any methods.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "ResponseAudioTranscriptDoneEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_audio_transcript_done_event.py",
+          "start_line": 10,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_cancel_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_cancel_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseCancelEvent`, which likely serves as a data structure for handling cancellation events in a real-time response context, but it does not implement any methods.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "ResponseCancelEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_cancel_event.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_cancel_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/response_cancel_event_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ResponseCancelEventParam` in the OpenAI types module, which is likely intended to represent parameters for canceling events in a real-time response context, although it currently contains no methods.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "ResponseCancelEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_cancel_event_param.py",
+          "start_line": 10,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_content_part_added_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_content_part_added_event.py",
+      "language": "python",
+      "summary": "The file defines two classes, `Part` and `ResponseContentPartAddedEvent`, which likely serve as data structures for handling events related to the addition of content parts in a real-time response context within the OpenAI API.",
+      "total_lines": 45,
+      "elements": [
+        {
+          "name": "Part",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_content_part_added_event.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ResponseContentPartAddedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_content_part_added_event.py",
+          "start_line": 25,
+          "end_line": 45,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_content_part_done_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_content_part_done_event.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `Part` and `ResponseContentPartDoneEvent`, which likely serve as data structures for handling events related to the completion of content parts in a real-time response context within the OpenAI API.",
+      "total_lines": 45,
+      "elements": [
+        {
+          "name": "Part",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_content_part_done_event.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ResponseContentPartDoneEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_content_part_done_event.py",
+          "start_line": 25,
+          "end_line": 45,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_create_event.py",
+      "language": "python",
+      "summary": "The Python file defines three classes\u2014ResponseTool, Response, and ResponseCreateEvent\u2014likely intended for handling real-time response events in an OpenAI-related application, but does not implement any methods.",
+      "total_lines": 121,
+      "elements": [
+        {
+          "name": "ResponseTool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event.py",
+          "start_line": 13,
+          "end_line": 27,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Response",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event.py",
+          "start_line": 30,
+          "end_line": 110,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ResponseCreateEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event.py",
+          "start_line": 113,
+          "end_line": 121,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "shared.metadata",
+        "conversation_item_with_reference"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/response_create_event_param.py",
+      "language": "python",
+      "summary": "The Python file defines three classes\u2014ResponseTool, Response, and ResponseCreateEventParam\u2014presumably for handling event parameters related to real-time responses in an OpenAI application, though none of the classes contain methods.",
+      "total_lines": 122,
+      "elements": [
+        {
+          "name": "ResponseTool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event_param.py",
+          "start_line": 14,
+          "end_line": 28,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Response",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event_param.py",
+          "start_line": 31,
+          "end_line": 111,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ResponseCreateEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_create_event_param.py",
+          "start_line": 114,
+          "end_line": 122,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata",
+        "conversation_item_with_reference_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_created_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_created_event.py",
+      "language": "python",
+      "summary": "The file defines a class named `ResponseCreatedEvent`, which likely serves as a data structure for handling events related to the creation of responses in a real-time context, but does not contain any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "ResponseCreatedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_created_event.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "realtime_response"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_done_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_done_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseDoneEvent` that serves as a data structure for handling events related to the completion of real-time responses in the OpenAI API.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "ResponseDoneEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_done_event.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "realtime_response"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_function_call_arguments_delta_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_function_call_arguments_delta_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseFunctionCallArgumentsDeltaEvent`, which is likely intended to represent a data structure for handling delta events related to function call arguments in a real-time context, although it does not contain any methods.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "ResponseFunctionCallArgumentsDeltaEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_function_call_arguments_delta_event.py",
+          "start_line": 10,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_function_call_arguments_done_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_function_call_arguments_done_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseFunctionCallArgumentsDoneEvent` that likely serves as a data structure for handling events related to the completion of function call arguments in a real-time context within the OpenAI API.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "ResponseFunctionCallArgumentsDoneEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_function_call_arguments_done_event.py",
+          "start_line": 10,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_output_item_added_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_output_item_added_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseOutputItemAddedEvent` that serves as a data structure for representing an event related to the addition of an item in a real-time response output context, but it does not contain any methods.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "ResponseOutputItemAddedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_output_item_added_event.py",
+          "start_line": 11,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "conversation_item"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_output_item_done_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_output_item_done_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseOutputItemDoneEvent`, which likely serves as a data structure for representing the completion of an output item in a real-time response context within the OpenAI API.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "ResponseOutputItemDoneEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_output_item_done_event.py",
+          "start_line": 11,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "conversation_item"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_text_delta_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_text_delta_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseTextDeltaEvent` that likely serves as a data structure for handling real-time response text events in an OpenAI application, although it currently contains no methods.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "ResponseTextDeltaEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_text_delta_event.py",
+          "start_line": 10,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_text_done_event.py",
+      "relative_path": "src/openai/types/beta/realtime/response_text_done_event.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseTextDoneEvent` intended to represent an event indicating the completion of a text response in a real-time context, but it does not implement any methods.",
+      "total_lines": 30,
+      "elements": [
+        {
+          "name": "ResponseTextDoneEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/response_text_done_event.py",
+          "start_line": 10,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session.py",
+      "relative_path": "src/openai/types/beta/realtime/session.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to real-time session management and audio transcription, including `InputAudioTranscription`, `Tool`, `TurnDetection`, and `Session`, but does not implement any methods within these classes.",
+      "total_lines": 171,
+      "elements": [
+        {
+          "name": "InputAudioTranscription",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session.py",
+          "start_line": 11,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Tool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session.py",
+          "start_line": 19,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "TurnDetection",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session.py",
+          "start_line": 36,
+          "end_line": 72,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Session",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session.py",
+          "start_line": 75,
+          "end_line": 171,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_params.py",
+      "relative_path": "src/openai/types/beta/realtime/session_create_params.py",
+      "language": "python",
+      "summary": "The file defines several classes, including `SessionCreateParams`, `InputAudioTranscription`, `Tool`, and `TurnDetection`, which are likely intended to facilitate the creation and management of session parameters for real-time audio processing in an OpenAI application.",
+      "total_lines": 183,
+      "elements": [
+        {
+          "name": "SessionCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_params.py",
+          "start_line": 11,
+          "end_line": 103,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "InputAudioTranscription",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_params.py",
+          "start_line": 106,
+          "end_line": 127,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Tool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_params.py",
+          "start_line": 130,
+          "end_line": 144,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "TurnDetection",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_params.py",
+          "start_line": 147,
+          "end_line": 183,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_response.py",
+      "relative_path": "src/openai/types/beta/realtime/session_create_response.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to a session creation response in a real-time context, including ClientSecret, InputAudioTranscription, Tool, TurnDetection, and SessionCreateResponse, but does not implement any methods for these classes.",
+      "total_lines": 150,
+      "elements": [
+        {
+          "name": "ClientSecret",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_response.py",
+          "start_line": 11,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "InputAudioTranscription",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_response.py",
+          "start_line": 26,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Tool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_response.py",
+          "start_line": 34,
+          "end_line": 48,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "TurnDetection",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_response.py",
+          "start_line": 51,
+          "end_line": 73,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SessionCreateResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_create_response.py",
+          "start_line": 76,
+          "end_line": 150,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_created_event.py",
+      "relative_path": "src/openai/types/beta/realtime/session_created_event.py",
+      "language": "python",
+      "summary": "The file defines a class `SessionCreatedEvent` that likely serves as a data structure for representing events related to the creation of sessions in a real-time context, but it does not contain any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "SessionCreatedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_created_event.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "session",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event.py",
+      "relative_path": "src/openai/types/beta/realtime/session_update_event.py",
+      "language": "python",
+      "summary": "The file defines several classes related to session management and event handling in a real-time audio transcription system, but does not implement any methods within those classes.",
+      "total_lines": 196,
+      "elements": [
+        {
+          "name": "SessionInputAudioTranscription",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event.py",
+          "start_line": 11,
+          "end_line": 32,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SessionTool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event.py",
+          "start_line": 35,
+          "end_line": 49,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SessionTurnDetection",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event.py",
+          "start_line": 52,
+          "end_line": 88,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Session",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event.py",
+          "start_line": 91,
+          "end_line": 185,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SessionUpdateEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event.py",
+          "start_line": 188,
+          "end_line": 196,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event_param.py",
+      "relative_path": "src/openai/types/beta/realtime/session_update_event_param.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to session management in a real-time context, including `SessionInputAudioTranscription`, `SessionTool`, `SessionTurnDetection`, `Session`, and `SessionUpdateEventParam`, but does not implement any methods within these classes.",
+      "total_lines": 200,
+      "elements": [
+        {
+          "name": "SessionInputAudioTranscription",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event_param.py",
+          "start_line": 17,
+          "end_line": 38,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SessionTool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event_param.py",
+          "start_line": 41,
+          "end_line": 55,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SessionTurnDetection",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event_param.py",
+          "start_line": 58,
+          "end_line": 94,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Session",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event_param.py",
+          "start_line": 97,
+          "end_line": 189,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SessionUpdateEventParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_update_event_param.py",
+          "start_line": 192,
+          "end_line": 200,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_updated_event.py",
+      "relative_path": "src/openai/types/beta/realtime/session_updated_event.py",
+      "language": "python",
+      "summary": "The file defines a class `SessionUpdatedEvent` in the OpenAI types module, which likely serves as a data structure for handling events related to session updates, although it currently contains no methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "SessionUpdatedEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime/session_updated_event.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "session",
+        "_models"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 63,
+  "total_file_count": 63,
+  "total_lines": 2941,
+  "indexed_at": "2025-12-07 17:49:58.148171"
+}

@@ -1,0 +1,2034 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources",
+  "relative_path": "src/openai/resources",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/index.json",
+  "summary": "The `src/openai/resources` directory contains Python modules and subdirectories that define classes and methods for handling various interactions with OpenAI's API, including batch processing, completions, embeddings, file operations, image and audio processing, moderation, chat functionalities, and fine-tuning, supporting both synchronous and asynchronous operations.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/__init__.py",
+      "relative_path": "src/openai/resources/__init__.py",
+      "language": "python",
+      "summary": "Python file with 173 lines",
+      "total_lines": 173,
+      "elements": [],
+      "imports": [
+        "beta",
+        "chat",
+        "audio",
+        "files",
+        "images",
+        "models",
+        "batches",
+        "uploads",
+        "embeddings",
+        "completions",
+        "fine_tuning",
+        "moderations"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+      "relative_path": "src/openai/resources/batches.py",
+      "language": "python",
+      "summary": "The `batches.py` file defines several classes for handling batch processing and responses, including synchronous and asynchronous variants, as well as options for raw and streaming responses, using the httpx library for HTTP requests.",
+      "total_lines": 517,
+      "elements": [
+        {
+          "name": "Batches",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+          "start_line": 28,
+          "end_line": 235,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 30,
+              "end_line": 37,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 40,
+              "end_line": 46,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 48,
+              "end_line": 114,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 116,
+              "end_line": 147,
+              "summary": null,
+              "signature": "retrieve(self, batch_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 149,
+              "end_line": 199,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "cancel",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 201,
+              "end_line": 235,
+              "summary": null,
+              "signature": "cancel(self, batch_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncBatches",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+          "start_line": 238,
+          "end_line": 445,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 240,
+              "end_line": 247,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 250,
+              "end_line": 256,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 258,
+              "end_line": 324,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 326,
+              "end_line": 357,
+              "summary": null,
+              "signature": "retrieve(self, batch_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 359,
+              "end_line": 409,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "cancel",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 411,
+              "end_line": 445,
+              "summary": null,
+              "signature": "cancel(self, batch_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "BatchesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+          "start_line": 448,
+          "end_line": 463,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 449,
+              "end_line": 463,
+              "summary": null,
+              "signature": "__init__(self, batches)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncBatchesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+          "start_line": 466,
+          "end_line": 481,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 467,
+              "end_line": 481,
+              "summary": null,
+              "signature": "__init__(self, batches)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "BatchesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+          "start_line": 484,
+          "end_line": 499,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 485,
+              "end_line": 499,
+              "summary": null,
+              "signature": "__init__(self, batches)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncBatchesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+          "start_line": 502,
+          "end_line": 517,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/batches.py",
+              "start_line": 503,
+              "end_line": 517,
+              "summary": null,
+              "signature": "__init__(self, batches)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "pagination",
+        "types.batch",
+        "_base_client",
+        "types.shared_params.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+      "relative_path": "src/openai/resources/completions.py",
+      "language": "python",
+      "summary": "The `completions.py` file defines multiple classes for handling synchronous and asynchronous completion requests, including options for raw and streaming responses, facilitating interaction with OpenAI's completion API.",
+      "total_lines": 1148,
+      "elements": [
+        {
+          "name": "Completions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+          "start_line": 31,
+          "end_line": 570,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 33,
+              "end_line": 40,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 43,
+              "end_line": 49,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 52,
+              "end_line": 202,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 205,
+              "end_line": 355,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 358,
+              "end_line": 508,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 511,
+              "end_line": 570,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCompletions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+          "start_line": 573,
+          "end_line": 1112,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 575,
+              "end_line": 582,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 585,
+              "end_line": 591,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 594,
+              "end_line": 744,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 747,
+              "end_line": 897,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 900,
+              "end_line": 1050,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 1053,
+              "end_line": 1112,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CompletionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+          "start_line": 1115,
+          "end_line": 1121,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 1116,
+              "end_line": 1121,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCompletionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+          "start_line": 1124,
+          "end_line": 1130,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 1125,
+              "end_line": 1130,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CompletionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+          "start_line": 1133,
+          "end_line": 1139,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 1134,
+              "end_line": 1139,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCompletionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+          "start_line": 1142,
+          "end_line": 1148,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/completions.py",
+              "start_line": 1143,
+              "end_line": 1148,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "_streaming",
+        "_base_client",
+        "types.completion",
+        "types.chat.chat_completion_stream_options_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+      "relative_path": "src/openai/resources/embeddings.py",
+      "language": "python",
+      "summary": "The `embeddings.py` file defines several classes for handling embeddings, including synchronous and asynchronous methods, as well as variations for raw and streaming responses, facilitating the generation and management of embeddings in a structured manner.",
+      "total_lines": 290,
+      "elements": [
+        {
+          "name": "Embeddings",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+          "start_line": 27,
+          "end_line": 139,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 29,
+              "end_line": 36,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 39,
+              "end_line": 45,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 47,
+              "end_line": 139,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 6,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncEmbeddings",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+          "start_line": 142,
+          "end_line": 254,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 144,
+              "end_line": 151,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 154,
+              "end_line": 160,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 162,
+              "end_line": 254,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 6,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "EmbeddingsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+          "start_line": 257,
+          "end_line": 263,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 258,
+              "end_line": 263,
+              "summary": null,
+              "signature": "__init__(self, embeddings)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncEmbeddingsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+          "start_line": 266,
+          "end_line": 272,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 267,
+              "end_line": 272,
+              "summary": null,
+              "signature": "__init__(self, embeddings)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "EmbeddingsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+          "start_line": 275,
+          "end_line": 281,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 276,
+              "end_line": 281,
+              "summary": null,
+              "signature": "__init__(self, embeddings)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncEmbeddingsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+          "start_line": 284,
+          "end_line": 290,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/embeddings.py",
+              "start_line": 285,
+              "end_line": 290,
+              "summary": null,
+              "signature": "__init__(self, embeddings)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "array",
+        "base64",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_extras",
+        "_resource",
+        "_response",
+        "_base_client",
+        "types.embedding_model",
+        "types.create_embedding_response"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+      "relative_path": "src/openai/resources/files.py",
+      "language": "python",
+      "summary": "The `files.py` file in the OpenAI resources module defines multiple classes for handling file operations, both synchronously and asynchronously, including methods for processing raw and streaming responses.",
+      "total_lines": 775,
+      "elements": [
+        {
+          "name": "Files",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+          "start_line": 40,
+          "end_line": 353,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 42,
+              "end_line": 49,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 52,
+              "end_line": 58,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 60,
+              "end_line": 135,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 137,
+              "end_line": 168,
+              "summary": null,
+              "signature": "retrieve(self, file_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 170,
+              "end_line": 229,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 231,
+              "end_line": 262,
+              "summary": null,
+              "signature": "delete(self, file_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "content",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 264,
+              "end_line": 296,
+              "summary": null,
+              "signature": "content(self, file_id)",
+              "complexity": 3,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve_content",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 299,
+              "end_line": 330,
+              "summary": null,
+              "signature": "retrieve_content(self, file_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "wait_for_processing",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 332,
+              "end_line": 353,
+              "summary": null,
+              "signature": "wait_for_processing(self, id)",
+              "complexity": 3,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncFiles",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+          "start_line": 356,
+          "end_line": 669,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 358,
+              "end_line": 365,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 368,
+              "end_line": 374,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 376,
+              "end_line": 451,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 453,
+              "end_line": 484,
+              "summary": null,
+              "signature": "retrieve(self, file_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 486,
+              "end_line": 545,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 547,
+              "end_line": 578,
+              "summary": null,
+              "signature": "delete(self, file_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "content",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 580,
+              "end_line": 612,
+              "summary": null,
+              "signature": "content(self, file_id)",
+              "complexity": 3,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve_content",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 615,
+              "end_line": 646,
+              "summary": null,
+              "signature": "retrieve_content(self, file_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "wait_for_processing",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 648,
+              "end_line": 669,
+              "summary": null,
+              "signature": "wait_for_processing(self, id)",
+              "complexity": 3,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FilesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+          "start_line": 672,
+          "end_line": 695,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 673,
+              "end_line": 695,
+              "summary": null,
+              "signature": "__init__(self, files)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncFilesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+          "start_line": 698,
+          "end_line": 721,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 699,
+              "end_line": 721,
+              "summary": null,
+              "signature": "__init__(self, files)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "FilesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+          "start_line": 724,
+          "end_line": 748,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 725,
+              "end_line": 748,
+              "summary": null,
+              "signature": "__init__(self, files)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncFilesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+          "start_line": 751,
+          "end_line": 775,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/files.py",
+              "start_line": 752,
+              "end_line": 775,
+              "summary": null,
+              "signature": "__init__(self, files)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "time",
+        "typing_extensions",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "pagination",
+        "_base_client",
+        "types.file_object",
+        "types.file_deleted",
+        "types.file_purpose"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+      "relative_path": "src/openai/resources/images.py",
+      "language": "python",
+      "summary": "The `images.py` file defines several classes for handling image-related operations in both synchronous and asynchronous contexts, including methods for processing images and managing responses, with variations that support raw and streaming responses.",
+      "total_lines": 600,
+      "elements": [
+        {
+          "name": "Images",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+          "start_line": 29,
+          "end_line": 283,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 31,
+              "end_line": 38,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 41,
+              "end_line": 47,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create_variation",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 49,
+              "end_line": 120,
+              "summary": null,
+              "signature": "create_variation(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "edit",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 122,
+              "end_line": 203,
+              "summary": null,
+              "signature": "edit(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "generate",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 205,
+              "end_line": 283,
+              "summary": null,
+              "signature": "generate(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncImages",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+          "start_line": 286,
+          "end_line": 540,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 288,
+              "end_line": 295,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 298,
+              "end_line": 304,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create_variation",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 306,
+              "end_line": 377,
+              "summary": null,
+              "signature": "create_variation(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "edit",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 379,
+              "end_line": 460,
+              "summary": null,
+              "signature": "edit(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "generate",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 462,
+              "end_line": 540,
+              "summary": null,
+              "signature": "generate(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ImagesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+          "start_line": 543,
+          "end_line": 555,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 544,
+              "end_line": 555,
+              "summary": null,
+              "signature": "__init__(self, images)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncImagesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+          "start_line": 558,
+          "end_line": 570,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 559,
+              "end_line": 570,
+              "summary": null,
+              "signature": "__init__(self, images)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ImagesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+          "start_line": 573,
+          "end_line": 585,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 574,
+              "end_line": 585,
+              "summary": null,
+              "signature": "__init__(self, images)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncImagesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+          "start_line": 588,
+          "end_line": 600,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/images.py",
+              "start_line": 589,
+              "end_line": 600,
+              "summary": null,
+              "signature": "__init__(self, images)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "_base_client",
+        "types.image_model",
+        "types.images_response"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+      "relative_path": "src/openai/resources/models.py",
+      "language": "python",
+      "summary": "The `models.py` file defines several classes for managing and interacting with OpenAI models, including synchronous and asynchronous methods for handling standard, raw, and streaming responses.",
+      "total_lines": 306,
+      "elements": [
+        {
+          "name": "Models",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+          "start_line": 23,
+          "end_line": 133,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 25,
+              "end_line": 32,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 35,
+              "end_line": 41,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 43,
+              "end_line": 75,
+              "summary": null,
+              "signature": "retrieve(self, model)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 77,
+              "end_line": 98,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 100,
+              "end_line": 133,
+              "summary": null,
+              "signature": "delete(self, model)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncModels",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+          "start_line": 136,
+          "end_line": 246,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 138,
+              "end_line": 145,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 148,
+              "end_line": 154,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 156,
+              "end_line": 188,
+              "summary": null,
+              "signature": "retrieve(self, model)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 190,
+              "end_line": 211,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 213,
+              "end_line": 246,
+              "summary": null,
+              "signature": "delete(self, model)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ModelsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+          "start_line": 249,
+          "end_line": 261,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 250,
+              "end_line": 261,
+              "summary": null,
+              "signature": "__init__(self, models)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncModelsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+          "start_line": 264,
+          "end_line": 276,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 265,
+              "end_line": 276,
+              "summary": null,
+              "signature": "__init__(self, models)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ModelsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+          "start_line": 279,
+          "end_line": 291,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 280,
+              "end_line": 291,
+              "summary": null,
+              "signature": "__init__(self, models)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncModelsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+          "start_line": 294,
+          "end_line": 306,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/models.py",
+              "start_line": 295,
+              "end_line": 306,
+              "summary": null,
+              "signature": "__init__(self, models)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "httpx",
+        "_types",
+        "_compat",
+        "_resource",
+        "_response",
+        "pagination",
+        "types.model",
+        "_base_client",
+        "types.model_deleted"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+      "relative_path": "src/openai/resources/moderations.py",
+      "language": "python",
+      "summary": "The `moderations.py` file defines multiple classes for handling moderation requests and responses, both synchronously and asynchronously, including options for raw and streaming responses.",
+      "total_lines": 200,
+      "elements": [
+        {
+          "name": "Moderations",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+          "start_line": 27,
+          "end_line": 94,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 29,
+              "end_line": 36,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 39,
+              "end_line": 45,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 47,
+              "end_line": 94,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncModerations",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+          "start_line": 97,
+          "end_line": 164,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 99,
+              "end_line": 106,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 109,
+              "end_line": 115,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 117,
+              "end_line": 164,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ModerationsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+          "start_line": 167,
+          "end_line": 173,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 168,
+              "end_line": 173,
+              "summary": null,
+              "signature": "__init__(self, moderations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncModerationsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+          "start_line": 176,
+          "end_line": 182,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 177,
+              "end_line": 182,
+              "summary": null,
+              "signature": "__init__(self, moderations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ModerationsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+          "start_line": 185,
+          "end_line": 191,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 186,
+              "end_line": 191,
+              "summary": null,
+              "signature": "__init__(self, moderations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncModerationsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+          "start_line": 194,
+          "end_line": 200,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/moderations.py",
+              "start_line": 195,
+              "end_line": 200,
+              "summary": null,
+              "signature": "__init__(self, moderations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "_base_client",
+        "types.moderation_model",
+        "types.moderation_create_response",
+        "types.moderation_multi_modal_input_param"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "audio",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio",
+      "relative_path": "src/openai/resources/audio",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/audio/index.json",
+      "summary": "The `src/openai/resources/audio` directory contains Python files that define classes and methods for processing audio, speech, transcriptions, and translations, facilitating both synchronous and asynchronous interactions with audio resources in the OpenAI API.",
+      "file_count": 5,
+      "subdir_count": 0
+    },
+    {
+      "dir_name": "beta",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta",
+      "relative_path": "src/openai/resources/beta",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/beta/index.json",
+      "summary": "The `src/openai/resources/beta` directory contains Python files and subdirectories that implement classes for synchronous and asynchronous interactions with OpenAI's beta features, including assistants, chat functionalities, real-time connections, message threads, and vector stores, facilitating various API operations and data handling.",
+      "file_count": 19,
+      "subdir_count": 4
+    },
+    {
+      "dir_name": "chat",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat",
+      "relative_path": "src/openai/resources/chat",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/chat/index.json",
+      "summary": "The `src/openai/resources/chat` directory contains Python files and a subdirectory that implement classes and methods for managing chat functionalities and completions, enabling both synchronous and asynchronous interactions with OpenAI's chat models.",
+      "file_count": 5,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "fine_tuning",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning",
+      "relative_path": "src/openai/resources/fine_tuning",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/fine_tuning/index.json",
+      "summary": "The `src/openai/resources/fine_tuning` directory contains Python files and a subdirectory focused on managing fine-tuning processes and jobs, offering both synchronous and asynchronous methods for handling interactions and responses.",
+      "file_count": 5,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "uploads",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/uploads",
+      "relative_path": "src/openai/resources/uploads",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/uploads/index.json",
+      "summary": "The `src/openai/resources/uploads` directory contains Python files that define classes and methods for managing file uploads in both synchronous and asynchronous contexts, supporting various response types.",
+      "file_count": 3,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 8,
+  "total_file_count": 45,
+  "total_lines": 4009,
+  "indexed_at": "2025-12-07 17:45:42.246741"
+}

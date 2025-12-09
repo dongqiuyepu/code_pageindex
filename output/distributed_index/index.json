@@ -1,0 +1,85 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python",
+  "relative_path": ".",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/index.json",
+  "summary": "This directory contains a Nox configuration for testing the Pydantic version 1 library, along with subdirectories for examples, scripts, source code for OpenAI API interactions, and a comprehensive suite of unit tests to validate the functionality of the library and its components.",
+  "parent_index_path": null,
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/noxfile.py",
+      "relative_path": "noxfile.py",
+      "language": "python",
+      "summary": "The `noxfile.py` defines a Nox session that runs tests for the Pydantic version 1 library.",
+      "total_lines": 9,
+      "elements": [
+        {
+          "name": "test_pydantic_v1",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/noxfile.py",
+          "start_line": 5,
+          "end_line": 9,
+          "summary": null,
+          "signature": "test_pydantic_v1(session)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "nox"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "bin",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/bin",
+      "relative_path": "bin",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/bin/index.json",
+      "summary": null,
+      "file_count": 0,
+      "subdir_count": 0
+    },
+    {
+      "dir_name": "examples",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples",
+      "relative_path": "examples",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/examples/index.json",
+      "summary": "The `examples` directory contains various Python scripts and utilities that demonstrate interactions with the OpenAI API, asynchronous programming, audio streaming, and Azure services, serving as practical examples for developers to understand and implement these functionalities.",
+      "file_count": 19,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "scripts",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/scripts",
+      "relative_path": "scripts",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/scripts/index.json",
+      "summary": "The `scripts` directory contains a subdirectory with a Python utility script that enhances documentation output by formatting strings and code blocks and managing file inputs.",
+      "file_count": 1,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "src",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src",
+      "relative_path": "src",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/index.json",
+      "summary": "The `src` directory contains a subdirectory `openai` that houses Python modules and utilities designed for seamless interaction with the OpenAI API, encompassing client management, error handling, data modeling, and CLI functionalities for both synchronous and asynchronous operations.",
+      "file_count": 412,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "tests",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests",
+      "relative_path": "tests",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/tests/index.json",
+      "summary": "The `tests` directory contains a comprehensive suite of unit tests organized into multiple files and subdirectories, aimed at validating the functionality and behavior of various components of the OpenAI library and API, including client operations, data models, file handling, and utility functions.",
+      "file_count": 67,
+      "subdir_count": 3
+    }
+  ],
+  "direct_file_count": 1,
+  "total_file_count": 500,
+  "total_lines": 9,
+  "indexed_at": "2025-12-07 17:42:45.725993"
+}

@@ -1,0 +1,93 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs",
+  "relative_path": "src/openai/types/fine_tuning/jobs",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/fine_tuning/jobs/index.json",
+  "summary": "The `src/openai/types/fine_tuning/jobs` directory contains Python files that define data structures and parameters for managing checkpoints and metrics related to fine-tuning jobs within the OpenAI framework.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/fine_tuning/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs/__init__.py",
+      "relative_path": "src/openai/types/fine_tuning/jobs/__init__.py",
+      "language": "python",
+      "summary": "Python file with 6 lines",
+      "total_lines": 6,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "checkpoint_list_params",
+        "fine_tuning_job_checkpoint"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs/checkpoint_list_params.py",
+      "relative_path": "src/openai/types/fine_tuning/jobs/checkpoint_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class named `CheckpointListParams`, which is likely intended to hold parameters related to listing checkpoints for fine-tuning jobs in the OpenAI framework, although it currently does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "CheckpointListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs/checkpoint_list_params.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs/fine_tuning_job_checkpoint.py",
+      "relative_path": "src/openai/types/fine_tuning/jobs/fine_tuning_job_checkpoint.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `Metrics` and `FineTuningJobCheckpoint`, which likely serve as data structures for managing and representing metrics and checkpoints related to fine-tuning jobs in the OpenAI framework.",
+      "total_lines": 47,
+      "elements": [
+        {
+          "name": "Metrics",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs/fine_tuning_job_checkpoint.py",
+          "start_line": 11,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FineTuningJobCheckpoint",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning/jobs/fine_tuning_job_checkpoint.py",
+          "start_line": 27,
+          "end_line": 47,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 3,
+  "total_file_count": 3,
+  "total_lines": 68,
+  "indexed_at": "2025-12-07 17:55:41.701735"
+}

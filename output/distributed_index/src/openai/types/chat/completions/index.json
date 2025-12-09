@@ -1,0 +1,53 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completions",
+  "relative_path": "src/openai/types/chat/completions",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/chat/completions/index.json",
+  "summary": "The `src/openai/types/chat/completions` directory contains Python files that define data structures for managing parameters related to chat message lists in the context of chat completions.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/chat/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completions/__init__.py",
+      "relative_path": "src/openai/types/chat/completions/__init__.py",
+      "language": "python",
+      "summary": "Python file with 5 lines",
+      "total_lines": 5,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "message_list_params"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completions/message_list_params.py",
+      "relative_path": "src/openai/types/chat/completions/message_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class named `MessageListParams` that serves as a data structure for managing parameters related to message lists in chat completions, although it does not contain any methods.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "MessageListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat/completions/message_list_params.py",
+          "start_line": 10,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 2,
+  "total_file_count": 2,
+  "total_lines": 26,
+  "indexed_at": "2025-12-07 17:55:21.024907"
+}

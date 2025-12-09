@@ -1,0 +1,13 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/bin",
+  "relative_path": "bin",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/output/distributed_index/bin/index.json",
+  "summary": null,
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/output/distributed_index/index.json",
+  "files": [],
+  "subdirectories": [],
+  "direct_file_count": 0,
+  "total_file_count": 0,
+  "total_lines": 0,
+  "indexed_at": "2025-12-07 20:51:34.932323"
+}

@@ -1,0 +1,310 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs",
+  "relative_path": "tests/api_resources/beta/threads/runs",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/tests/api_resources/beta/threads/runs/index.json",
+  "summary": "The directory contains unit tests for synchronous and asynchronous step execution in the OpenAI API's thread runs, ensuring the functionality is validated through the `TestSteps` and `TestAsyncSteps` classes.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/tests/api_resources/beta/threads/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/__init__.py",
+      "relative_path": "tests/api_resources/beta/threads/runs/__init__.py",
+      "language": "python",
+      "summary": "Python file with 1 lines",
+      "total_lines": 1,
+      "elements": [],
+      "imports": [],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+      "relative_path": "tests/api_resources/beta/threads/runs/test_steps.py",
+      "language": "python",
+      "summary": "The file contains unit tests for the functionality of synchronous and asynchronous step execution in the OpenAI API's thread runs, organized within the `TestSteps` and `TestAsyncSteps` classes.",
+      "total_lines": 285,
+      "elements": [
+        {
+          "name": "TestSteps",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+          "start_line": 18,
+          "end_line": 150,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "test_method_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 22,
+              "end_line": 28,
+              "summary": null,
+              "signature": "test_method_retrieve(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_retrieve_with_all_params",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 31,
+              "end_line": 38,
+              "summary": null,
+              "signature": "test_method_retrieve_with_all_params(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_raw_response_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 41,
+              "end_line": 51,
+              "summary": null,
+              "signature": "test_raw_response_retrieve(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_streaming_response_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 54,
+              "end_line": 66,
+              "summary": null,
+              "signature": "test_streaming_response_retrieve(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_path_params_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 69,
+              "end_line": 89,
+              "summary": null,
+              "signature": "test_path_params_retrieve(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 92,
+              "end_line": 97,
+              "summary": null,
+              "signature": "test_method_list(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_list_with_all_params",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 100,
+              "end_line": 110,
+              "summary": null,
+              "signature": "test_method_list_with_all_params(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_raw_response_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 113,
+              "end_line": 122,
+              "summary": null,
+              "signature": "test_raw_response_list(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_streaming_response_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 125,
+              "end_line": 136,
+              "summary": null,
+              "signature": "test_streaming_response_list(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_path_params_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 139,
+              "end_line": 150,
+              "summary": null,
+              "signature": "test_path_params_list(self, client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TestAsyncSteps",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+          "start_line": 153,
+          "end_line": 285,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "test_method_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 157,
+              "end_line": 163,
+              "summary": null,
+              "signature": "test_method_retrieve(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_retrieve_with_all_params",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 166,
+              "end_line": 173,
+              "summary": null,
+              "signature": "test_method_retrieve_with_all_params(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_raw_response_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 176,
+              "end_line": 186,
+              "summary": null,
+              "signature": "test_raw_response_retrieve(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_streaming_response_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 189,
+              "end_line": 201,
+              "summary": null,
+              "signature": "test_streaming_response_retrieve(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_path_params_retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 204,
+              "end_line": 224,
+              "summary": null,
+              "signature": "test_path_params_retrieve(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 227,
+              "end_line": 232,
+              "summary": null,
+              "signature": "test_method_list(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_method_list_with_all_params",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 235,
+              "end_line": 245,
+              "summary": null,
+              "signature": "test_method_list_with_all_params(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_raw_response_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 248,
+              "end_line": 257,
+              "summary": null,
+              "signature": "test_raw_response_list(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_streaming_response_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 260,
+              "end_line": 271,
+              "summary": null,
+              "signature": "test_streaming_response_list(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "test_path_params_list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/api_resources/beta/threads/runs/test_steps.py",
+              "start_line": 274,
+              "end_line": 285,
+              "summary": null,
+              "signature": "test_path_params_list(self, async_client)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "os",
+        "typing",
+        "pytest",
+        "openai",
+        "tests.utils",
+        "openai.pagination",
+        "openai.types.beta.threads.runs"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 2,
+  "total_file_count": 2,
+  "total_lines": 286,
+  "indexed_at": "2025-12-07 17:57:38.375319"
+}

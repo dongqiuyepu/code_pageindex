@@ -1,0 +1,178 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params",
+  "relative_path": "src/openai/types/shared_params",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/shared_params/index.json",
+  "summary": "The `src/openai/types/shared_params` directory contains Python files that define various classes and structures for managing function definitions, response formats, and type annotations within the OpenAI library, facilitating type safety and organization of shared parameters.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/__init__.py",
+      "relative_path": "src/openai/types/shared_params/__init__.py",
+      "language": "python",
+      "summary": "Python file with 8 lines",
+      "total_lines": 8,
+      "elements": [],
+      "imports": [
+        "metadata",
+        "function_definition",
+        "function_parameters",
+        "response_format_text",
+        "response_format_json_object",
+        "response_format_json_schema"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/function_definition.py",
+      "relative_path": "src/openai/types/shared_params/function_definition.py",
+      "language": "python",
+      "summary": "The file defines a `FunctionDefinition` class, which likely serves as a data structure for representing the parameters and characteristics of functions in the context of type annotations and function definitions.",
+      "total_lines": 45,
+      "elements": [
+        {
+          "name": "FunctionDefinition",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/function_definition.py",
+          "start_line": 13,
+          "end_line": 45,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "function_parameters"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/function_parameters.py",
+      "relative_path": "src/openai/types/shared_params/function_parameters.py",
+      "language": "python",
+      "summary": "Python file with 10 lines",
+      "total_lines": 10,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/metadata.py",
+      "relative_path": "src/openai/types/shared_params/metadata.py",
+      "language": "python",
+      "summary": "Python file with 10 lines",
+      "total_lines": 10,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/response_format_json_object.py",
+      "relative_path": "src/openai/types/shared_params/response_format_json_object.py",
+      "language": "python",
+      "summary": "The file defines a class named `ResponseFormatJSONObject`, which is likely intended to represent a JSON object format for responses, but currently contains no methods or additional functionality.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "ResponseFormatJSONObject",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/response_format_json_object.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/response_format_json_schema.py",
+      "relative_path": "src/openai/types/shared_params/response_format_json_schema.py",
+      "language": "python",
+      "summary": "The file defines two empty classes, `JSONSchema` and `ResponseFormatJSONSchema`, likely intended for use in type annotations or as base classes for JSON schema-related functionality in a type-safe manner.",
+      "total_lines": 42,
+      "elements": [
+        {
+          "name": "JSONSchema",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/response_format_json_schema.py",
+          "start_line": 11,
+          "end_line": 35,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ResponseFormatJSONSchema",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/response_format_json_schema.py",
+          "start_line": 38,
+          "end_line": 42,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/response_format_text.py",
+      "relative_path": "src/openai/types/shared_params/response_format_text.py",
+      "language": "python",
+      "summary": "The file defines a class `ResponseFormatText` intended for use in type annotations or shared parameters related to response formatting in the OpenAI library, but it does not implement any methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "ResponseFormatText",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params/response_format_text.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 7,
+  "total_file_count": 7,
+  "total_lines": 139,
+  "indexed_at": "2025-12-07 17:56:00.684749"
+}

@@ -1,0 +1,1934 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta",
+  "relative_path": "src/openai/types/beta",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/index.json",
+  "summary": "The `src/openai/types/beta` directory contains Python files and subdirectories that define various classes and data structures related to assistant functionalities, real-time events, conversation management, and vector storage, primarily serving as type annotations and frameworks for the OpenAI API without implementing methods.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/__init__.py",
+      "relative_path": "src/openai/types/beta/__init__.py",
+      "language": "python",
+      "summary": "Python file with 48 lines",
+      "total_lines": 48,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "thread",
+        "assistant",
+        "vector_store",
+        "function_tool",
+        "assistant_tool",
+        "thread_deleted",
+        "file_search_tool",
+        "assistant_deleted",
+        "function_tool_param",
+        "assistant_tool_param",
+        "thread_create_params",
+        "thread_update_params",
+        "vector_store_deleted",
+        "assistant_list_params",
+        "assistant_tool_choice",
+        "code_interpreter_tool",
+        "assistant_stream_event",
+        "file_chunking_strategy",
+        "file_search_tool_param",
+        "assistant_create_params",
+        "assistant_update_params",
+        "vector_store_list_params",
+        "vector_store_create_params",
+        "vector_store_update_params",
+        "assistant_tool_choice_param",
+        "code_interpreter_tool_param",
+        "assistant_tool_choice_option",
+        "file_chunking_strategy_param",
+        "thread_create_and_run_params",
+        "static_file_chunking_strategy",
+        "assistant_tool_choice_function",
+        "assistant_response_format_option",
+        "auto_file_chunking_strategy_param",
+        "assistant_tool_choice_option_param",
+        "other_file_chunking_strategy_object",
+        "static_file_chunking_strategy_param",
+        "assistant_tool_choice_function_param",
+        "static_file_chunking_strategy_object",
+        "assistant_response_format_option_param",
+        "static_file_chunking_strategy_object_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant.py",
+      "relative_path": "src/openai/types/beta/assistant.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to tools and resources for an assistant, including `ToolResourcesCodeInterpreter`, `ToolResourcesFileSearch`, `ToolResources`, and `Assistant`, but does not implement any methods within these classes.",
+      "total_lines": 134,
+      "elements": [
+        {
+          "name": "ToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant.py",
+          "start_line": 14,
+          "end_line": 20,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant.py",
+          "start_line": 23,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant.py",
+          "start_line": 33,
+          "end_line": 36,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Assistant",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant.py",
+          "start_line": 39,
+          "end_line": 134,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "assistant_tool",
+        "shared.metadata",
+        "assistant_response_format_option"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_create_params.py",
+      "relative_path": "src/openai/types/beta/assistant_create_params.py",
+      "language": "python",
+      "summary": "The file defines several classes related to parameters and resources for creating an assistant, including tools for code interpretation and file search, but does not implement any methods.",
+      "total_lines": 177,
+      "elements": [
+        {
+          "name": "AssistantCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_create_params.py",
+          "start_line": 23,
+          "end_line": 118,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_create_params.py",
+          "start_line": 121,
+          "end_line": 127,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearchVectorStore",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_create_params.py",
+          "start_line": 130,
+          "end_line": 153,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_create_params.py",
+          "start_line": 156,
+          "end_line": 171,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_create_params.py",
+          "start_line": 174,
+          "end_line": 177,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_model",
+        "assistant_tool_param",
+        "shared_params.metadata",
+        "file_chunking_strategy_param",
+        "assistant_response_format_option_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_deleted.py",
+      "relative_path": "src/openai/types/beta/assistant_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class named `AssistantDeleted` in the OpenAI types module, which likely serves as a placeholder or marker for deleted assistant instances, but does not contain any methods or additional functionality.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "AssistantDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_deleted.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_list_params.py",
+      "relative_path": "src/openai/types/beta/assistant_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `AssistantListParams` intended for use in type hinting and parameter management within the OpenAI API, but it does not contain any methods.",
+      "total_lines": 39,
+      "elements": [
+        {
+          "name": "AssistantListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_list_params.py",
+          "start_line": 10,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_response_format_option.py",
+      "relative_path": "src/openai/types/beta/assistant_response_format_option.py",
+      "language": "python",
+      "summary": "Python file with 14 lines",
+      "total_lines": 14,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "shared.response_format_text",
+        "shared.response_format_json_object",
+        "shared.response_format_json_schema"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_response_format_option_param.py",
+      "relative_path": "src/openai/types/beta/assistant_response_format_option_param.py",
+      "language": "python",
+      "summary": "Python file with 16 lines",
+      "total_lines": 16,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.response_format_text",
+        "shared_params.response_format_json_object",
+        "shared_params.response_format_json_schema"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+      "relative_path": "src/openai/types/beta/assistant_stream_event.py",
+      "language": "python",
+      "summary": "The file defines a series of classes representing different states of a thread run event in an assistant application, facilitating the management and tracking of thread execution statuses.",
+      "total_lines": 294,
+      "elements": [
+        {
+          "name": "ThreadCreated",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 45,
+          "end_line": 55,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunCreated",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 58,
+          "end_line": 65,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunQueued",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 68,
+          "end_line": 75,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunInProgress",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 78,
+          "end_line": 85,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunRequiresAction",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 88,
+          "end_line": 95,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunCompleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 98,
+          "end_line": 105,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunIncomplete",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 108,
+          "end_line": 115,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunFailed",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 118,
+          "end_line": 125,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunCancelling",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 128,
+          "end_line": 135,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunCancelled",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 138,
+          "end_line": 145,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunExpired",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 148,
+          "end_line": 155,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunStepCreated",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 158,
+          "end_line": 162,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunStepInProgress",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 165,
+          "end_line": 169,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunStepDelta",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 172,
+          "end_line": 179,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunStepCompleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 182,
+          "end_line": 186,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunStepFailed",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 189,
+          "end_line": 193,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunStepCancelled",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 196,
+          "end_line": 200,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadRunStepExpired",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 203,
+          "end_line": 207,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessageCreated",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 210,
+          "end_line": 217,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessageInProgress",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 220,
+          "end_line": 227,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessageDelta",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 230,
+          "end_line": 237,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessageCompleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 240,
+          "end_line": 247,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessageIncomplete",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 250,
+          "end_line": 257,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ErrorEvent",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_stream_event.py",
+          "start_line": 260,
+          "end_line": 263,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "thread",
+        "_utils",
+        "_models",
+        "threads.run",
+        "threads.message",
+        "shared.error_object",
+        "threads.runs.run_step",
+        "threads.message_delta_event",
+        "threads.runs.run_step_delta_event"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool.py",
+      "relative_path": "src/openai/types/beta/assistant_tool.py",
+      "language": "python",
+      "summary": "Python file with 15 lines",
+      "total_lines": 15,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "function_tool",
+        "file_search_tool",
+        "code_interpreter_tool"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice.py",
+      "relative_path": "src/openai/types/beta/assistant_tool_choice.py",
+      "language": "python",
+      "summary": "The file defines a class named `AssistantToolChoice` in the OpenAI library, which likely serves as a type or structure for managing choices related to assistant tools, though it does not implement any methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "AssistantToolChoice",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice.py",
+          "start_line": 12,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "assistant_tool_choice_function"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_function.py",
+      "relative_path": "src/openai/types/beta/assistant_tool_choice_function.py",
+      "language": "python",
+      "summary": "The file defines a class named `AssistantToolChoiceFunction` in the OpenAI types module, but it does not contain any methods or functionality.",
+      "total_lines": 11,
+      "elements": [
+        {
+          "name": "AssistantToolChoiceFunction",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_function.py",
+          "start_line": 9,
+          "end_line": 11,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_function_param.py",
+      "relative_path": "src/openai/types/beta/assistant_tool_choice_function_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `AssistantToolChoiceFunctionParam`, which is likely intended for use in type hinting or parameter specification related to assistant tool choices, but it does not contain any methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "AssistantToolChoiceFunctionParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_function_param.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_option.py",
+      "relative_path": "src/openai/types/beta/assistant_tool_choice_option.py",
+      "language": "python",
+      "summary": "Python file with 10 lines",
+      "total_lines": 10,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "assistant_tool_choice"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_option_param.py",
+      "relative_path": "src/openai/types/beta/assistant_tool_choice_option_param.py",
+      "language": "python",
+      "summary": "Python file with 12 lines",
+      "total_lines": 12,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "assistant_tool_choice_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_param.py",
+      "relative_path": "src/openai/types/beta/assistant_tool_choice_param.py",
+      "language": "python",
+      "summary": "The file defines the `AssistantToolChoiceParam` class, which is likely intended to represent parameters for selecting assistant tools, but does not contain any methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "AssistantToolChoiceParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_choice_param.py",
+          "start_line": 12,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "assistant_tool_choice_function_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_tool_param.py",
+      "relative_path": "src/openai/types/beta/assistant_tool_param.py",
+      "language": "python",
+      "summary": "Python file with 14 lines",
+      "total_lines": 14,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "function_tool_param",
+        "file_search_tool_param",
+        "code_interpreter_tool_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_update_params.py",
+      "relative_path": "src/openai/types/beta/assistant_update_params.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to assistant update parameters and tool resources, serving as a structure for managing and organizing related functionalities in an assistant framework.",
+      "total_lines": 170,
+      "elements": [
+        {
+          "name": "AssistantUpdateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_update_params.py",
+          "start_line": 15,
+          "end_line": 144,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_update_params.py",
+          "start_line": 147,
+          "end_line": 154,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_update_params.py",
+          "start_line": 157,
+          "end_line": 164,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/assistant_update_params.py",
+          "start_line": 167,
+          "end_line": 170,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "assistant_tool_param",
+        "shared_params.metadata",
+        "assistant_response_format_option_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/auto_file_chunking_strategy_param.py",
+      "relative_path": "src/openai/types/beta/auto_file_chunking_strategy_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `AutoFileChunkingStrategyParam` in the OpenAI types module, which likely serves as a parameter structure for managing auto file chunking strategies, although it currently contains no methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "AutoFileChunkingStrategyParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/auto_file_chunking_strategy_param.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/code_interpreter_tool.py",
+      "relative_path": "src/openai/types/beta/code_interpreter_tool.py",
+      "language": "python",
+      "summary": "The file defines a class named `CodeInterpreterTool` in the OpenAI types module, which likely serves as a placeholder or interface for code interpretation functionality, but currently contains no methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "CodeInterpreterTool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/code_interpreter_tool.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/code_interpreter_tool_param.py",
+      "relative_path": "src/openai/types/beta/code_interpreter_tool_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `CodeInterpreterToolParam`, which likely serves as a parameter type for a code interpreter tool, but does not contain any methods or additional functionality.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "CodeInterpreterToolParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/code_interpreter_tool_param.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_chunking_strategy.py",
+      "relative_path": "src/openai/types/beta/file_chunking_strategy.py",
+      "language": "python",
+      "summary": "Python file with 14 lines",
+      "total_lines": 14,
+      "elements": [],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_utils",
+        "other_file_chunking_strategy_object",
+        "static_file_chunking_strategy_object"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_chunking_strategy_param.py",
+      "relative_path": "src/openai/types/beta/file_chunking_strategy_param.py",
+      "language": "python",
+      "summary": "Python file with 13 lines",
+      "total_lines": 13,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "auto_file_chunking_strategy_param",
+        "static_file_chunking_strategy_object_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool.py",
+      "relative_path": "src/openai/types/beta/file_search_tool.py",
+      "language": "python",
+      "summary": "The file defines three classes\u2014FileSearchRankingOptions, FileSearch, and FileSearchTool\u2014presumably for managing and implementing file search functionalities within the OpenAI framework, although the classes currently contain no methods.",
+      "total_lines": 55,
+      "elements": [
+        {
+          "name": "FileSearchRankingOptions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool.py",
+          "start_line": 11,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool.py",
+          "start_line": 25,
+          "end_line": 47,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FileSearchTool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool.py",
+          "start_line": 50,
+          "end_line": 55,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool_param.py",
+      "relative_path": "src/openai/types/beta/file_search_tool_param.py",
+      "language": "python",
+      "summary": "The Python file defines three classes\u2014FileSearchRankingOptions, FileSearch, and FileSearchToolParam\u2014presumably to facilitate file search functionalities and ranking options within an application.",
+      "total_lines": 54,
+      "elements": [
+        {
+          "name": "FileSearchRankingOptions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool_param.py",
+          "start_line": 10,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool_param.py",
+          "start_line": 24,
+          "end_line": 46,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "FileSearchToolParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/file_search_tool_param.py",
+          "start_line": 49,
+          "end_line": 54,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/function_tool.py",
+      "relative_path": "src/openai/types/beta/function_tool.py",
+      "language": "python",
+      "summary": "The file defines a class named `FunctionTool` in the OpenAI types module, which currently does not implement any methods, suggesting it may serve as a placeholder or base for future functionality related to function tools.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "FunctionTool",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/function_tool.py",
+          "start_line": 11,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "shared.function_definition"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/function_tool_param.py",
+      "relative_path": "src/openai/types/beta/function_tool_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `FunctionToolParam` that is likely intended for use in type definitions or parameter handling within the OpenAI library, although it currently contains no methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "FunctionToolParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/function_tool_param.py",
+          "start_line": 12,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "shared_params.function_definition"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/other_file_chunking_strategy_object.py",
+      "relative_path": "src/openai/types/beta/other_file_chunking_strategy_object.py",
+      "language": "python",
+      "summary": "The file defines a class named `OtherFileChunkingStrategyObject` that likely serves as a data structure for managing file chunking strategies, but it does not implement any methods.",
+      "total_lines": 12,
+      "elements": [
+        {
+          "name": "OtherFileChunkingStrategyObject",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/other_file_chunking_strategy_object.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy.py",
+      "relative_path": "src/openai/types/beta/static_file_chunking_strategy.py",
+      "language": "python",
+      "summary": "The file defines a class `StaticFileChunkingStrategy`, which currently does not implement any methods, suggesting it may serve as a placeholder or base for future functionality related to file chunking strategies in the OpenAI library.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "StaticFileChunkingStrategy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy.py",
+          "start_line": 9,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy_object.py",
+      "relative_path": "src/openai/types/beta/static_file_chunking_strategy_object.py",
+      "language": "python",
+      "summary": "The file defines a class named `StaticFileChunkingStrategyObject`, which serves as a type definition for static file chunking strategies in the OpenAI library, but does not implement any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "StaticFileChunkingStrategyObject",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy_object.py",
+          "start_line": 11,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models",
+        "static_file_chunking_strategy"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy_object_param.py",
+      "relative_path": "src/openai/types/beta/static_file_chunking_strategy_object_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `StaticFileChunkingStrategyObjectParam`, which likely serves as a parameter object for managing static file chunking strategies in a type-safe manner, although it contains no methods.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "StaticFileChunkingStrategyObjectParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy_object_param.py",
+          "start_line": 12,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "static_file_chunking_strategy_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy_param.py",
+      "relative_path": "src/openai/types/beta/static_file_chunking_strategy_param.py",
+      "language": "python",
+      "summary": "The file defines a class `StaticFileChunkingStrategyParam` intended for use with type hinting in Python, but it does not contain any methods or functionality.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "StaticFileChunkingStrategyParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/static_file_chunking_strategy_param.py",
+          "start_line": 10,
+          "end_line": 22,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread.py",
+      "relative_path": "src/openai/types/beta/thread.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to resource management in a threading context, specifically for tools and file search functionalities, but does not implement any methods within those classes.",
+      "total_lines": 63,
+      "elements": [
+        {
+          "name": "ToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread.py",
+          "start_line": 12,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread.py",
+          "start_line": 21,
+          "end_line": 28,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread.py",
+          "start_line": 31,
+          "end_line": 34,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Thread",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread.py",
+          "start_line": 37,
+          "end_line": 63,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "shared.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+      "relative_path": "src/openai/types/beta/thread_create_and_run_params.py",
+      "language": "python",
+      "summary": "The Python file defines a set of classes related to thread creation and execution parameters, including various message and tool resource attachments, without implementing any methods.",
+      "total_lines": 366,
+      "elements": [
+        {
+          "name": "ThreadCreateAndRunParamsBase",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 39,
+          "end_line": 172,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessageAttachmentToolFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 175,
+          "end_line": 177,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessageAttachment",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 183,
+          "end_line": 188,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadMessage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 191,
+          "end_line": 215,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 218,
+          "end_line": 224,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadToolResourcesFileSearchVectorStore",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 227,
+          "end_line": 250,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 253,
+          "end_line": 268,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 271,
+          "end_line": 274,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Thread",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 277,
+          "end_line": 300,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 303,
+          "end_line": 309,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 312,
+          "end_line": 319,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 322,
+          "end_line": 325,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "TruncationStrategy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 331,
+          "end_line": 345,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadCreateAndRunParamsNonStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 348,
+          "end_line": 354,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ThreadCreateAndRunParamsStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_and_run_params.py",
+          "start_line": 357,
+          "end_line": 363,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat_model",
+        "function_tool_param",
+        "file_search_tool_param",
+        "shared_params.metadata",
+        "code_interpreter_tool_param",
+        "file_chunking_strategy_param",
+        "assistant_tool_choice_option_param",
+        "threads.message_content_part_param",
+        "assistant_response_format_option_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+      "relative_path": "src/openai/types/beta/thread_create_params.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to parameters and resources for creating threads and handling message attachments in a system, but does not implement any methods within those classes.",
+      "total_lines": 151,
+      "elements": [
+        {
+          "name": "ThreadCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 26,
+          "end_line": 49,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MessageAttachmentToolFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 52,
+          "end_line": 54,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MessageAttachment",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 60,
+          "end_line": 65,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Message",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 68,
+          "end_line": 92,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 95,
+          "end_line": 101,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearchVectorStore",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 104,
+          "end_line": 127,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 130,
+          "end_line": 145,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_create_params.py",
+          "start_line": 148,
+          "end_line": 151,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata",
+        "code_interpreter_tool_param",
+        "file_chunking_strategy_param",
+        "threads.message_content_part_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_deleted.py",
+      "relative_path": "src/openai/types/beta/thread_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class `ThreadDeleted` in the OpenAI types module, which likely serves as a marker or placeholder for representing a deleted thread without any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "ThreadDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_deleted.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_update_params.py",
+      "relative_path": "src/openai/types/beta/thread_update_params.py",
+      "language": "python",
+      "summary": "The Python file defines several classes related to thread update parameters and tool resources, but does not implement any methods, suggesting it serves as a structure for future development or type definitions.",
+      "total_lines": 55,
+      "elements": [
+        {
+          "name": "ThreadUpdateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_update_params.py",
+          "start_line": 13,
+          "end_line": 30,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesCodeInterpreter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_update_params.py",
+          "start_line": 33,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResourcesFileSearch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_update_params.py",
+          "start_line": 42,
+          "end_line": 49,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ToolResources",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/thread_update_params.py",
+          "start_line": 52,
+          "end_line": 55,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store.py",
+      "relative_path": "src/openai/types/beta/vector_store.py",
+      "language": "python",
+      "summary": "The `vector_store.py` file defines three classes\u2014`FileCounts`, `ExpiresAfter`, and `VectorStore`\u2014which likely serve as data structures or types related to managing and storing vector data, but without any implemented methods.",
+      "total_lines": 82,
+      "elements": [
+        {
+          "name": "FileCounts",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store.py",
+          "start_line": 12,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ExpiresAfter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store.py",
+          "start_line": 29,
+          "end_line": 37,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "VectorStore",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store.py",
+          "start_line": 40,
+          "end_line": 82,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "shared.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_create_params.py",
+      "relative_path": "src/openai/types/beta/vector_store_create_params.py",
+      "language": "python",
+      "summary": "The file defines data structures for creating parameters related to a vector store, specifically through the `VectorStoreCreateParams` and `ExpiresAfter` classes, without implementing any methods.",
+      "total_lines": 54,
+      "elements": [
+        {
+          "name": "VectorStoreCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_create_params.py",
+          "start_line": 14,
+          "end_line": 43,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ExpiresAfter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_create_params.py",
+          "start_line": 46,
+          "end_line": 54,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata",
+        "file_chunking_strategy_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_deleted.py",
+      "relative_path": "src/openai/types/beta/vector_store_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class `VectorStoreDeleted` in the OpenAI types module, which likely serves as a marker or placeholder for indicating the deletion status of a vector store, but does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "VectorStoreDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_deleted.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_list_params.py",
+      "relative_path": "src/openai/types/beta/vector_store_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `VectorStoreListParams` intended for managing parameters related to listing vector stores, although it currently does not implement any methods.",
+      "total_lines": 39,
+      "elements": [
+        {
+          "name": "VectorStoreListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_list_params.py",
+          "start_line": 10,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_update_params.py",
+      "relative_path": "src/openai/types/beta/vector_store_update_params.py",
+      "language": "python",
+      "summary": "The file defines two classes, `VectorStoreUpdateParams` and `ExpiresAfter`, likely intended for managing parameters related to updating a vector store, although they currently contain no methods.",
+      "total_lines": 39,
+      "elements": [
+        {
+          "name": "VectorStoreUpdateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_update_params.py",
+          "start_line": 13,
+          "end_line": 28,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ExpiresAfter",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_store_update_params.py",
+          "start_line": 31,
+          "end_line": 39,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "chat",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/chat",
+      "relative_path": "src/openai/types/beta/chat",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/chat/index.json",
+      "summary": "The directory contains an `__init__.py` file that likely serves to initialize the `chat` module within the OpenAI types beta package.",
+      "file_count": 1,
+      "subdir_count": 0
+    },
+    {
+      "dir_name": "realtime",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/realtime",
+      "relative_path": "src/openai/types/beta/realtime",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/realtime/index.json",
+      "summary": "The `src/openai/types/beta/realtime` directory contains Python files that define various classes and data structures for managing real-time conversation events and items within the OpenAI API, facilitating the handling of conversation-related functionalities.",
+      "file_count": 63,
+      "subdir_count": 0
+    },
+    {
+      "dir_name": "threads",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/threads",
+      "relative_path": "src/openai/types/beta/threads",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/threads/index.json",
+      "summary": "The `src/openai/types/beta/threads` directory contains Python files and a subdirectory that define various data structures and classes related to file citations, file paths, and image files, primarily serving as type annotations and frameworks for managing these elements within OpenAI's API.",
+      "file_count": 64,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "vector_stores",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores",
+      "relative_path": "src/openai/types/beta/vector_stores",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/vector_stores/index.json",
+      "summary": "The `src/openai/types/beta/vector_stores` directory contains Python files that define various data structures and parameters related to the management of vector stores and their associated files, without implementing any methods.",
+      "file_count": 8,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 41,
+  "total_file_count": 177,
+  "total_lines": 2181,
+  "indexed_at": "2025-12-07 17:48:49.236466"
+}

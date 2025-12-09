@@ -1,0 +1,1248 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types",
+  "relative_path": "src/openai/types",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/index.json",
+  "summary": "The `src/openai/types` directory contains various Python files and subdirectories that define data structures, classes, and parameters for managing audio processing, batch operations, chat functionalities, fine-tuning jobs, and shared error handling within the OpenAI API, primarily serving as type annotations and frameworks without implementing methods.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/__init__.py",
+      "relative_path": "src/openai/types/__init__.py",
+      "language": "python",
+      "summary": "Python file with 54 lines",
+      "total_lines": 54,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "batch",
+        "image",
+        "model",
+        "shared",
+        "upload",
+        "embedding",
+        "chat_model",
+        "completion",
+        "moderation",
+        "audio_model",
+        "batch_error",
+        "file_object",
+        "image_model",
+        "file_content",
+        "file_deleted",
+        "file_purpose",
+        "model_deleted",
+        "embedding_model",
+        "images_response",
+        "completion_usage",
+        "file_list_params",
+        "moderation_model",
+        "batch_list_params",
+        "completion_choice",
+        "image_edit_params",
+        "file_create_params",
+        "batch_create_params",
+        "batch_request_counts",
+        "upload_create_params",
+        "audio_response_format",
+        "image_generate_params",
+        "upload_complete_params",
+        "embedding_create_params",
+        "completion_create_params",
+        "moderation_create_params",
+        "create_embedding_response",
+        "moderation_create_response",
+        "moderation_text_input_param",
+        "websocket_connection_options",
+        "image_create_variation_params",
+        "moderation_image_url_input_param",
+        "moderation_multi_modal_input_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio_model.py",
+      "relative_path": "src/openai/types/audio_model.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio_response_format.py",
+      "relative_path": "src/openai/types/audio_response_format.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch.py",
+      "relative_path": "src/openai/types/batch.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `Errors` and `Batch`, likely serving as data structures for handling batch processing and error management in the OpenAI library.",
+      "total_lines": 87,
+      "elements": [
+        {
+          "name": "Errors",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch.py",
+          "start_line": 14,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Batch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch.py",
+          "start_line": 21,
+          "end_line": 87,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "batch_error",
+        "shared.metadata",
+        "batch_request_counts"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_create_params.py",
+      "relative_path": "src/openai/types/batch_create_params.py",
+      "language": "python",
+      "summary": "The file defines a class `BatchCreateParams` for managing parameters related to batch creation in the OpenAI API, utilizing type hints for enhanced code clarity and maintainability.",
+      "total_lines": 48,
+      "elements": [
+        {
+          "name": "BatchCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_create_params.py",
+          "start_line": 13,
+          "end_line": 48,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "shared_params.metadata"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_error.py",
+      "relative_path": "src/openai/types/batch_error.py",
+      "language": "python",
+      "summary": "The file defines a `BatchError` class, which likely serves as a data structure for handling errors related to batch processing in the OpenAI library.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "BatchError",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_error.py",
+          "start_line": 10,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_list_params.py",
+      "relative_path": "src/openai/types/batch_list_params.py",
+      "language": "python",
+      "summary": "The Python file defines a class named `BatchListParams` in the `src/openai/types` module, which likely serves as a data structure for handling parameters related to batch processing, although it currently contains no methods.",
+      "total_lines": 24,
+      "elements": [
+        {
+          "name": "BatchListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_list_params.py",
+          "start_line": 10,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_request_counts.py",
+      "relative_path": "src/openai/types/batch_request_counts.py",
+      "language": "python",
+      "summary": "The file defines a class named `BatchRequestCounts` in the OpenAI types module, which likely serves to manage or represent counts related to batch requests, although it currently contains no methods.",
+      "total_lines": 17,
+      "elements": [
+        {
+          "name": "BatchRequestCounts",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/batch_request_counts.py",
+          "start_line": 9,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat_model.py",
+      "relative_path": "src/openai/types/chat_model.py",
+      "language": "python",
+      "summary": "Python file with 49 lines",
+      "total_lines": 49,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion.py",
+      "relative_path": "src/openai/types/completion.py",
+      "language": "python",
+      "summary": "The file defines a `Completion` class in the OpenAI types module, serving as a data structure for handling completion-related functionalities, but it does not implement any methods.",
+      "total_lines": 37,
+      "elements": [
+        {
+          "name": "Completion",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion.py",
+          "start_line": 13,
+          "end_line": 37,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "completion_usage",
+        "completion_choice"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_choice.py",
+      "relative_path": "src/openai/types/completion_choice.py",
+      "language": "python",
+      "summary": "The file defines two classes, `Logprobs` and `CompletionChoice`, likely intended to represent and manage data structures related to completion choices in the OpenAI API, although they do not contain any methods.",
+      "total_lines": 35,
+      "elements": [
+        {
+          "name": "Logprobs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_choice.py",
+          "start_line": 11,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CompletionChoice",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_choice.py",
+          "start_line": 21,
+          "end_line": 35,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_create_params.py",
+      "relative_path": "src/openai/types/completion_create_params.py",
+      "language": "python",
+      "summary": "The Python file defines three classes related to the parameters for creating completion requests in both streaming and non-streaming contexts, serving as a foundational structure for handling completion creation in the OpenAI API.",
+      "total_lines": 187,
+      "elements": [
+        {
+          "name": "CompletionCreateParamsBase",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_create_params.py",
+          "start_line": 13,
+          "end_line": 160,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CompletionCreateParamsNonStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_create_params.py",
+          "start_line": 163,
+          "end_line": 172,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CompletionCreateParamsStreaming",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_create_params.py",
+          "start_line": 175,
+          "end_line": 184,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "chat.chat_completion_stream_options_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_usage.py",
+      "relative_path": "src/openai/types/completion_usage.py",
+      "language": "python",
+      "summary": "The Python file defines three classes\u2014CompletionTokensDetails, PromptTokensDetails, and CompletionUsage\u2014presumably for organizing and managing token usage details related to text completions in an OpenAI API context, although they currently contain no methods.",
+      "total_lines": 54,
+      "elements": [
+        {
+          "name": "CompletionTokensDetails",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_usage.py",
+          "start_line": 10,
+          "end_line": 29,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "PromptTokensDetails",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_usage.py",
+          "start_line": 32,
+          "end_line": 37,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CompletionUsage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/completion_usage.py",
+          "start_line": 40,
+          "end_line": 54,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/create_embedding_response.py",
+      "relative_path": "src/openai/types/create_embedding_response.py",
+      "language": "python",
+      "summary": "The file defines two classes, `Usage` and `CreateEmbeddingResponse`, likely intended for structuring responses related to embedding creation in the OpenAI API, but does not implement any methods.",
+      "total_lines": 31,
+      "elements": [
+        {
+          "name": "Usage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/create_embedding_response.py",
+          "start_line": 12,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CreateEmbeddingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/create_embedding_response.py",
+          "start_line": 20,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "embedding"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/embedding.py",
+      "relative_path": "src/openai/types/embedding.py",
+      "language": "python",
+      "summary": "The file defines an `Embedding` class in the OpenAI types module, which likely serves as a data structure for representing embeddings, although it currently contains no methods.",
+      "total_lines": 23,
+      "elements": [
+        {
+          "name": "Embedding",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/embedding.py",
+          "start_line": 11,
+          "end_line": 23,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/embedding_create_params.py",
+      "relative_path": "src/openai/types/embedding_create_params.py",
+      "language": "python",
+      "summary": "The file defines the `EmbeddingCreateParams` class, which is likely intended to encapsulate parameters for creating embeddings in a type-safe manner using Python's typing features.",
+      "total_lines": 53,
+      "elements": [
+        {
+          "name": "EmbeddingCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/embedding_create_params.py",
+          "start_line": 13,
+          "end_line": 53,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "embedding_model"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/embedding_model.py",
+      "relative_path": "src/openai/types/embedding_model.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_content.py",
+      "relative_path": "src/openai/types/file_content.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_create_params.py",
+      "relative_path": "src/openai/types/file_create_params.py",
+      "language": "python",
+      "summary": "The file defines a class `FileCreateParams` intended for managing parameters related to file creation in the OpenAI API, although it does not implement any methods.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "FileCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_create_params.py",
+          "start_line": 13,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "_types",
+        "file_purpose"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_deleted.py",
+      "relative_path": "src/openai/types/file_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class `FileDeleted` that likely serves as a marker or representation for deleted files in the OpenAI API, without any methods or additional functionality.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "FileDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_deleted.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_list_params.py",
+      "relative_path": "src/openai/types/file_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `FileListParams` that likely serves as a data structure for managing parameters related to a list of files, although it currently contains no methods.",
+      "total_lines": 33,
+      "elements": [
+        {
+          "name": "FileListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_list_params.py",
+          "start_line": 10,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_object.py",
+      "relative_path": "src/openai/types/file_object.py",
+      "language": "python",
+      "summary": "The file defines a `FileObject` class, which serves as a data structure for representing file-related information in the OpenAI API, but does not include any methods.",
+      "total_lines": 51,
+      "elements": [
+        {
+          "name": "FileObject",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_object.py",
+          "start_line": 11,
+          "end_line": 51,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/file_purpose.py",
+      "relative_path": "src/openai/types/file_purpose.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image.py",
+      "relative_path": "src/openai/types/image.py",
+      "language": "python",
+      "summary": "The file defines an empty `Image` class intended for use in the OpenAI library, likely serving as a data structure for image-related functionalities.",
+      "total_lines": 24,
+      "elements": [
+        {
+          "name": "Image",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image.py",
+          "start_line": 10,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image_create_variation_params.py",
+      "relative_path": "src/openai/types/image_create_variation_params.py",
+      "language": "python",
+      "summary": "The file defines a class, `ImageCreateVariationParams`, which likely serves as a data structure for parameters related to creating image variations in an OpenAI API context, although it does not contain any methods.",
+      "total_lines": 51,
+      "elements": [
+        {
+          "name": "ImageCreateVariationParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image_create_variation_params.py",
+          "start_line": 14,
+          "end_line": 51,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "_types",
+        "image_model"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image_edit_params.py",
+      "relative_path": "src/openai/types/image_edit_params.py",
+      "language": "python",
+      "summary": "The file defines a class `ImageEditParams` intended for managing parameters related to image editing within the OpenAI library, although it currently contains no methods.",
+      "total_lines": 62,
+      "elements": [
+        {
+          "name": "ImageEditParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image_edit_params.py",
+          "start_line": 14,
+          "end_line": 62,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "_types",
+        "image_model"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image_generate_params.py",
+      "relative_path": "src/openai/types/image_generate_params.py",
+      "language": "python",
+      "summary": "The file defines the `ImageGenerateParams` class, which serves as a data structure for parameters related to image generation in the OpenAI library.",
+      "total_lines": 65,
+      "elements": [
+        {
+          "name": "ImageGenerateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image_generate_params.py",
+          "start_line": 13,
+          "end_line": 65,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "image_model"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/image_model.py",
+      "relative_path": "src/openai/types/image_model.py",
+      "language": "python",
+      "summary": "Python file with 7 lines",
+      "total_lines": 7,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/images_response.py",
+      "relative_path": "src/openai/types/images_response.py",
+      "language": "python",
+      "summary": "The file defines a class `ImagesResponse` intended to represent the response structure for image-related data in the OpenAI API, although it currently does not contain any methods.",
+      "total_lines": 14,
+      "elements": [
+        {
+          "name": "ImagesResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/images_response.py",
+          "start_line": 11,
+          "end_line": 14,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "image",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/model.py",
+      "relative_path": "src/openai/types/model.py",
+      "language": "python",
+      "summary": "The file defines a `Model` class in Python, which likely serves as a type or structure for representing models in the OpenAI library, but does not implement any methods.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "Model",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/model.py",
+          "start_line": 10,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/model_deleted.py",
+      "relative_path": "src/openai/types/model_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class `ModelDeleted`, which likely serves as a marker or representation for deleted models in the OpenAI types module, but does not contain any methods.",
+      "total_lines": 14,
+      "elements": [
+        {
+          "name": "ModelDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/model_deleted.py",
+          "start_line": 9,
+          "end_line": 14,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation.py",
+      "relative_path": "src/openai/types/moderation.py",
+      "language": "python",
+      "summary": "The `moderation.py` file defines several classes related to moderation categories and scores, likely serving as data models for handling moderation inputs and outputs in an application.",
+      "total_lines": 186,
+      "elements": [
+        {
+          "name": "Categories",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation.py",
+          "start_line": 13,
+          "end_line": 88,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CategoryAppliedInputTypes",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation.py",
+          "start_line": 91,
+          "end_line": 129,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CategoryScores",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation.py",
+          "start_line": 132,
+          "end_line": 170,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Moderation",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation.py",
+          "start_line": 173,
+          "end_line": 186,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "pydantic",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_create_params.py",
+      "relative_path": "src/openai/types/moderation_create_params.py",
+      "language": "python",
+      "summary": "The file defines the `ModerationCreateParams` class, which serves as a data structure for parameters related to moderation in the OpenAI API, but does not implement any methods.",
+      "total_lines": 29,
+      "elements": [
+        {
+          "name": "ModerationCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_create_params.py",
+          "start_line": 14,
+          "end_line": 29,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "moderation_model",
+        "moderation_multi_modal_input_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_create_response.py",
+      "relative_path": "src/openai/types/moderation_create_response.py",
+      "language": "python",
+      "summary": "The file defines a class `ModerationCreateResponse` intended to represent the response structure for moderation-related operations in the OpenAI API, although it currently does not contain any methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "ModerationCreateResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_create_response.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "_models",
+        "moderation"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_image_url_input_param.py",
+      "relative_path": "src/openai/types/moderation_image_url_input_param.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `ImageURL` and `ModerationImageURLInputParam`, likely intended for handling image URL inputs in a moderation context, but does not implement any methods.",
+      "total_lines": 20,
+      "elements": [
+        {
+          "name": "ImageURL",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_image_url_input_param.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "ModerationImageURLInputParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_image_url_input_param.py",
+          "start_line": 15,
+          "end_line": 20,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_model.py",
+      "relative_path": "src/openai/types/moderation_model.py",
+      "language": "python",
+      "summary": "Python file with 9 lines",
+      "total_lines": 9,
+      "elements": [],
+      "imports": [
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_multi_modal_input_param.py",
+      "relative_path": "src/openai/types/moderation_multi_modal_input_param.py",
+      "language": "python",
+      "summary": "Python file with 13 lines",
+      "total_lines": 13,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "moderation_text_input_param",
+        "moderation_image_url_input_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_text_input_param.py",
+      "relative_path": "src/openai/types/moderation_text_input_param.py",
+      "language": "python",
+      "summary": "The file defines a class named `ModerationTextInputParam`, which likely serves as a data structure for handling text input parameters related to moderation, but it does not contain any methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "ModerationTextInputParam",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/moderation_text_input_param.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/upload.py",
+      "relative_path": "src/openai/types/upload.py",
+      "language": "python",
+      "summary": "The Python file defines a class named `Upload` within the `src/openai/types/upload.py` module, which is likely intended for handling file uploads, though it currently contains no methods.",
+      "total_lines": 42,
+      "elements": [
+        {
+          "name": "Upload",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/upload.py",
+          "start_line": 12,
+          "end_line": 42,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "file_object"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/upload_complete_params.py",
+      "relative_path": "src/openai/types/upload_complete_params.py",
+      "language": "python",
+      "summary": "The file defines a class `UploadCompleteParams` intended to represent parameters related to the completion of an upload process, although it currently contains no methods.",
+      "total_lines": 19,
+      "elements": [
+        {
+          "name": "UploadCompleteParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/upload_complete_params.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/upload_create_params.py",
+      "relative_path": "src/openai/types/upload_create_params.py",
+      "language": "python",
+      "summary": "The file defines a class `UploadCreateParams` intended for managing parameters related to upload creation, although it currently contains no methods.",
+      "total_lines": 31,
+      "elements": [
+        {
+          "name": "UploadCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/upload_create_params.py",
+          "start_line": 12,
+          "end_line": 31,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "file_purpose"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/websocket_connection_options.py",
+      "relative_path": "src/openai/types/websocket_connection_options.py",
+      "language": "python",
+      "summary": "The file defines a class `WebsocketConnectionOptions` that likely serves as a container for configuration options related to WebSocket connections, although it currently does not implement any methods.",
+      "total_lines": 36,
+      "elements": [
+        {
+          "name": "WebsocketConnectionOptions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/websocket_connection_options.py",
+          "start_line": 13,
+          "end_line": 36,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "websockets",
+        "websockets.extensions"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "audio",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/audio",
+      "relative_path": "src/openai/types/audio",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/audio/index.json",
+      "summary": "The `src/openai/types/audio` directory contains Python files that define various classes and parameters related to audio processing, including speech creation, transcription, and translation functionalities within the OpenAI audio module.",
+      "file_count": 13,
+      "subdir_count": 0
+    },
+    {
+      "dir_name": "beta",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta",
+      "relative_path": "src/openai/types/beta",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/index.json",
+      "summary": "The `src/openai/types/beta` directory contains Python files and subdirectories that define various classes and data structures related to assistant functionalities, real-time events, conversation management, and vector storage, primarily serving as type annotations and frameworks for the OpenAI API without implementing methods.",
+      "file_count": 177,
+      "subdir_count": 4
+    },
+    {
+      "dir_name": "chat",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/chat",
+      "relative_path": "src/openai/types/chat",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/chat/index.json",
+      "summary": "The `src/openai/types/chat` directory contains Python files that define various data structures and classes for managing parameters and functionalities related to chat completions in the OpenAI API.",
+      "file_count": 39,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "fine_tuning",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/fine_tuning",
+      "relative_path": "src/openai/types/fine_tuning",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/fine_tuning/index.json",
+      "summary": "The `src/openai/types/fine_tuning` directory contains Python files that define data structures, parameters, and integration classes for managing and configuring fine-tuning jobs within the OpenAI framework, facilitating error handling and integration with tools like Weights & Biases.",
+      "file_count": 12,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "shared",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared",
+      "relative_path": "src/openai/types/shared",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/shared/index.json",
+      "summary": "The `src/openai/types/shared` directory contains Python files that define various data structures and classes for representing error information, function definitions, and response formats in the OpenAI API, primarily serving as type definitions without implemented methods.",
+      "file_count": 8,
+      "subdir_count": 0
+    },
+    {
+      "dir_name": "shared_params",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/shared_params",
+      "relative_path": "src/openai/types/shared_params",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/shared_params/index.json",
+      "summary": "The `src/openai/types/shared_params` directory contains Python files that define various classes and structures for managing function definitions, response formats, and type annotations within the OpenAI library, facilitating type safety and organization of shared parameters.",
+      "file_count": 7,
+      "subdir_count": 0
+    },
+    {
+      "dir_name": "uploads",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/uploads",
+      "relative_path": "src/openai/types/uploads",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/uploads/index.json",
+      "summary": "The `src/openai/types/uploads` directory contains Python files that define data structures for handling parameters and segments related to file uploads in the OpenAI types module.",
+      "file_count": 3,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 42,
+  "total_file_count": 301,
+  "total_lines": 1557,
+  "indexed_at": "2025-12-07 17:47:18.815591"
+}

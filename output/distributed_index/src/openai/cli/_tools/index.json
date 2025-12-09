@@ -1,0 +1,255 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools",
+  "relative_path": "src/openai/cli/_tools",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/_tools/index.json",
+  "summary": "The `src/openai/cli/_tools` directory contains Python scripts that implement command-line interface functionalities for registering commands, preparing data for model fine-tuning, and managing file migrations within the OpenAI CLI framework.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/__init__.py",
+      "relative_path": "src/openai/cli/_tools/__init__.py",
+      "language": "python",
+      "summary": "Python file with 1 lines",
+      "total_lines": 1,
+      "elements": [],
+      "imports": [
+        "_main"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/_main.py",
+      "relative_path": "src/openai/cli/_tools/_main.py",
+      "language": "python",
+      "summary": "The Python file defines a function called `register_commands` that is responsible for setting up command-line interface commands using the argparse library.",
+      "total_lines": 17,
+      "elements": [
+        {
+          "name": "register_commands",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/_main.py",
+          "start_line": 12,
+          "end_line": 17,
+          "summary": null,
+          "signature": "register_commands(parser, subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "argparse",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/fine_tunes.py",
+      "relative_path": "src/openai/cli/_tools/fine_tunes.py",
+      "language": "python",
+      "summary": "The Python file `fine_tunes.py` is designed to facilitate the preparation of data for fine-tuning models, featuring a registration function and a class for handling data preparation arguments.",
+      "total_lines": 63,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/fine_tunes.py",
+          "start_line": 20,
+          "end_line": 36,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "PrepareDataArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/fine_tunes.py",
+          "start_line": 39,
+          "end_line": 42,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "prepare_data",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/fine_tunes.py",
+          "start_line": 45,
+          "end_line": 63,
+          "summary": null,
+          "signature": "prepare_data(args)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "sys",
+        "typing",
+        "argparse",
+        "_models",
+        "lib._validators",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+      "relative_path": "src/openai/cli/_tools/migrate.py",
+      "language": "python",
+      "summary": "The Python file `migrate.py` is designed to facilitate the migration of files and directories, providing functions for installation, caching, and debugging, along with classes for handling command-line arguments.",
+      "total_lines": 164,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 22,
+          "end_line": 27,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "GritArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 30,
+          "end_line": 32,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "grit",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 35,
+          "end_line": 43,
+          "summary": null,
+          "signature": "grit(args)",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MigrateArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 46,
+          "end_line": 48,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "migrate",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 51,
+          "end_line": 59,
+          "summary": null,
+          "signature": "migrate(args)",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "_cache_dir",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 67,
+          "end_line": 72,
+          "summary": null,
+          "signature": "_cache_dir()",
+          "complexity": 2,
+          "is_public": false,
+          "children": []
+        },
+        {
+          "name": "_debug",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 75,
+          "end_line": 79,
+          "summary": null,
+          "signature": "_debug(message)",
+          "complexity": 2,
+          "is_public": false,
+          "children": []
+        },
+        {
+          "name": "install",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 82,
+          "end_line": 142,
+          "summary": null,
+          "signature": "install()",
+          "complexity": 7,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "_move_files_recursively",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 145,
+          "end_line": 150,
+          "summary": null,
+          "signature": "_move_files_recursively(source_dir, target_dir)",
+          "complexity": 4,
+          "is_public": false,
+          "children": []
+        },
+        {
+          "name": "_get_arch",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools/migrate.py",
+          "start_line": 153,
+          "end_line": 164,
+          "summary": null,
+          "signature": "_get_arch()",
+          "complexity": 1,
+          "is_public": false,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "os",
+        "sys",
+        "shutil",
+        "tarfile",
+        "platform",
+        "subprocess",
+        "typing",
+        "pathlib",
+        "argparse",
+        "httpx",
+        "_errors",
+        "_models",
+        "argparse"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 4,
+  "total_file_count": 4,
+  "total_lines": 245,
+  "indexed_at": "2025-12-07 17:45:01.606063"
+}

@@ -1,0 +1,418 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli",
+  "relative_path": "src/openai/cli",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/index.json",
+  "summary": "The `src/openai/cli` directory contains Python files and subdirectories that implement a command-line interface (CLI) for interacting with OpenAI's API, including error handling, model management, progress tracking, and utility functions for various functionalities.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/__init__.py",
+      "relative_path": "src/openai/cli/__init__.py",
+      "language": "python",
+      "summary": "Python file with 1 lines",
+      "total_lines": 1,
+      "elements": [],
+      "imports": [
+        "_cli"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_cli.py",
+      "relative_path": "src/openai/cli/_cli.py",
+      "language": "python",
+      "summary": "The Python file defines a command-line interface (CLI) for an OpenAI application, including argument parsing and the main execution logic.",
+      "total_lines": 233,
+      "elements": [
+        {
+          "name": "Arguments",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_cli.py",
+          "start_line": 30,
+          "end_line": 59,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "_build_parser",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_cli.py",
+          "start_line": 62,
+          "end_line": 123,
+          "summary": null,
+          "signature": "_build_parser()",
+          "complexity": 1,
+          "is_public": false,
+          "children": []
+        },
+        {
+          "name": "main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_cli.py",
+          "start_line": 126,
+          "end_line": 135,
+          "summary": null,
+          "signature": "main()",
+          "complexity": 3,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "_parse_args",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_cli.py",
+          "start_line": 138,
+          "end_line": 159,
+          "summary": null,
+          "signature": "_parse_args(parser)",
+          "complexity": 3,
+          "is_public": false,
+          "children": []
+        },
+        {
+          "name": "_main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_cli.py",
+          "start_line": 162,
+          "end_line": 229,
+          "summary": null,
+          "signature": "_main()",
+          "complexity": 15,
+          "is_public": false,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "sys",
+        "logging",
+        "argparse",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "pydantic",
+        "openai",
+        "_api",
+        "_utils",
+        "_errors",
+        "_compat",
+        "_models",
+        "_exceptions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_errors.py",
+      "relative_path": "src/openai/cli/_errors.py",
+      "language": "python",
+      "summary": "The file defines error handling classes (`CLIError` and `SilentCLIError`) and a function (`display_error`) for managing and displaying errors in a command-line interface context.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "CLIError",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_errors.py",
+          "start_line": 11,
+          "end_line": 11,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SilentCLIError",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_errors.py",
+          "start_line": 14,
+          "end_line": 14,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "display_error",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_errors.py",
+          "start_line": 17,
+          "end_line": 21,
+          "summary": null,
+          "signature": "display_error(err)",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "sys",
+        "pydantic",
+        "_utils",
+        "_exceptions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_models.py",
+      "relative_path": "src/openai/cli/_models.py",
+      "language": "python",
+      "summary": "The file defines a `BaseModel` class, likely intended as a foundational data model using Pydantic for type validation and data parsing in the OpenAI CLI application.",
+      "total_lines": 17,
+      "elements": [
+        {
+          "name": "BaseModel",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_models.py",
+          "start_line": 10,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "pydantic",
+        "_compat"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+      "relative_path": "src/openai/cli/_progress.py",
+      "language": "python",
+      "summary": "The Python file defines a progress tracking utility that includes a custom error class, a buffer reader for handling data streams, and functions for displaying progress and converting data sizes to megabytes.",
+      "total_lines": 59,
+      "elements": [
+        {
+          "name": "CancelledError",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+          "start_line": 8,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+              "start_line": 9,
+              "end_line": 11,
+              "summary": null,
+              "signature": "__init__(self, msg)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__str__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+              "start_line": 14,
+              "end_line": 15,
+              "summary": null,
+              "signature": "__str__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "BufferReader",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+          "start_line": 20,
+          "end_line": 40,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+              "start_line": 21,
+              "end_line": 25,
+              "summary": null,
+              "signature": "__init__(self, buf, desc)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__len__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+              "start_line": 27,
+              "end_line": 28,
+              "summary": null,
+              "signature": "__len__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "read",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+              "start_line": 31,
+              "end_line": 40,
+              "summary": null,
+              "signature": "read(self, n)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "progress",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+          "start_line": 43,
+          "end_line": 55,
+          "summary": null,
+          "signature": "progress(total, desc)",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MB",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_progress.py",
+          "start_line": 58,
+          "end_line": 59,
+          "summary": null,
+          "signature": "MB(i)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "io",
+        "typing",
+        "typing_extensions",
+        "tqdm"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_utils.py",
+      "relative_path": "src/openai/cli/_utils.py",
+      "language": "python",
+      "summary": "The Python file defines utility functions and a class related to OpenAI's CLI, including client management, organization information retrieval, model printing, and HTTP/2 compatibility checks.",
+      "total_lines": 45,
+      "elements": [
+        {
+          "name": "Colors",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_utils.py",
+          "start_line": 12,
+          "end_line": 20,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "get_client",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_utils.py",
+          "start_line": 23,
+          "end_line": 24,
+          "summary": null,
+          "signature": "get_client()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "organization_info",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_utils.py",
+          "start_line": 27,
+          "end_line": 32,
+          "summary": null,
+          "signature": "organization_info()",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "print_model",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_utils.py",
+          "start_line": 35,
+          "end_line": 36,
+          "summary": null,
+          "signature": "print_model(model)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "can_use_http2",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_utils.py",
+          "start_line": 39,
+          "end_line": 45,
+          "summary": null,
+          "signature": "can_use_http2()",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "sys",
+        "openai",
+        "_compat",
+        "_models",
+        "h2"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "_api",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api",
+      "relative_path": "src/openai/cli/_api",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/_api/index.json",
+      "summary": "The `src/openai/cli/_api` directory contains Python files that implement command-line interface (CLI) components for various functionalities of the OpenAI API, including audio processing, completions, file management, image handling, model management, and chat interactions.",
+      "file_count": 9,
+      "subdir_count": 1
+    },
+    {
+      "dir_name": "_tools",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_tools",
+      "relative_path": "src/openai/cli/_tools",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/_tools/index.json",
+      "summary": "The `src/openai/cli/_tools` directory contains Python scripts that implement command-line interface functionalities for registering commands, preparing data for model fine-tuning, and managing file migrations within the OpenAI CLI framework.",
+      "file_count": 4,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 6,
+  "total_file_count": 19,
+  "total_lines": 376,
+  "indexed_at": "2025-12-07 17:44:29.453639"
+}

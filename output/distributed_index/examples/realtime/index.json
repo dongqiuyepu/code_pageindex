@@ -1,0 +1,372 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime",
+  "relative_path": "examples/realtime",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/output/distributed_index/examples/realtime/index.json",
+  "summary": "The `examples/realtime` directory contains Python scripts for real-time audio processing and communication, including utilities for audio handling, Azure service integration, and a push-to-talk application framework.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/output/distributed_index/examples/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+      "relative_path": "examples/realtime/audio_util.py",
+      "language": "python",
+      "summary": "The Python file `audio_util.py` provides utilities for audio processing, including converting audio to PCM16 format in base64, managing asynchronous audio playback through the `AudioPlayerAsync` class, and handling audio sending via a worker function.",
+      "total_lines": 142,
+      "elements": [
+        {
+          "name": "audio_to_pcm16_base64",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+          "start_line": 24,
+          "end_line": 30,
+          "summary": null,
+          "signature": "audio_to_pcm16_base64(audio_bytes)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "AudioPlayerAsync",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+          "start_line": 33,
+          "end_line": 92,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 34,
+              "end_line": 45,
+              "summary": null,
+              "signature": "__init__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "callback",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 47,
+              "end_line": 65,
+              "summary": null,
+              "signature": "callback(self, outdata, frames, time, status)",
+              "complexity": 5,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "reset_frame_count",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 67,
+              "end_line": 68,
+              "summary": null,
+              "signature": "reset_frame_count(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "get_frame_count",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 70,
+              "end_line": 71,
+              "summary": null,
+              "signature": "get_frame_count(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "add_data",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 73,
+              "end_line": 79,
+              "summary": null,
+              "signature": "add_data(self, data)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "start",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 81,
+              "end_line": 83,
+              "summary": null,
+              "signature": "start(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "stop",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 85,
+              "end_line": 89,
+              "summary": null,
+              "signature": "stop(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "terminate",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+              "start_line": 91,
+              "end_line": 92,
+              "summary": null,
+              "signature": "terminate(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "send_audio_worker_sounddevice",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/audio_util.py",
+          "start_line": 95,
+          "end_line": 142,
+          "summary": null,
+          "signature": "send_audio_worker_sounddevice(connection, should_send, start_send)",
+          "complexity": 8,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "io",
+        "base64",
+        "asyncio",
+        "threading",
+        "typing",
+        "numpy",
+        "pyaudio",
+        "sounddevice",
+        "pydub",
+        "openai.resources.beta.realtime.realtime"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/azure_realtime.py",
+      "relative_path": "examples/realtime/azure_realtime.py",
+      "language": "python",
+      "summary": "The Python file `azure_realtime.py` is designed to asynchronously interact with Azure services and OpenAI, encapsulated within a main function.",
+      "total_lines": 57,
+      "elements": [
+        {
+          "name": "main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/azure_realtime.py",
+          "start_line": 15,
+          "end_line": 54,
+          "summary": null,
+          "signature": "main()",
+          "complexity": 6,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "os",
+        "asyncio",
+        "azure.identity.aio",
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+      "relative_path": "examples/realtime/push_to_talk_app.py",
+      "language": "python",
+      "summary": "The `push_to_talk_app.py` file implements a real-time audio communication application featuring classes for managing session displays, audio status indicators, and the main application logic.",
+      "total_lines": 281,
+      "elements": [
+        {
+          "name": "SessionDisplay",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+          "start_line": 43,
+          "end_line": 50,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "render",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 49,
+              "end_line": 50,
+              "summary": null,
+              "signature": "render(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AudioStatusIndicator",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+          "start_line": 53,
+          "end_line": 63,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "render",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 59,
+              "end_line": 63,
+              "summary": null,
+              "signature": "render(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeApp",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+          "start_line": 66,
+          "end_line": 276,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 132,
+              "end_line": 140,
+              "summary": null,
+              "signature": "__init__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "compose",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 143,
+              "end_line": 148,
+              "summary": null,
+              "signature": "compose(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "on_mount",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 150,
+              "end_line": 152,
+              "summary": null,
+              "signature": "on_mount(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "handle_realtime_connection",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 154,
+              "end_line": 198,
+              "summary": null,
+              "signature": "handle_realtime_connection(self)",
+              "complexity": 7,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "_get_connection",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 200,
+              "end_line": 203,
+              "summary": null,
+              "signature": "_get_connection(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "send_mic_audio",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 205,
+              "end_line": 247,
+              "summary": null,
+              "signature": "send_mic_audio(self)",
+              "complexity": 5,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "on_key",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime/push_to_talk_app.py",
+              "start_line": 249,
+              "end_line": 276,
+              "summary": null,
+              "signature": "on_key(self, event)",
+              "complexity": 7,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "base64",
+        "asyncio",
+        "typing",
+        "typing_extensions",
+        "textual",
+        "audio_util",
+        "textual.app",
+        "textual.widgets",
+        "textual.reactive",
+        "textual.containers",
+        "openai",
+        "openai.types.beta.realtime.session",
+        "openai.resources.beta.realtime.realtime",
+        "sounddevice"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 3,
+  "total_file_count": 3,
+  "total_lines": 480,
+  "indexed_at": "2025-12-07 20:51:34.939889"
+}

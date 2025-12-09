@@ -1,0 +1,23 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/scripts",
+  "relative_path": "scripts",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/scripts/index.json",
+  "summary": "The `scripts` directory contains a subdirectory with a Python utility script that enhances documentation output by formatting strings and code blocks and managing file inputs.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/index.json",
+  "files": [],
+  "subdirectories": [
+    {
+      "dir_name": "utils",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/scripts/utils",
+      "relative_path": "scripts/utils",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/scripts/utils/index.json",
+      "summary": "The `scripts/utils` directory contains a single Python utility script, `ruffen-docs.py`, designed to enhance documentation output through string and code block formatting and file input handling.",
+      "file_count": 1,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 0,
+  "total_file_count": 1,
+  "total_lines": 0,
+  "indexed_at": "2025-12-07 17:43:23.221384"
+}

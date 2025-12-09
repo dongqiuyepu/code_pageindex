@@ -1,0 +1,299 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat",
+  "relative_path": "src/openai/resources/chat",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/chat/index.json",
+  "summary": "The `src/openai/resources/chat` directory contains Python files and a subdirectory that implement classes and methods for managing chat functionalities and completions, enabling both synchronous and asynchronous interactions with OpenAI's chat models.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/__init__.py",
+      "relative_path": "src/openai/resources/chat/__init__.py",
+      "language": "python",
+      "summary": "Python file with 33 lines",
+      "total_lines": 33,
+      "elements": [],
+      "imports": [
+        "chat",
+        "completions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+      "relative_path": "src/openai/resources/chat/chat.py",
+      "language": "python",
+      "summary": "The `chat.py` file defines several classes for synchronous and asynchronous chat functionalities, including standard and streaming responses, facilitating interactions with OpenAI's chat models.",
+      "total_lines": 102,
+      "elements": [
+        {
+          "name": "Chat",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+          "start_line": 19,
+          "end_line": 41,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "completions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 21,
+              "end_line": 22,
+              "summary": null,
+              "signature": "completions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 25,
+              "end_line": 32,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 35,
+              "end_line": 41,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncChat",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+          "start_line": 44,
+          "end_line": 66,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "completions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 46,
+              "end_line": 47,
+              "summary": null,
+              "signature": "completions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 50,
+              "end_line": 57,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 60,
+              "end_line": 66,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ChatWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+          "start_line": 69,
+          "end_line": 75,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 70,
+              "end_line": 71,
+              "summary": null,
+              "signature": "__init__(self, chat)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "completions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 74,
+              "end_line": 75,
+              "summary": null,
+              "signature": "completions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncChatWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+          "start_line": 78,
+          "end_line": 84,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 79,
+              "end_line": 80,
+              "summary": null,
+              "signature": "__init__(self, chat)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "completions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 83,
+              "end_line": 84,
+              "summary": null,
+              "signature": "completions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "ChatWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+          "start_line": 87,
+          "end_line": 93,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 88,
+              "end_line": 89,
+              "summary": null,
+              "signature": "__init__(self, chat)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "completions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 92,
+              "end_line": 93,
+              "summary": null,
+              "signature": "completions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncChatWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+          "start_line": 96,
+          "end_line": 102,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 97,
+              "end_line": 98,
+              "summary": null,
+              "signature": "__init__(self, chat)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "completions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/chat.py",
+              "start_line": 101,
+              "end_line": 102,
+              "summary": null,
+              "signature": "completions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "_compat",
+        "_resource",
+        "completions.completions"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "completions",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions",
+      "relative_path": "src/openai/resources/chat/completions",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/chat/completions/index.json",
+      "summary": "The `src/openai/resources/chat/completions` directory contains Python files that implement classes and methods for managing chat completions, including support for synchronous and asynchronous responses, as well as validation of response formats.",
+      "file_count": 3,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 2,
+  "total_file_count": 5,
+  "total_lines": 135,
+  "indexed_at": "2025-12-07 17:46:49.118165"
+}

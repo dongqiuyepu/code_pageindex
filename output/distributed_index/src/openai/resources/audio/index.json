@@ -1,0 +1,1281 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio",
+  "relative_path": "src/openai/resources/audio",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/audio/index.json",
+  "summary": "The `src/openai/resources/audio` directory contains Python files that define classes and methods for processing audio, speech, transcriptions, and translations, facilitating both synchronous and asynchronous interactions with audio resources in the OpenAI API.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/__init__.py",
+      "relative_path": "src/openai/resources/audio/__init__.py",
+      "language": "python",
+      "summary": "Python file with 61 lines",
+      "total_lines": 61,
+      "elements": [],
+      "imports": [
+        "audio",
+        "speech",
+        "translations",
+        "transcriptions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+      "relative_path": "src/openai/resources/audio/audio.py",
+      "language": "python",
+      "summary": "The Python file defines multiple classes for handling audio processing and responses, including synchronous and asynchronous variants, to facilitate interactions with audio resources in the OpenAI API.",
+      "total_lines": 166,
+      "elements": [
+        {
+          "name": "Audio",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+          "start_line": 35,
+          "end_line": 65,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "transcriptions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 37,
+              "end_line": 38,
+              "summary": null,
+              "signature": "transcriptions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "translations",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 41,
+              "end_line": 42,
+              "summary": null,
+              "signature": "translations(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "speech",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 45,
+              "end_line": 46,
+              "summary": null,
+              "signature": "speech(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 49,
+              "end_line": 56,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 59,
+              "end_line": 65,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncAudio",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+          "start_line": 68,
+          "end_line": 98,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "transcriptions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 70,
+              "end_line": 71,
+              "summary": null,
+              "signature": "transcriptions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "translations",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 74,
+              "end_line": 75,
+              "summary": null,
+              "signature": "translations(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "speech",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 78,
+              "end_line": 79,
+              "summary": null,
+              "signature": "speech(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 82,
+              "end_line": 89,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 92,
+              "end_line": 98,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AudioWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+          "start_line": 101,
+          "end_line": 115,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 102,
+              "end_line": 103,
+              "summary": null,
+              "signature": "__init__(self, audio)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "transcriptions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 106,
+              "end_line": 107,
+              "summary": null,
+              "signature": "transcriptions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "translations",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 110,
+              "end_line": 111,
+              "summary": null,
+              "signature": "translations(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "speech",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 114,
+              "end_line": 115,
+              "summary": null,
+              "signature": "speech(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncAudioWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+          "start_line": 118,
+          "end_line": 132,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 119,
+              "end_line": 120,
+              "summary": null,
+              "signature": "__init__(self, audio)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "transcriptions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 123,
+              "end_line": 124,
+              "summary": null,
+              "signature": "transcriptions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "translations",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 127,
+              "end_line": 128,
+              "summary": null,
+              "signature": "translations(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "speech",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 131,
+              "end_line": 132,
+              "summary": null,
+              "signature": "speech(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AudioWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+          "start_line": 135,
+          "end_line": 149,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 136,
+              "end_line": 137,
+              "summary": null,
+              "signature": "__init__(self, audio)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "transcriptions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 140,
+              "end_line": 141,
+              "summary": null,
+              "signature": "transcriptions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "translations",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 144,
+              "end_line": 145,
+              "summary": null,
+              "signature": "translations(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "speech",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 148,
+              "end_line": 149,
+              "summary": null,
+              "signature": "speech(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncAudioWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+          "start_line": 152,
+          "end_line": 166,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 153,
+              "end_line": 154,
+              "summary": null,
+              "signature": "__init__(self, audio)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "transcriptions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 157,
+              "end_line": 158,
+              "summary": null,
+              "signature": "transcriptions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "translations",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 161,
+              "end_line": 162,
+              "summary": null,
+              "signature": "translations(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "speech",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/audio.py",
+              "start_line": 165,
+              "end_line": 166,
+              "summary": null,
+              "signature": "speech(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "speech",
+        "_compat",
+        "_resource",
+        "translations",
+        "transcriptions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+      "relative_path": "src/openai/resources/audio/speech.py",
+      "language": "python",
+      "summary": "The `speech.py` file defines several classes for synchronous and asynchronous speech processing, including methods for handling raw and streaming responses using the OpenAI API.",
+      "total_lines": 234,
+      "elements": [
+        {
+          "name": "Speech",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+          "start_line": 31,
+          "end_line": 112,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 33,
+              "end_line": 40,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 43,
+              "end_line": 49,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 51,
+              "end_line": 112,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncSpeech",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+          "start_line": 115,
+          "end_line": 196,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 117,
+              "end_line": 124,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 127,
+              "end_line": 133,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 135,
+              "end_line": 196,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SpeechWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+          "start_line": 199,
+          "end_line": 205,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 200,
+              "end_line": 205,
+              "summary": null,
+              "signature": "__init__(self, speech)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncSpeechWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+          "start_line": 208,
+          "end_line": 214,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 209,
+              "end_line": 214,
+              "summary": null,
+              "signature": "__init__(self, speech)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SpeechWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+          "start_line": 217,
+          "end_line": 224,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 218,
+              "end_line": 224,
+              "summary": null,
+              "signature": "__init__(self, speech)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncSpeechWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+          "start_line": 227,
+          "end_line": 234,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/speech.py",
+              "start_line": 228,
+              "end_line": 234,
+              "summary": null,
+              "signature": "__init__(self, speech)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "types.audio",
+        "_base_client",
+        "types.audio.speech_model"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+      "relative_path": "src/openai/resources/audio/transcriptions.py",
+      "language": "python",
+      "summary": "The Python file defines classes and methods for handling audio transcriptions, including synchronous and asynchronous processing, raw responses, and streaming capabilities, utilizing the HTTPX library for network interactions.",
+      "total_lines": 415,
+      "elements": [
+        {
+          "name": "Transcriptions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+          "start_line": 35,
+          "end_line": 196,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 37,
+              "end_line": 44,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 47,
+              "end_line": 53,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 56,
+              "end_line": 72,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 75,
+              "end_line": 91,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 94,
+              "end_line": 110,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 112,
+              "end_line": 196,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncTranscriptions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+          "start_line": 199,
+          "end_line": 360,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 201,
+              "end_line": 208,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 211,
+              "end_line": 217,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 220,
+              "end_line": 236,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 239,
+              "end_line": 255,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 258,
+              "end_line": 274,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 276,
+              "end_line": 360,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TranscriptionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+          "start_line": 363,
+          "end_line": 369,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 364,
+              "end_line": 369,
+              "summary": null,
+              "signature": "__init__(self, transcriptions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncTranscriptionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+          "start_line": 372,
+          "end_line": 378,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 373,
+              "end_line": 378,
+              "summary": null,
+              "signature": "__init__(self, transcriptions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TranscriptionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+          "start_line": 381,
+          "end_line": 387,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 382,
+              "end_line": 387,
+              "summary": null,
+              "signature": "__init__(self, transcriptions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncTranscriptionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+          "start_line": 390,
+          "end_line": 396,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+              "start_line": 391,
+              "end_line": 396,
+              "summary": null,
+              "signature": "__init__(self, transcriptions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "_get_response_format_type",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/transcriptions.py",
+          "start_line": 399,
+          "end_line": 415,
+          "summary": null,
+          "signature": "_get_response_format_type(response_format)",
+          "complexity": 9,
+          "is_public": false,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "logging",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "types.audio",
+        "_base_client",
+        "types.audio_model",
+        "types.audio.transcription",
+        "types.audio_response_format",
+        "types.audio.transcription_verbose"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+      "relative_path": "src/openai/resources/audio/translations.py",
+      "language": "python",
+      "summary": "The `translations.py` file defines several classes and methods for handling audio translation functionalities, including synchronous and asynchronous operations, raw responses, and streaming responses, utilizing the `httpx` library for HTTP requests.",
+      "total_lines": 373,
+      "elements": [
+        {
+          "name": "Translations",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+          "start_line": 35,
+          "end_line": 175,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 37,
+              "end_line": 44,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 47,
+              "end_line": 53,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 56,
+              "end_line": 70,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 73,
+              "end_line": 87,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 90,
+              "end_line": 104,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 106,
+              "end_line": 175,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncTranslations",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+          "start_line": 178,
+          "end_line": 318,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 180,
+              "end_line": 187,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 190,
+              "end_line": 196,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 199,
+              "end_line": 213,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 216,
+              "end_line": 230,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 233,
+              "end_line": 247,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 249,
+              "end_line": 318,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TranslationsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+          "start_line": 321,
+          "end_line": 327,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 322,
+              "end_line": 327,
+              "summary": null,
+              "signature": "__init__(self, translations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncTranslationsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+          "start_line": 330,
+          "end_line": 336,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 331,
+              "end_line": 336,
+              "summary": null,
+              "signature": "__init__(self, translations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "TranslationsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+          "start_line": 339,
+          "end_line": 345,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 340,
+              "end_line": 345,
+              "summary": null,
+              "signature": "__init__(self, translations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncTranslationsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+          "start_line": 348,
+          "end_line": 354,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+              "start_line": 349,
+              "end_line": 354,
+              "summary": null,
+              "signature": "__init__(self, translations)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "_get_response_format_type",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/audio/translations.py",
+          "start_line": 357,
+          "end_line": 373,
+          "summary": null,
+          "signature": "_get_response_format_type(response_format)",
+          "complexity": 9,
+          "is_public": false,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "logging",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "types",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "types.audio",
+        "_base_client",
+        "types.audio_model",
+        "types.audio.translation",
+        "types.audio_response_format",
+        "types.audio.translation_verbose"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 5,
+  "total_file_count": 5,
+  "total_lines": 1249,
+  "indexed_at": "2025-12-07 17:45:58.323958"
+}

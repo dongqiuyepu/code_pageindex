@@ -1,0 +1,740 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions",
+  "relative_path": "src/openai/resources/chat/completions",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/chat/completions/index.json",
+  "summary": "The `src/openai/resources/chat/completions` directory contains Python files that implement classes and methods for managing chat completions, including support for synchronous and asynchronous responses, as well as validation of response formats.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/chat/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/__init__.py",
+      "relative_path": "src/openai/resources/chat/completions/__init__.py",
+      "language": "python",
+      "summary": "Python file with 33 lines",
+      "total_lines": 33,
+      "elements": [],
+      "imports": [
+        "messages",
+        "completions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+      "relative_path": "src/openai/resources/chat/completions/completions.py",
+      "language": "python",
+      "summary": "The Python file defines multiple classes and methods for handling synchronous and asynchronous chat completions, including options for raw and streaming responses, along with a function to validate response formats.",
+      "total_lines": 2257,
+      "elements": [
+        {
+          "name": "Completions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+          "start_line": 57,
+          "end_line": 1102,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "messages",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 59,
+              "end_line": 60,
+              "summary": null,
+              "signature": "messages(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 63,
+              "end_line": 70,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 73,
+              "end_line": 79,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 82,
+              "end_line": 331,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 334,
+              "end_line": 583,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 586,
+              "end_line": 835,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 838,
+              "end_line": 922,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 924,
+              "end_line": 957,
+              "summary": null,
+              "signature": "retrieve(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "update",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 959,
+              "end_line": 1002,
+              "summary": null,
+              "signature": "update(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1004,
+              "end_line": 1067,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1069,
+              "end_line": 1102,
+              "summary": null,
+              "signature": "delete(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCompletions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+          "start_line": 1105,
+          "end_line": 2150,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "messages",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1107,
+              "end_line": 1108,
+              "summary": null,
+              "signature": "messages(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1111,
+              "end_line": 1118,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1121,
+              "end_line": 1127,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1130,
+              "end_line": 1379,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1382,
+              "end_line": 1631,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1634,
+              "end_line": 1883,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1886,
+              "end_line": 1970,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 1972,
+              "end_line": 2005,
+              "summary": null,
+              "signature": "retrieve(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "update",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2007,
+              "end_line": 2050,
+              "summary": null,
+              "signature": "update(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2052,
+              "end_line": 2115,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2117,
+              "end_line": 2150,
+              "summary": null,
+              "signature": "delete(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CompletionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+          "start_line": 2153,
+          "end_line": 2175,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2154,
+              "end_line": 2171,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "messages",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2174,
+              "end_line": 2175,
+              "summary": null,
+              "signature": "messages(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCompletionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+          "start_line": 2178,
+          "end_line": 2200,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2179,
+              "end_line": 2196,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "messages",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2199,
+              "end_line": 2200,
+              "summary": null,
+              "signature": "messages(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CompletionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+          "start_line": 2203,
+          "end_line": 2225,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2204,
+              "end_line": 2221,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "messages",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2224,
+              "end_line": 2225,
+              "summary": null,
+              "signature": "messages(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCompletionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+          "start_line": 2228,
+          "end_line": 2250,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2229,
+              "end_line": 2246,
+              "summary": null,
+              "signature": "__init__(self, completions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "messages",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+              "start_line": 2249,
+              "end_line": 2250,
+              "summary": null,
+              "signature": "messages(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "validate_response_format",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/completions.py",
+          "start_line": 2253,
+          "end_line": 2257,
+          "summary": null,
+          "signature": "validate_response_format(response_format)",
+          "complexity": 3,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "inspect",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "pydantic",
+        "messages",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "_streaming",
+        "pagination",
+        "types.chat",
+        "_base_client",
+        "types.chat_model",
+        "types.chat.chat_completion",
+        "types.shared_params.metadata",
+        "types.chat.chat_completion_chunk",
+        "types.chat.chat_completion_deleted",
+        "types.chat.chat_completion_modality",
+        "types.chat.chat_completion_tool_param",
+        "types.chat.chat_completion_audio_param",
+        "types.chat.chat_completion_message_param",
+        "types.chat.chat_completion_reasoning_effort",
+        "types.chat.chat_completion_stream_options_param",
+        "types.chat.chat_completion_prediction_content_param",
+        "types.chat.chat_completion_tool_choice_option_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+      "relative_path": "src/openai/resources/chat/completions/messages.py",
+      "language": "python",
+      "summary": "The Python file defines several classes for handling chat message completions, including synchronous and asynchronous variants, as well as those that manage raw and streaming responses.",
+      "total_lines": 212,
+      "elements": [
+        {
+          "name": "Messages",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+          "start_line": 23,
+          "end_line": 98,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 25,
+              "end_line": 32,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 35,
+              "end_line": 41,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 43,
+              "end_line": 98,
+              "summary": null,
+              "signature": "list(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncMessages",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+          "start_line": 101,
+          "end_line": 176,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 103,
+              "end_line": 110,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 113,
+              "end_line": 119,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 121,
+              "end_line": 176,
+              "summary": null,
+              "signature": "list(self, completion_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MessagesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+          "start_line": 179,
+          "end_line": 185,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 180,
+              "end_line": 185,
+              "summary": null,
+              "signature": "__init__(self, messages)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncMessagesWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+          "start_line": 188,
+          "end_line": 194,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 189,
+              "end_line": 194,
+              "summary": null,
+              "signature": "__init__(self, messages)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "MessagesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+          "start_line": 197,
+          "end_line": 203,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 198,
+              "end_line": 203,
+              "summary": null,
+              "signature": "__init__(self, messages)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncMessagesWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+          "start_line": 206,
+          "end_line": 212,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/chat/completions/messages.py",
+              "start_line": 207,
+              "end_line": 212,
+              "summary": null,
+              "signature": "__init__(self, messages)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "httpx",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "pagination",
+        "_base_client",
+        "types.chat.completions",
+        "types.chat.chat_completion_store_message"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 3,
+  "total_file_count": 3,
+  "total_lines": 2502,
+  "indexed_at": "2025-12-07 17:46:51.261443"
+}

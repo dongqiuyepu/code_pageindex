@@ -1,0 +1,596 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples",
+  "relative_path": "examples",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/output/distributed_index/examples/index.json",
+  "summary": "The `examples` directory contains various Python scripts and a subdirectory focused on demonstrating interactions with the OpenAI API, asynchronous programming, audio streaming, and Azure services, serving as practical examples for developers.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/output/distributed_index/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant.py",
+      "relative_path": "examples/assistant.py",
+      "language": "python",
+      "summary": "Python file with 37 lines",
+      "total_lines": 37,
+      "elements": [],
+      "imports": [
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream.py",
+      "relative_path": "examples/assistant_stream.py",
+      "language": "python",
+      "summary": "Python file with 33 lines",
+      "total_lines": 33,
+      "elements": [],
+      "imports": [
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream_helpers.py",
+      "relative_path": "examples/assistant_stream_helpers.py",
+      "language": "python",
+      "summary": "The Python file `assistant_stream_helpers.py` defines an `EventHandler` class with four methods for managing events and includes a `main` function to execute the script's primary functionality, likely related to handling streaming interactions with the OpenAI API.",
+      "total_lines": 78,
+      "elements": [
+        {
+          "name": "EventHandler",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream_helpers.py",
+          "start_line": 12,
+          "end_line": 40,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "on_event",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream_helpers.py",
+              "start_line": 14,
+              "end_line": 20,
+              "summary": null,
+              "signature": "on_event(self, event)",
+              "complexity": 4,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "on_text_delta",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream_helpers.py",
+              "start_line": 23,
+              "end_line": 24,
+              "summary": null,
+              "signature": "on_text_delta(self, delta, snapshot)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "on_run_step_done",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream_helpers.py",
+              "start_line": 27,
+              "end_line": 32,
+              "summary": null,
+              "signature": "on_run_step_done(self, run_step)",
+              "complexity": 4,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "on_run_step_delta",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream_helpers.py",
+              "start_line": 35,
+              "end_line": 40,
+              "summary": null,
+              "signature": "on_run_step_delta(self, delta, snapshot)",
+              "complexity": 8,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/assistant_stream_helpers.py",
+          "start_line": 43,
+          "end_line": 75,
+          "summary": null,
+          "signature": "main()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "openai",
+        "openai",
+        "openai.types.beta",
+        "openai.types.beta.threads",
+        "openai.types.beta.threads.runs"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/async_demo.py",
+      "relative_path": "examples/async_demo.py",
+      "language": "python",
+      "summary": "The `async_demo.py` file demonstrates the use of asynchronous programming in Python to interact with the OpenAI API through a defined `main` function.",
+      "total_lines": 22,
+      "elements": [
+        {
+          "name": "main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/async_demo.py",
+          "start_line": 11,
+          "end_line": 19,
+          "summary": null,
+          "signature": "main()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "asyncio",
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/audio.py",
+      "relative_path": "examples/audio.py",
+      "language": "python",
+      "summary": "The Python file `examples/audio.py` is designed to stream audio data to speakers using the PyAudio library, with functions to handle the main execution and the streaming process.",
+      "total_lines": 64,
+      "elements": [
+        {
+          "name": "main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/audio.py",
+          "start_line": 14,
+          "end_line": 37,
+          "summary": null,
+          "signature": "main()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "stream_to_speakers",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/audio.py",
+          "start_line": 40,
+          "end_line": 60,
+          "summary": null,
+          "signature": "stream_to_speakers()",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "time",
+        "pathlib",
+        "openai",
+        "pyaudio"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/azure.py",
+      "relative_path": "examples/azure.py",
+      "language": "python",
+      "summary": "Python file with 43 lines",
+      "total_lines": 43,
+      "elements": [],
+      "imports": [
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/azure_ad.py",
+      "relative_path": "examples/azure_ad.py",
+      "language": "python",
+      "summary": "The `examples/azure_ad.py` file demonstrates how to authenticate and interact with Azure Active Directory using both synchronous and asynchronous functions.",
+      "total_lines": 67,
+      "elements": [
+        {
+          "name": "sync_main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/azure_ad.py",
+          "start_line": 17,
+          "end_line": 38,
+          "summary": null,
+          "signature": "sync_main()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "async_main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/azure_ad.py",
+          "start_line": 41,
+          "end_line": 62,
+          "summary": null,
+          "signature": "async_main()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "asyncio",
+        "openai.lib.azure",
+        "azure.identity",
+        "azure.identity.aio"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/demo.py",
+      "relative_path": "examples/demo.py",
+      "language": "python",
+      "summary": "Python file with 53 lines",
+      "total_lines": 53,
+      "elements": [],
+      "imports": [
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/module_client.py",
+      "relative_path": "examples/module_client.py",
+      "language": "python",
+      "summary": "Python file with 25 lines",
+      "total_lines": 25,
+      "elements": [],
+      "imports": [
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing.py",
+      "relative_path": "examples/parsing.py",
+      "language": "python",
+      "summary": "Contains 2 code elements",
+      "total_lines": 36,
+      "elements": [
+        {
+          "name": "Step",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing.py",
+          "start_line": 9,
+          "end_line": 11,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MathResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing.py",
+          "start_line": 14,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "rich",
+        "pydantic",
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_stream.py",
+      "relative_path": "examples/parsing_stream.py",
+      "language": "python",
+      "summary": "The Python file defines two empty classes, `Step` and `MathResponse`, and imports several libraries, suggesting it is intended for parsing and handling mathematical responses, potentially in conjunction with OpenAI's API.",
+      "total_lines": 42,
+      "elements": [
+        {
+          "name": "Step",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_stream.py",
+          "start_line": 9,
+          "end_line": 11,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "MathResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_stream.py",
+          "start_line": 14,
+          "end_line": 16,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "rich",
+        "pydantic",
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+      "relative_path": "examples/parsing_tools.py",
+      "language": "python",
+      "summary": "The `parsing_tools.py` file defines a set of classes related to constructing and managing database query components, such as tables, columns, and conditions, without implementing any methods.",
+      "total_lines": 80,
+      "elements": [
+        {
+          "name": "Table",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+          "start_line": 11,
+          "end_line": 14,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Column",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+          "start_line": 17,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Operator",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+          "start_line": 27,
+          "end_line": 33,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "OrderBy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+          "start_line": 36,
+          "end_line": 38,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "DynamicValue",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+          "start_line": 41,
+          "end_line": 42,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Condition",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+          "start_line": 45,
+          "end_line": 48,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "Query",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools.py",
+          "start_line": 51,
+          "end_line": 55,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "enum",
+        "typing",
+        "rich",
+        "pydantic",
+        "openai",
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools_stream.py",
+      "relative_path": "examples/parsing_tools_stream.py",
+      "language": "python",
+      "summary": "The Python file defines a class named `GetWeather` that likely serves as a framework for parsing weather-related data, utilizing libraries such as `rich`, `pydantic`, and `openai`.",
+      "total_lines": 38,
+      "elements": [
+        {
+          "name": "GetWeather",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/parsing_tools_stream.py",
+          "start_line": 10,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "rich",
+        "pydantic",
+        "openai",
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/picture.py",
+      "relative_path": "examples/picture.py",
+      "language": "python",
+      "summary": "The Python file `examples/picture.py` contains a `main` function that likely utilizes the OpenAI API to perform tasks related to image processing or generation.",
+      "total_lines": 21,
+      "elements": [
+        {
+          "name": "main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/picture.py",
+          "start_line": 12,
+          "end_line": 17,
+          "summary": null,
+          "signature": "main()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/streaming.py",
+      "relative_path": "examples/streaming.py",
+      "language": "python",
+      "summary": "The `streaming.py` file demonstrates how to use asynchronous programming with the OpenAI API to stream responses concurrently through the `async_main` function, while also providing a synchronous entry point via the `sync_main` function.",
+      "total_lines": 56,
+      "elements": [
+        {
+          "name": "sync_main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/streaming.py",
+          "start_line": 13,
+          "end_line": 30,
+          "summary": null,
+          "signature": "sync_main()",
+          "complexity": 2,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "async_main",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/streaming.py",
+          "start_line": 33,
+          "end_line": 51,
+          "summary": null,
+          "signature": "async_main()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "asyncio",
+        "openai"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/uploads.py",
+      "relative_path": "examples/uploads.py",
+      "language": "python",
+      "summary": "The `uploads.py` file provides functionality for handling file uploads by defining two functions, `from_disk` for uploading files from the local filesystem and `from_in_memory` for uploading files stored in memory.",
+      "total_lines": 46,
+      "elements": [
+        {
+          "name": "from_disk",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/uploads.py",
+          "start_line": 14,
+          "end_line": 22,
+          "summary": null,
+          "signature": "from_disk()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "from_in_memory",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/uploads.py",
+          "start_line": 25,
+          "end_line": 40,
+          "summary": null,
+          "signature": "from_in_memory()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "sys",
+        "pathlib",
+        "rich",
+        "openai"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "realtime",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/examples/realtime",
+      "relative_path": "examples/realtime",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/output/distributed_index/examples/realtime/index.json",
+      "summary": "The `examples/realtime` directory contains Python scripts for real-time audio processing and communication, including utilities for audio handling, Azure service integration, and a push-to-talk application framework.",
+      "file_count": 3,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 16,
+  "total_file_count": 19,
+  "total_lines": 741,
+  "indexed_at": "2025-12-07 20:51:34.932845"
+}

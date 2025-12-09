@@ -1,0 +1,244 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores",
+  "relative_path": "src/openai/types/beta/vector_stores",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/vector_stores/index.json",
+  "summary": "The `src/openai/types/beta/vector_stores` directory contains Python files that define various data structures and parameters related to the management of vector stores and their associated files, without implementing any methods.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/types/beta/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/__init__.py",
+      "relative_path": "src/openai/types/beta/vector_stores/__init__.py",
+      "language": "python",
+      "summary": "Python file with 11 lines",
+      "total_lines": 11,
+      "elements": [],
+      "imports": [
+        "__future__",
+        "file_list_params",
+        "vector_store_file",
+        "file_create_params",
+        "vector_store_file_batch",
+        "file_batch_create_params",
+        "vector_store_file_deleted",
+        "file_batch_list_files_params"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_batch_create_params.py",
+      "relative_path": "src/openai/types/beta/vector_stores/file_batch_create_params.py",
+      "language": "python",
+      "summary": "The file defines a class `FileBatchCreateParams` that likely serves as a data structure for managing parameters related to batch creation of file vector stores, although it does not contain any methods.",
+      "total_lines": 26,
+      "elements": [
+        {
+          "name": "FileBatchCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_batch_create_params.py",
+          "start_line": 13,
+          "end_line": 26,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "file_chunking_strategy_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_batch_list_files_params.py",
+      "relative_path": "src/openai/types/beta/vector_stores/file_batch_list_files_params.py",
+      "language": "python",
+      "summary": "The file defines a class `FileBatchListFilesParams` intended for managing parameters related to batch listing of files in a vector store, but it does not contain any methods.",
+      "total_lines": 47,
+      "elements": [
+        {
+          "name": "FileBatchListFilesParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_batch_list_files_params.py",
+          "start_line": 10,
+          "end_line": 47,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_create_params.py",
+      "relative_path": "src/openai/types/beta/vector_stores/file_create_params.py",
+      "language": "python",
+      "summary": "The file defines the `FileCreateParams` class, which likely serves as a data structure for managing parameters related to file creation in a vector store context.",
+      "total_lines": 25,
+      "elements": [
+        {
+          "name": "FileCreateParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_create_params.py",
+          "start_line": 12,
+          "end_line": 25,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions",
+        "file_chunking_strategy_param"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_list_params.py",
+      "relative_path": "src/openai/types/beta/vector_stores/file_list_params.py",
+      "language": "python",
+      "summary": "The file defines a class `FileListParams` intended for use in type annotations or data structures related to managing file list parameters in a vector store context, but it does not contain any methods.",
+      "total_lines": 45,
+      "elements": [
+        {
+          "name": "FileListParams",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/file_list_params.py",
+          "start_line": 10,
+          "end_line": 45,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing_extensions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file.py",
+      "relative_path": "src/openai/types/beta/vector_stores/vector_store_file.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `LastError` and `VectorStoreFile`, which likely serve as structures for handling errors and managing vector store files, respectively, although no specific methods are implemented within these classes.",
+      "total_lines": 58,
+      "elements": [
+        {
+          "name": "LastError",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file.py",
+          "start_line": 12,
+          "end_line": 17,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "VectorStoreFile",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file.py",
+          "start_line": 20,
+          "end_line": 58,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing",
+        "typing_extensions",
+        "_models",
+        "file_chunking_strategy"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file_batch.py",
+      "relative_path": "src/openai/types/beta/vector_stores/vector_store_file_batch.py",
+      "language": "python",
+      "summary": "The Python file defines two classes, `FileCounts` and `VectorStoreFileBatch`, which likely serve as data structures for managing and organizing batches of vector store files, although they do not contain any methods.",
+      "total_lines": 54,
+      "elements": [
+        {
+          "name": "FileCounts",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file_batch.py",
+          "start_line": 10,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "VectorStoreFileBatch",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file_batch.py",
+          "start_line": 27,
+          "end_line": 54,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file_deleted.py",
+      "relative_path": "src/openai/types/beta/vector_stores/vector_store_file_deleted.py",
+      "language": "python",
+      "summary": "The file defines a class `VectorStoreFileDeleted` in the OpenAI library, which likely serves as a marker or representation for deleted vector store files, although it contains no methods.",
+      "total_lines": 15,
+      "elements": [
+        {
+          "name": "VectorStoreFileDeleted",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/types/beta/vector_stores/vector_store_file_deleted.py",
+          "start_line": 10,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "typing_extensions",
+        "_models"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 8,
+  "total_file_count": 8,
+  "total_lines": 281,
+  "indexed_at": "2025-12-07 17:54:00.083335"
+}

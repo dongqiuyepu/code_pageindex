@@ -42,8 +42,6 @@ ENV/
 Thumbs.db
 
 # Project specific
-output/
-repo/
 *.log
 *.tmp
 

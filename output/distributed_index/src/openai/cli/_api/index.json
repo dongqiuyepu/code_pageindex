@@ -1,0 +1,579 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api",
+  "relative_path": "src/openai/cli/_api",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/_api/index.json",
+  "summary": "The `src/openai/cli/_api` directory contains Python files that implement command-line interface (CLI) components for various functionalities of the OpenAI API, including audio processing, completions, file management, image handling, model management, and chat interactions.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/__init__.py",
+      "relative_path": "src/openai/cli/_api/__init__.py",
+      "language": "python",
+      "summary": "Python file with 1 lines",
+      "total_lines": 1,
+      "elements": [],
+      "imports": [
+        "_main"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/_main.py",
+      "relative_path": "src/openai/cli/_api/_main.py",
+      "language": "python",
+      "summary": "The file defines a function called `register_commands` that is likely responsible for setting up command-line interface (CLI) commands using the argparse module.",
+      "total_lines": 16,
+      "elements": [
+        {
+          "name": "register_commands",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/_main.py",
+          "start_line": 8,
+          "end_line": 16,
+          "summary": null,
+          "signature": "register_commands(parser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/audio.py",
+      "relative_path": "src/openai/cli/_api/audio.py",
+      "language": "python",
+      "summary": "The Python file defines command-line interface (CLI) components for audio processing, including argument classes for transcription and translation, and a registration function, within the OpenAI API context.",
+      "total_lines": 108,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/audio.py",
+          "start_line": 17,
+          "end_line": 43,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLITranscribeArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/audio.py",
+          "start_line": 46,
+          "end_line": 52,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLITranslationArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/audio.py",
+          "start_line": 55,
+          "end_line": 61,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIAudio",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/audio.py",
+          "start_line": 64,
+          "end_line": 108,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "transcribe",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/audio.py",
+              "start_line": 66,
+              "end_line": 86,
+              "summary": null,
+              "signature": "transcribe(args)",
+              "complexity": 5,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "translate",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/audio.py",
+              "start_line": 89,
+              "end_line": 108,
+              "summary": null,
+              "signature": "translate(args)",
+              "complexity": 4,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "sys",
+        "typing",
+        "argparse",
+        "_utils",
+        "_types",
+        "_models",
+        "_progress",
+        "types.audio",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/completions.py",
+      "relative_path": "src/openai/cli/_api/completions.py",
+      "language": "python",
+      "summary": "The Python file `completions.py` defines a command-line interface for creating completions with OpenAI, featuring argument registration and a class structure to handle completion-related functionalities.",
+      "total_lines": 173,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/completions.py",
+          "start_line": 21,
+          "end_line": 90,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLICompletionCreateArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/completions.py",
+          "start_line": 93,
+          "end_line": 109,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLICompletions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/completions.py",
+          "start_line": 112,
+          "end_line": 173,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/completions.py",
+              "start_line": 114,
+              "end_line": 142,
+              "summary": null,
+              "signature": "create(args)",
+              "complexity": 5,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/completions.py",
+              "start_line": 145,
+              "end_line": 156,
+              "summary": null,
+              "signature": "_create(completion)",
+              "complexity": 5,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "_stream_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/completions.py",
+              "start_line": 159,
+              "end_line": 173,
+              "summary": null,
+              "signature": "_stream_create(stream)",
+              "complexity": 5,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "sys",
+        "typing",
+        "argparse",
+        "functools",
+        "openai.types.completion",
+        "_utils",
+        "_types",
+        "_utils",
+        "_errors",
+        "_models",
+        "_streaming",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+      "relative_path": "src/openai/cli/_api/files.py",
+      "language": "python",
+      "summary": "The Python file defines a command-line interface (CLI) for managing files in the OpenAI API, including argument parsing for file registration and creation, encapsulated within the `CLIFileIDArgs` and `CLIFileCreateArgs` classes, and implemented through the `CLIFile` class with its associated methods.",
+      "total_lines": 80,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+          "start_line": 14,
+          "end_line": 40,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIFileIDArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+          "start_line": 43,
+          "end_line": 44,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIFileCreateArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+          "start_line": 47,
+          "end_line": 49,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIFile",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+          "start_line": 52,
+          "end_line": 80,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+              "start_line": 54,
+              "end_line": 64,
+              "summary": null,
+              "signature": "create(args)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "get",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+              "start_line": 67,
+              "end_line": 69,
+              "summary": null,
+              "signature": "get(args)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+              "start_line": 72,
+              "end_line": 74,
+              "summary": null,
+              "signature": "delete(args)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/files.py",
+              "start_line": 77,
+              "end_line": 80,
+              "summary": null,
+              "signature": "list()",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "argparse",
+        "_utils",
+        "_models",
+        "_progress",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+      "relative_path": "src/openai/cli/_api/image.py",
+      "language": "python",
+      "summary": "The Python file defines a command-line interface (CLI) for image-related functionalities in the OpenAI API, including classes for handling image creation, variations, and edits, along with a registration function.",
+      "total_lines": 139,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+          "start_line": 15,
+          "end_line": 58,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIImageCreateArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+          "start_line": 61,
+          "end_line": 66,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIImageCreateVariationArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+          "start_line": 69,
+          "end_line": 74,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIImageEditArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+          "start_line": 77,
+          "end_line": 84,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIImage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+          "start_line": 87,
+          "end_line": 139,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+              "start_line": 89,
+              "end_line": 99,
+              "summary": null,
+              "signature": "create(args)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create_variation",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+              "start_line": 102,
+              "end_line": 115,
+              "summary": null,
+              "signature": "create_variation(args)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "edit",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/image.py",
+              "start_line": 118,
+              "end_line": 139,
+              "summary": null,
+              "signature": "edit(args)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "argparse",
+        "_utils",
+        "_types",
+        "_models",
+        "_progress",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/models.py",
+      "relative_path": "src/openai/cli/_api/models.py",
+      "language": "python",
+      "summary": "The Python file defines a command-line interface for managing OpenAI models, featuring a registration function and classes for handling model ID arguments and model operations.",
+      "total_lines": 45,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/models.py",
+          "start_line": 13,
+          "end_line": 23,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIModelIDArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/models.py",
+          "start_line": 26,
+          "end_line": 27,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIModels",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/models.py",
+          "start_line": 30,
+          "end_line": 45,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "get",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/models.py",
+              "start_line": 32,
+              "end_line": 34,
+              "summary": null,
+              "signature": "get(args)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/models.py",
+              "start_line": 37,
+              "end_line": 39,
+              "summary": null,
+              "signature": "delete(args)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/models.py",
+              "start_line": 42,
+              "end_line": 45,
+              "summary": null,
+              "signature": "list()",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "argparse",
+        "_utils",
+        "_models",
+        "argparse"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [
+    {
+      "dir_name": "chat",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat",
+      "relative_path": "src/openai/cli/_api/chat",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/_api/chat/index.json",
+      "summary": "The `src/openai/cli/_api/chat` directory contains Python files that implement the command-line interface for the OpenAI chat API, including functionality for registering commands and managing chat completions.",
+      "file_count": 2,
+      "subdir_count": 0
+    }
+  ],
+  "direct_file_count": 7,
+  "total_file_count": 9,
+  "total_lines": 562,
+  "indexed_at": "2025-12-07 17:44:39.749790"
+}

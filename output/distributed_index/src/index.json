@@ -1,0 +1,23 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src",
+  "relative_path": "src",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/index.json",
+  "summary": "The `src` directory contains a subdirectory `openai` that houses Python modules and utilities designed for seamless interaction with the OpenAI API, encompassing client management, error handling, data modeling, and CLI functionalities for both synchronous and asynchronous operations.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/index.json",
+  "files": [],
+  "subdirectories": [
+    {
+      "dir_name": "openai",
+      "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai",
+      "relative_path": "src/openai",
+      "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/index.json",
+      "summary": "The `src/openai` directory contains a comprehensive set of Python modules and utilities for interacting with the OpenAI API, including client management, error handling, data modeling, and command-line interface functionalities, facilitating both synchronous and asynchronous API requests and operations.",
+      "file_count": 412,
+      "subdir_count": 6
+    }
+  ],
+  "direct_file_count": 0,
+  "total_file_count": 412,
+  "total_lines": 0,
+  "indexed_at": "2025-12-07 17:43:29.737005"
+}

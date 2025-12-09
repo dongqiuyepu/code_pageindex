@@ -1,0 +1,302 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils",
+  "relative_path": "tests/test_utils",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/tests/test_utils/index.json",
+  "summary": "The `tests/test_utils` directory contains unit tests for logging functionality, proxy class behavior, and generic type extraction in Python, aimed at ensuring the reliability and correctness of these utilities.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/tests/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_logging.py",
+      "relative_path": "tests/test_utils/test_logging.py",
+      "language": "python",
+      "summary": "The file `test_logging.py` contains unit tests for logging functionality, specifically focusing on filtering sensitive information from log messages and ensuring proper handling of headers in various scenarios.",
+      "total_lines": 100,
+      "elements": [
+        {
+          "name": "logger_with_filter",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_logging.py",
+          "start_line": 10,
+          "end_line": 14,
+          "summary": null,
+          "signature": "logger_with_filter()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_keys_redacted",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_logging.py",
+          "start_line": 17,
+          "end_line": 36,
+          "summary": null,
+          "signature": "test_keys_redacted(logger_with_filter, caplog)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_keys_redacted_case_insensitive",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_logging.py",
+          "start_line": 39,
+          "end_line": 58,
+          "summary": null,
+          "signature": "test_keys_redacted_case_insensitive(logger_with_filter, caplog)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_no_headers",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_logging.py",
+          "start_line": 61,
+          "end_line": 73,
+          "summary": null,
+          "signature": "test_no_headers(logger_with_filter, caplog)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_headers_without_sensitive_info",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_logging.py",
+          "start_line": 76,
+          "end_line": 94,
+          "summary": null,
+          "signature": "test_headers_without_sensitive_info(logger_with_filter, caplog)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_standard_debug_msg",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_logging.py",
+          "start_line": 97,
+          "end_line": 100,
+          "summary": null,
+          "signature": "test_standard_debug_msg(logger_with_filter, caplog)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "logging",
+        "typing",
+        "pytest",
+        "openai._utils"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_proxy.py",
+      "relative_path": "tests/test_utils/test_proxy.py",
+      "language": "python",
+      "summary": "The file contains a test for the `RecursiveLazyProxy` class, which is designed to verify its functionality through the `test_recursive_proxy` function.",
+      "total_lines": 23,
+      "elements": [
+        {
+          "name": "RecursiveLazyProxy",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_proxy.py",
+          "start_line": 8,
+          "end_line": 14,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__load__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_proxy.py",
+              "start_line": 10,
+              "end_line": 11,
+              "summary": null,
+              "signature": "__load__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__call__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_proxy.py",
+              "start_line": 13,
+              "end_line": 14,
+              "summary": null,
+              "signature": "__call__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "test_recursive_proxy",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_proxy.py",
+          "start_line": 17,
+          "end_line": 23,
+          "summary": null,
+          "signature": "test_recursive_proxy()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "operator",
+        "typing",
+        "typing_extensions",
+        "openai._utils"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+      "relative_path": "tests/test_utils/test_typing.py",
+      "language": "python",
+      "summary": "The file contains unit tests for various generic type extraction functionalities in Python, specifically focusing on handling single and multiple type arguments in subclasses.",
+      "total_lines": 73,
+      "elements": [
+        {
+          "name": "BaseGeneric",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 12,
+          "end_line": 12,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SubclassGeneric",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 15,
+          "end_line": 15,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "BaseGenericMultipleTypeArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 18,
+          "end_line": 18,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SubclassGenericMultipleTypeArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 21,
+          "end_line": 21,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "SubclassDifferentOrderGenericMultipleTypeArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 24,
+          "end_line": 24,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_extract_type_var",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 27,
+          "end_line": 35,
+          "summary": null,
+          "signature": "test_extract_type_var()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_extract_type_var_generic_subclass",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 38,
+          "end_line": 46,
+          "summary": null,
+          "signature": "test_extract_type_var_generic_subclass()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_extract_type_var_multiple",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 49,
+          "end_line": 55,
+          "summary": null,
+          "signature": "test_extract_type_var_multiple()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_extract_type_var_generic_subclass_multiple",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 58,
+          "end_line": 64,
+          "summary": null,
+          "signature": "test_extract_type_var_generic_subclass_multiple()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "test_extract_type_var_generic_subclass_different_ordering_multiple",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/tests/test_utils/test_typing.py",
+          "start_line": 67,
+          "end_line": 73,
+          "summary": null,
+          "signature": "test_extract_type_var_generic_subclass_different_ordering_multiple()",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "openai._utils"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 3,
+  "total_file_count": 3,
+  "total_lines": 196,
+  "indexed_at": "2025-12-07 18:17:10.315835"
+}

@@ -1,0 +1,1296 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime",
+  "relative_path": "src/openai/resources/beta/realtime",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/beta/realtime/index.json",
+  "summary": "The `src/openai/resources/beta/realtime` directory contains Python files that define classes for managing real-time connections and session interactions with the OpenAI API, supporting both synchronous and asynchronous operations.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/beta/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/__init__.py",
+      "relative_path": "src/openai/resources/beta/realtime/__init__.py",
+      "language": "python",
+      "summary": "Python file with 33 lines",
+      "total_lines": 33,
+      "elements": [],
+      "imports": [
+        "realtime",
+        "sessions"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+      "relative_path": "src/openai/resources/beta/realtime/realtime.py",
+      "language": "python",
+      "summary": "The `realtime.py` file defines various classes for managing real-time connections and responses, both synchronously and asynchronously, within the OpenAI API framework.",
+      "total_lines": 972,
+      "elements": [
+        {
+          "name": "Realtime",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 53,
+          "end_line": 102,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "sessions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 55,
+              "end_line": 56,
+              "summary": null,
+              "signature": "sessions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 59,
+              "end_line": 66,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 69,
+              "end_line": 75,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "connect",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 77,
+              "end_line": 102,
+              "summary": null,
+              "signature": "connect(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtime",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 105,
+          "end_line": 154,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "sessions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 107,
+              "end_line": 108,
+              "summary": null,
+              "signature": "sessions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 111,
+              "end_line": 118,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 121,
+              "end_line": 127,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "connect",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 129,
+              "end_line": 154,
+              "summary": null,
+              "signature": "connect(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 157,
+          "end_line": 163,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 158,
+              "end_line": 159,
+              "summary": null,
+              "signature": "__init__(self, realtime)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "sessions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 162,
+              "end_line": 163,
+              "summary": null,
+              "signature": "sessions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 166,
+          "end_line": 172,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 167,
+              "end_line": 168,
+              "summary": null,
+              "signature": "__init__(self, realtime)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "sessions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 171,
+              "end_line": 172,
+              "summary": null,
+              "signature": "sessions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 175,
+          "end_line": 181,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 176,
+              "end_line": 177,
+              "summary": null,
+              "signature": "__init__(self, realtime)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "sessions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 180,
+              "end_line": 181,
+              "summary": null,
+              "signature": "sessions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 184,
+          "end_line": 190,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 185,
+              "end_line": 186,
+              "summary": null,
+              "signature": "__init__(self, realtime)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "sessions",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 189,
+              "end_line": 190,
+              "summary": null,
+              "signature": "sessions(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeConnection",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 193,
+          "end_line": 267,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 203,
+              "end_line": 209,
+              "summary": null,
+              "signature": "__init__(self, connection)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__aiter__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 211,
+              "end_line": 222,
+              "summary": null,
+              "signature": "__aiter__(self)",
+              "complexity": 3,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "recv",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 224,
+              "end_line": 230,
+              "summary": null,
+              "signature": "recv(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "recv_bytes",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 232,
+              "end_line": 246,
+              "summary": null,
+              "signature": "recv_bytes(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "send",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 248,
+              "end_line": 254,
+              "summary": null,
+              "signature": "send(self, event)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "close",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 256,
+              "end_line": 257,
+              "summary": null,
+              "signature": "close(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "parse_event",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 259,
+              "end_line": 267,
+              "summary": null,
+              "signature": "parse_event(self, data)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeConnectionManager",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 270,
+          "end_line": 372,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 290,
+              "end_line": 304,
+              "summary": null,
+              "signature": "__init__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__aenter__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 306,
+              "end_line": 355,
+              "summary": null,
+              "signature": "__aenter__(self)",
+              "complexity": 4,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "_prepare_url",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 359,
+              "end_line": 366,
+              "summary": null,
+              "signature": "_prepare_url(self)",
+              "complexity": 2,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__aexit__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 368,
+              "end_line": 372,
+              "summary": null,
+              "signature": "__aexit__(self, exc_type, exc, exc_tb)",
+              "complexity": 2,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeConnection",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 375,
+          "end_line": 449,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 385,
+              "end_line": 391,
+              "summary": null,
+              "signature": "__init__(self, connection)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__iter__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 393,
+              "end_line": 404,
+              "summary": null,
+              "signature": "__iter__(self)",
+              "complexity": 3,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "recv",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 406,
+              "end_line": 412,
+              "summary": null,
+              "signature": "recv(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "recv_bytes",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 414,
+              "end_line": 428,
+              "summary": null,
+              "signature": "recv_bytes(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "send",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 430,
+              "end_line": 436,
+              "summary": null,
+              "signature": "send(self, event)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "close",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 438,
+              "end_line": 439,
+              "summary": null,
+              "signature": "close(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "parse_event",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 441,
+              "end_line": 449,
+              "summary": null,
+              "signature": "parse_event(self, data)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeConnectionManager",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 452,
+          "end_line": 554,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 472,
+              "end_line": 486,
+              "summary": null,
+              "signature": "__init__(self)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__enter__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 488,
+              "end_line": 537,
+              "summary": null,
+              "signature": "__enter__(self)",
+              "complexity": 4,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "_prepare_url",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 541,
+              "end_line": 548,
+              "summary": null,
+              "signature": "_prepare_url(self)",
+              "complexity": 2,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "__exit__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 550,
+              "end_line": 554,
+              "summary": null,
+              "signature": "__exit__(self, exc_type, exc, exc_tb)",
+              "complexity": 2,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "BaseRealtimeConnectionResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 557,
+          "end_line": 559,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 558,
+              "end_line": 559,
+              "summary": null,
+              "signature": "__init__(self, connection)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeSessionResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 562,
+          "end_line": 581,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "update",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 563,
+              "end_line": 581,
+              "summary": null,
+              "signature": "update(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeResponseResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 584,
+          "end_line": 627,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "cancel",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 585,
+              "end_line": 597,
+              "summary": null,
+              "signature": "cancel(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 599,
+              "end_line": 627,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeConversationResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 630,
+          "end_line": 633,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "item",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 632,
+              "end_line": 633,
+              "summary": null,
+              "signature": "item(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeConversationItemResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 636,
+          "end_line": 712,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 637,
+              "end_line": 650,
+              "summary": null,
+              "signature": "delete(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 652,
+              "end_line": 680,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "truncate",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 682,
+              "end_line": 712,
+              "summary": null,
+              "signature": "truncate(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "RealtimeInputAudioBufferResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 715,
+          "end_line": 762,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "clear",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 716,
+              "end_line": 724,
+              "summary": null,
+              "signature": "clear(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "commit",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 726,
+              "end_line": 741,
+              "summary": null,
+              "signature": "commit(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "append",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 743,
+              "end_line": 762,
+              "summary": null,
+              "signature": "append(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "BaseAsyncRealtimeConnectionResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 765,
+          "end_line": 767,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 766,
+              "end_line": 767,
+              "summary": null,
+              "signature": "__init__(self, connection)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeSessionResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 770,
+          "end_line": 791,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "update",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 771,
+              "end_line": 791,
+              "summary": null,
+              "signature": "update(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeResponseResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 794,
+          "end_line": 837,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "cancel",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 795,
+              "end_line": 807,
+              "summary": null,
+              "signature": "cancel(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 809,
+              "end_line": 837,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeConversationResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 840,
+          "end_line": 843,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "item",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 842,
+              "end_line": 843,
+              "summary": null,
+              "signature": "item(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeConversationItemResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 846,
+          "end_line": 922,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "delete",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 847,
+              "end_line": 860,
+              "summary": null,
+              "signature": "delete(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 862,
+              "end_line": 890,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "truncate",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 892,
+              "end_line": 922,
+              "summary": null,
+              "signature": "truncate(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncRealtimeInputAudioBufferResource",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+          "start_line": 925,
+          "end_line": 972,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "clear",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 926,
+              "end_line": 934,
+              "summary": null,
+              "signature": "clear(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "commit",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 936,
+              "end_line": 951,
+              "summary": null,
+              "signature": "commit(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "append",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/realtime.py",
+              "start_line": 953,
+              "end_line": 972,
+              "summary": null,
+              "signature": "append(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "json",
+        "logging",
+        "types",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "pydantic",
+        "sessions",
+        "_types",
+        "_utils",
+        "_compat",
+        "_models",
+        "_resource",
+        "_exceptions",
+        "_base_client",
+        "types.beta.realtime",
+        "types.websocket_connection_options",
+        "types.beta.realtime.realtime_client_event",
+        "types.beta.realtime.realtime_server_event",
+        "types.beta.realtime.conversation_item_param",
+        "types.beta.realtime.realtime_client_event_param",
+        "websockets.sync.client",
+        "websockets.asyncio.client",
+        "_client",
+        "websockets.exceptions",
+        "websockets.exceptions",
+        "websockets.asyncio.client",
+        "websockets.sync.client"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+      "relative_path": "src/openai/resources/beta/realtime/sessions.py",
+      "language": "python",
+      "summary": "The Python file defines classes for managing real-time session interactions with OpenAI's API, including synchronous and asynchronous methods for handling standard, raw, and streaming responses.",
+      "total_lines": 351,
+      "elements": [
+        {
+          "name": "Sessions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+          "start_line": 26,
+          "end_line": 169,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 28,
+              "end_line": 35,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 38,
+              "end_line": 44,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 46,
+              "end_line": 169,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncSessions",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+          "start_line": 172,
+          "end_line": 315,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 174,
+              "end_line": 181,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 184,
+              "end_line": 190,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 192,
+              "end_line": 315,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SessionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+          "start_line": 318,
+          "end_line": 324,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 319,
+              "end_line": 324,
+              "summary": null,
+              "signature": "__init__(self, sessions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncSessionsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+          "start_line": 327,
+          "end_line": 333,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 328,
+              "end_line": 333,
+              "summary": null,
+              "signature": "__init__(self, sessions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "SessionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+          "start_line": 336,
+          "end_line": 342,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 337,
+              "end_line": 342,
+              "summary": null,
+              "signature": "__init__(self, sessions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncSessionsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+          "start_line": 345,
+          "end_line": 351,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/beta/realtime/sessions.py",
+              "start_line": 346,
+              "end_line": 351,
+              "summary": null,
+              "signature": "__init__(self, sessions)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "_base_client",
+        "types.beta.realtime",
+        "types.beta.realtime.session_create_response"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 3,
+  "total_file_count": 3,
+  "total_lines": 1356,
+  "indexed_at": "2025-12-07 17:46:19.621860"
+}

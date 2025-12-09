@@ -1,0 +1,150 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat",
+  "relative_path": "src/openai/cli/_api/chat",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/_api/chat/index.json",
+  "summary": "The `src/openai/cli/_api/chat` directory contains Python files that implement the command-line interface for the OpenAI chat API, including functionality for registering commands and managing chat completions.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/cli/_api/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/__init__.py",
+      "relative_path": "src/openai/cli/_api/chat/__init__.py",
+      "language": "python",
+      "summary": "The Python file defines a function called `register` within the OpenAI CLI's chat API module, likely for setting up command-line argument parsing and functionality related to chat interactions.",
+      "total_lines": 13,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/__init__.py",
+          "start_line": 12,
+          "end_line": 13,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "argparse",
+        "argparse"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+      "relative_path": "src/openai/cli/_api/chat/completions.py",
+      "language": "python",
+      "summary": "The Python file defines a command-line interface (CLI) for handling chat completions in the OpenAI API, including argument registration and classes for managing message and completion parameters.",
+      "total_lines": 160,
+      "elements": [
+        {
+          "name": "register",
+          "element_type": "function",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+          "start_line": 25,
+          "end_line": 76,
+          "summary": null,
+          "signature": "register(subparser)",
+          "complexity": 1,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIMessage",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+          "start_line": 79,
+          "end_line": 81,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIChatCompletionCreateArgs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+          "start_line": 84,
+          "end_line": 92,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": []
+        },
+        {
+          "name": "CLIChatCompletion",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+          "start_line": 95,
+          "end_line": 160,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+              "start_line": 97,
+              "end_line": 122,
+              "summary": null,
+              "signature": "create(args)",
+              "complexity": 8,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+              "start_line": 125,
+              "end_line": 138,
+              "summary": null,
+              "signature": "_create(params)",
+              "complexity": 5,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "_stream_create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/cli/_api/chat/completions.py",
+              "start_line": 141,
+              "end_line": 160,
+              "summary": null,
+              "signature": "_stream_create(params)",
+              "complexity": 6,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "sys",
+        "typing",
+        "argparse",
+        "typing_extensions",
+        "_utils",
+        "_models",
+        "_streaming",
+        "types.chat",
+        "types.chat.completion_create_params",
+        "argparse"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 2,
+  "total_file_count": 2,
+  "total_lines": 173,
+  "indexed_at": "2025-12-07 17:44:52.919853"
+}

@@ -1,0 +1,641 @@
+{
+  "dir_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs",
+  "relative_path": "src/openai/resources/fine_tuning/jobs",
+  "index_file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/fine_tuning/jobs/index.json",
+  "summary": "The directory contains Python files for managing fine-tuning jobs and checkpoints, providing both synchronous and asynchronous methods for handling job interactions and responses.",
+  "parent_index_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/distributed_index/src/openai/resources/fine_tuning/index.json",
+  "files": [
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/__init__.py",
+      "relative_path": "src/openai/resources/fine_tuning/jobs/__init__.py",
+      "language": "python",
+      "summary": "Python file with 33 lines",
+      "total_lines": 33,
+      "elements": [],
+      "imports": [
+        "jobs",
+        "checkpoints"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+      "relative_path": "src/openai/resources/fine_tuning/jobs/checkpoints.py",
+      "language": "python",
+      "summary": "The Python file defines several classes for managing and interacting with fine-tuning job checkpoints in an asynchronous and synchronous manner, including options for raw and streaming responses.",
+      "total_lines": 199,
+      "elements": [
+        {
+          "name": "Checkpoints",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+          "start_line": 24,
+          "end_line": 92,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 26,
+              "end_line": 33,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 36,
+              "end_line": 42,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 44,
+              "end_line": 92,
+              "summary": null,
+              "signature": "list(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCheckpoints",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+          "start_line": 95,
+          "end_line": 163,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 97,
+              "end_line": 104,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 107,
+              "end_line": 113,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 115,
+              "end_line": 163,
+              "summary": null,
+              "signature": "list(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CheckpointsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+          "start_line": 166,
+          "end_line": 172,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 167,
+              "end_line": 172,
+              "summary": null,
+              "signature": "__init__(self, checkpoints)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCheckpointsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+          "start_line": 175,
+          "end_line": 181,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 176,
+              "end_line": 181,
+              "summary": null,
+              "signature": "__init__(self, checkpoints)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "CheckpointsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+          "start_line": 184,
+          "end_line": 190,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 185,
+              "end_line": 190,
+              "summary": null,
+              "signature": "__init__(self, checkpoints)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncCheckpointsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+          "start_line": 193,
+          "end_line": 199,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/checkpoints.py",
+              "start_line": 194,
+              "end_line": 199,
+              "summary": null,
+              "signature": "__init__(self, checkpoints)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "httpx",
+        "_types",
+        "_utils",
+        "_compat",
+        "_resource",
+        "_response",
+        "pagination",
+        "_base_client",
+        "types.fine_tuning.jobs",
+        "types.fine_tuning.jobs.fine_tuning_job_checkpoint"
+      ],
+      "exports": []
+    },
+    {
+      "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+      "relative_path": "src/openai/resources/fine_tuning/jobs/jobs.py",
+      "language": "python",
+      "summary": "The Python file defines classes for managing fine-tuning jobs with synchronous and asynchronous methods, including options for handling raw and streaming responses.",
+      "total_lines": 732,
+      "elements": [
+        {
+          "name": "Jobs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+          "start_line": 39,
+          "end_line": 334,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "checkpoints",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 41,
+              "end_line": 42,
+              "summary": null,
+              "signature": "checkpoints(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 45,
+              "end_line": 52,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 55,
+              "end_line": 61,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 63,
+              "end_line": 169,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 171,
+              "end_line": 204,
+              "summary": null,
+              "signature": "retrieve(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 206,
+              "end_line": 251,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "cancel",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 253,
+              "end_line": 284,
+              "summary": null,
+              "signature": "cancel(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list_events",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 286,
+              "end_line": 334,
+              "summary": null,
+              "signature": "list_events(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncJobs",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+          "start_line": 337,
+          "end_line": 632,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "checkpoints",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 339,
+              "end_line": 340,
+              "summary": null,
+              "signature": "checkpoints(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_raw_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 343,
+              "end_line": 350,
+              "summary": null,
+              "signature": "with_raw_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "with_streaming_response",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 353,
+              "end_line": 359,
+              "summary": null,
+              "signature": "with_streaming_response(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "create",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 361,
+              "end_line": 467,
+              "summary": null,
+              "signature": "create(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "retrieve",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 469,
+              "end_line": 502,
+              "summary": null,
+              "signature": "retrieve(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 504,
+              "end_line": 549,
+              "summary": null,
+              "signature": "list(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "cancel",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 551,
+              "end_line": 582,
+              "summary": null,
+              "signature": "cancel(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            },
+            {
+              "name": "list_events",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 584,
+              "end_line": 632,
+              "summary": null,
+              "signature": "list_events(self, fine_tuning_job_id)",
+              "complexity": 2,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "JobsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+          "start_line": 635,
+          "end_line": 657,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 636,
+              "end_line": 653,
+              "summary": null,
+              "signature": "__init__(self, jobs)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "checkpoints",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 656,
+              "end_line": 657,
+              "summary": null,
+              "signature": "checkpoints(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncJobsWithRawResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+          "start_line": 660,
+          "end_line": 682,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 661,
+              "end_line": 678,
+              "summary": null,
+              "signature": "__init__(self, jobs)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "checkpoints",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 681,
+              "end_line": 682,
+              "summary": null,
+              "signature": "checkpoints(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "JobsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+          "start_line": 685,
+          "end_line": 707,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 686,
+              "end_line": 703,
+              "summary": null,
+              "signature": "__init__(self, jobs)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "checkpoints",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 706,
+              "end_line": 707,
+              "summary": null,
+              "signature": "checkpoints(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "AsyncJobsWithStreamingResponse",
+          "element_type": "class",
+          "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+          "start_line": 710,
+          "end_line": 732,
+          "summary": null,
+          "signature": null,
+          "complexity": null,
+          "is_public": true,
+          "children": [
+            {
+              "name": "__init__",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 711,
+              "end_line": 728,
+              "summary": null,
+              "signature": "__init__(self, jobs)",
+              "complexity": 1,
+              "is_public": false,
+              "children": []
+            },
+            {
+              "name": "checkpoints",
+              "element_type": "method",
+              "file_path": "/Users/dongqiuyepu/Desktop/code/python/pydantic-agent/code_pageindex/repo/openai-python/src/openai/resources/fine_tuning/jobs/jobs.py",
+              "start_line": 731,
+              "end_line": 732,
+              "summary": null,
+              "signature": "checkpoints(self)",
+              "complexity": 1,
+              "is_public": true,
+              "children": []
+            }
+          ]
+        }
+      ],
+      "imports": [
+        "__future__",
+        "typing",
+        "typing_extensions",
+        "httpx",
+        "_types",
+        "_utils",
+        "_compat",
+        "checkpoints",
+        "_resource",
+        "_response",
+        "pagination",
+        "_base_client",
+        "types.fine_tuning",
+        "types.fine_tuning.fine_tuning_job",
+        "types.fine_tuning.fine_tuning_job_event"
+      ],
+      "exports": []
+    }
+  ],
+  "subdirectories": [],
+  "direct_file_count": 3,
+  "total_file_count": 3,
+  "total_lines": 964,
+  "indexed_at": "2025-12-07 17:47:01.913113"
+}
